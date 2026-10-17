@@ -4,6 +4,7 @@
 # Install this on a CUDA-enabled machine with:
 #   python -m pip install --upgrade --index-url https://download.pytorch.org/whl/cu128 --extra-index-url https://pypi.org/simple -r requirements.txt
 # Use the official PyTorch CUDA index above so torch is not installed as a CPU-only build.
+tensorflow
 torch==2.13.0
 fsspec==2025.3.0
 

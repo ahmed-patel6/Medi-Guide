@@ -38,7 +38,7 @@ htmlcov/
 
 # Trained models and checkpoints
 
-models/
+/models/
 outputs/
 
 # Model/checkpoint files
@@ -47,3 +47,5 @@ outputs/
 *.pt
 *.pth
 *.bin
+*.keras
+*.h5

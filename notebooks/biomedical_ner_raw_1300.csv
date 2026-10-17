@@ -1,0 +1,1351 @@
+ID,Sentence,Symptom Mentions,Status
+1,"Along with itching, I've also been dealing with vomiting.",itching | vomiting,PRESENT | PRESENT
+2,The main problems today are skin rash and mood swings.,skin rash | mood swings,PRESENT | PRESENT
+3,"I've had nodal skin eruptions since morning, and later I developed high fever.",nodal skin eruptions | high fever,PRESENT | PRESENT
+4,"Besides continuous sneezing, I also noticed yellowish skin.",continuous sneezing | yellowish skin,PRESENT | PRESENT
+5,"For the past two days, shivering has been present together with abdominal pain.",shivering | abdominal pain,PRESENT | PRESENT
+6,"I woke up with chills, followed by joint pain later in the day.",chills | joint pain,PRESENT | PRESENT
+7,My symptoms include joint pain as well as spotting urination.,joint pain | spotting urination,PRESENT | PRESENT
+8,"The stomach pain is still there, and now I also have restlessness.",stomach pain | restlessness,PRESENT | PRESENT
+9,"Along with acidity, I've also been dealing with breathlessness.",acidity | breathlessness,PRESENT | PRESENT
+10,The main problems today are ulcers on tongue and nausea.,ulcers on tongue | nausea,PRESENT | PRESENT
+11,"I've had muscle wasting since morning, and later I developed skin rash.",muscle wasting | skin rash,PRESENT | PRESENT
+12,"Besides vomiting, I also noticed acidity.",vomiting | acidity,PRESENT | PRESENT
+13,"For the past two days, burning micturition has been present together with weight gain.",burning micturition | weight gain,PRESENT | PRESENT
+14,"I woke up with spotting urination, followed by patches in throat later in the day.",spotting urination | patches in throat,PRESENT | PRESENT
+15,My symptoms include fatigue as well as dehydration.,fatigue | dehydration,PRESENT | PRESENT
+16,"The weight gain is still there, and now I also have pain behind the eyes.",weight gain | pain behind the eyes,PRESENT | PRESENT
+17,"Along with anxiety, I've also been dealing with continuous sneezing.",anxiety | continuous sneezing,PRESENT | PRESENT
+18,The main problems today are cold hands and feets and muscle wasting.,cold hands and feets | muscle wasting,PRESENT | PRESENT
+19,"I've had mood swings since morning, and later I developed cold hands and feets.",mood swings | cold hands and feets,PRESENT | PRESENT
+20,"Besides weight loss, I also noticed cough.",weight loss | cough,PRESENT | PRESENT
+21,"For the past two days, restlessness has been present together with headache.",restlessness | headache,PRESENT | PRESENT
+22,"I woke up with lethargy, followed by constipation later in the day.",lethargy | constipation,PRESENT | PRESENT
+23,My symptoms include patches in throat as well as chills.,patches in throat | chills,PRESENT | PRESENT
+24,"The irregular sugar level is still there, and now I also have burning micturition.",irregular sugar level | burning micturition,PRESENT | PRESENT
+25,"Along with cough, I've also been dealing with weight loss.",cough | weight loss,PRESENT | PRESENT
+26,The main problems today are high fever and sunken eyes.,high fever | sunken eyes,PRESENT | PRESENT
+27,"I've had sunken eyes since morning, and later I developed dark urine.",sunken eyes | dark urine,PRESENT | PRESENT
+28,"Besides breathlessness, I also noticed itching.",breathlessness | itching,PRESENT | PRESENT
+29,"For the past two days, sweating has been present together with stomach pain.",sweating | stomach pain,PRESENT | PRESENT
+30,"I woke up with dehydration, followed by fatigue later in the day.",dehydration | fatigue,PRESENT | PRESENT
+31,My symptoms include indigestion as well as lethargy.,indigestion | lethargy,PRESENT | PRESENT
+32,"The headache is still there, and now I also have sweating.",headache | sweating,PRESENT | PRESENT
+33,"Along with yellowish skin, I've also been dealing with loss of appetite.",yellowish skin | loss of appetite,PRESENT | PRESENT
+34,The main problems today are dark urine and nodal skin eruptions.,dark urine | nodal skin eruptions,PRESENT | PRESENT
+35,"I've had nausea since morning, and later I developed ulcers on tongue.",nausea | ulcers on tongue,PRESENT | PRESENT
+36,"Besides loss of appetite, I also noticed anxiety.",loss of appetite | anxiety,PRESENT | PRESENT
+37,"For the past two days, pain behind the eyes has been present together with irregular sugar level.",pain behind the eyes | irregular sugar level,PRESENT | PRESENT
+38,"I woke up with back pain, followed by indigestion later in the day.",back pain | indigestion,PRESENT | PRESENT
+39,My symptoms include constipation as well as back pain.,constipation | back pain,PRESENT | PRESENT
+40,"The abdominal pain is still there, and now I also have shivering.",abdominal pain | shivering,PRESENT | PRESENT
+41,"Along with itching, I've also been dealing with vomiting.",itching | vomiting,PRESENT | PRESENT
+42,The main problems today are skin rash and mood swings.,skin rash | mood swings,PRESENT | PRESENT
+43,"I've had nodal skin eruptions since morning, and later I developed high fever.",nodal skin eruptions | high fever,PRESENT | PRESENT
+44,"Besides continuous sneezing, I also noticed yellowish skin.",continuous sneezing | yellowish skin,PRESENT | PRESENT
+45,"For the past two days, shivering has been present together with abdominal pain.",shivering | abdominal pain,PRESENT | PRESENT
+46,"I woke up with chills, followed by joint pain later in the day.",chills | joint pain,PRESENT | PRESENT
+47,My symptoms include joint pain as well as spotting urination.,joint pain | spotting urination,PRESENT | PRESENT
+48,"The stomach pain is still there, and now I also have restlessness.",stomach pain | restlessness,PRESENT | PRESENT
+49,"Along with acidity, I've also been dealing with breathlessness.",acidity | breathlessness,PRESENT | PRESENT
+50,The main problems today are ulcers on tongue and nausea.,ulcers on tongue | nausea,PRESENT | PRESENT
+51,"I've had muscle wasting since morning, and later I developed skin rash.",muscle wasting | skin rash,PRESENT | PRESENT
+52,"Besides vomiting, I also noticed acidity.",vomiting | acidity,PRESENT | PRESENT
+53,"For the past two days, burning micturition has been present together with weight gain.",burning micturition | weight gain,PRESENT | PRESENT
+54,"I woke up with spotting urination, followed by patches in throat later in the day.",spotting urination | patches in throat,PRESENT | PRESENT
+55,My symptoms include fatigue as well as dehydration.,fatigue | dehydration,PRESENT | PRESENT
+56,"The weight gain is still there, and now I also have pain behind the eyes.",weight gain | pain behind the eyes,PRESENT | PRESENT
+57,"Along with anxiety, I've also been dealing with continuous sneezing.",anxiety | continuous sneezing,PRESENT | PRESENT
+58,The main problems today are cold hands and feets and muscle wasting.,cold hands and feets | muscle wasting,PRESENT | PRESENT
+59,"I've had mood swings since morning, and later I developed cold hands and feets.",mood swings | cold hands and feets,PRESENT | PRESENT
+60,"Besides weight loss, I also noticed cough.",weight loss | cough,PRESENT | PRESENT
+61,"For the past two days, restlessness has been present together with headache.",restlessness | headache,PRESENT | PRESENT
+62,"I woke up with lethargy, followed by constipation later in the day.",lethargy | constipation,PRESENT | PRESENT
+63,My symptoms include patches in throat as well as chills.,patches in throat | chills,PRESENT | PRESENT
+64,"The irregular sugar level is still there, and now I also have burning micturition.",irregular sugar level | burning micturition,PRESENT | PRESENT
+65,"Along with cough, I've also been dealing with weight loss.",cough | weight loss,PRESENT | PRESENT
+66,The main problems today are high fever and sunken eyes.,high fever | sunken eyes,PRESENT | PRESENT
+67,"I've had sunken eyes since morning, and later I developed dark urine.",sunken eyes | dark urine,PRESENT | PRESENT
+68,"Besides breathlessness, I also noticed itching.",breathlessness | itching,PRESENT | PRESENT
+69,"For the past two days, sweating has been present together with stomach pain.",sweating | stomach pain,PRESENT | PRESENT
+70,"I woke up with dehydration, followed by fatigue later in the day.",dehydration | fatigue,PRESENT | PRESENT
+71,My symptoms include indigestion as well as lethargy.,indigestion | lethargy,PRESENT | PRESENT
+72,"The headache is still there, and now I also have sweating.",headache | sweating,PRESENT | PRESENT
+73,"Along with yellowish skin, I've also been dealing with loss of appetite.",yellowish skin | loss of appetite,PRESENT | PRESENT
+74,The main problems today are dark urine and nodal skin eruptions.,dark urine | nodal skin eruptions,PRESENT | PRESENT
+75,"I've had nausea since morning, and later I developed ulcers on tongue.",nausea | ulcers on tongue,PRESENT | PRESENT
+76,"Besides loss of appetite, I also noticed anxiety.",loss of appetite | anxiety,PRESENT | PRESENT
+77,"For the past two days, pain behind the eyes has been present together with irregular sugar level.",pain behind the eyes | irregular sugar level,PRESENT | PRESENT
+78,"I woke up with back pain, followed by indigestion later in the day.",back pain | indigestion,PRESENT | PRESENT
+79,My symptoms include constipation as well as back pain.,constipation | back pain,PRESENT | PRESENT
+80,"The abdominal pain is still there, and now I also have shivering.",abdominal pain | shivering,PRESENT | PRESENT
+81,"Along with itching, I've also been dealing with vomiting.",itching | vomiting,PRESENT | PRESENT
+82,The main problems today are skin rash and mood swings.,skin rash | mood swings,PRESENT | PRESENT
+83,"I've had nodal skin eruptions since morning, and later I developed high fever.",nodal skin eruptions | high fever,PRESENT | PRESENT
+84,"Besides continuous sneezing, I also noticed yellowish skin.",continuous sneezing | yellowish skin,PRESENT | PRESENT
+85,"For the past two days, shivering has been present together with abdominal pain.",shivering | abdominal pain,PRESENT | PRESENT
+86,"I woke up with chills, followed by joint pain later in the day.",chills | joint pain,PRESENT | PRESENT
+87,My symptoms include joint pain as well as spotting urination.,joint pain | spotting urination,PRESENT | PRESENT
+88,"The stomach pain is still there, and now I also have restlessness.",stomach pain | restlessness,PRESENT | PRESENT
+89,"Along with acidity, I've also been dealing with breathlessness.",acidity | breathlessness,PRESENT | PRESENT
+90,The main problems today are ulcers on tongue and nausea.,ulcers on tongue | nausea,PRESENT | PRESENT
+91,"I've had muscle wasting since morning, and later I developed skin rash.",muscle wasting | skin rash,PRESENT | PRESENT
+92,"Besides vomiting, I also noticed acidity.",vomiting | acidity,PRESENT | PRESENT
+93,"For the past two days, burning micturition has been present together with weight gain.",burning micturition | weight gain,PRESENT | PRESENT
+94,"I woke up with spotting urination, followed by patches in throat later in the day.",spotting urination | patches in throat,PRESENT | PRESENT
+95,My symptoms include fatigue as well as dehydration.,fatigue | dehydration,PRESENT | PRESENT
+96,"The weight gain is still there, and now I also have pain behind the eyes.",weight gain | pain behind the eyes,PRESENT | PRESENT
+97,"Along with anxiety, I've also been dealing with continuous sneezing.",anxiety | continuous sneezing,PRESENT | PRESENT
+98,The main problems today are cold hands and feets and muscle wasting.,cold hands and feets | muscle wasting,PRESENT | PRESENT
+99,"I've had mood swings since morning, and later I developed cold hands and feets.",mood swings | cold hands and feets,PRESENT | PRESENT
+100,"Besides weight loss, I also noticed cough.",weight loss | cough,PRESENT | PRESENT
+101,"I have chills, but I don't have cold hands and feets.",chills | cold hands and feets,PRESENT | ABSENT
+102,"The joint pain is present today, while I have no restlessness.",joint pain | restlessness,PRESENT | ABSENT
+103,"I've been dealing with stomach pain; thankfully, there is no irregular sugar level.",stomach pain | irregular sugar level,PRESENT | ABSENT
+104,"My acidity has continued, but I haven't noticed any sunken eyes.",acidity | sunken eyes,PRESENT | ABSENT
+105,"I woke up with ulcers on tongue, although I deny having dehydration.",ulcers on tongue | dehydration,PRESENT | ABSENT
+106,"I have muscle wasting, but I don't have yellowish skin.",muscle wasting | yellowish skin,PRESENT | ABSENT
+107,"The vomiting is present today, while I have no loss of appetite.",vomiting | loss of appetite,PRESENT | ABSENT
+108,"I've been dealing with burning micturition; thankfully, there is no constipation.",burning micturition | constipation,PRESENT | ABSENT
+109,"My spotting urination has continued, but I haven't noticed any skin rash.",spotting urination | skin rash,PRESENT | ABSENT
+110,"I woke up with fatigue, although I deny having shivering.",fatigue | shivering,PRESENT | ABSENT
+111,"I have weight gain, but I don't have stomach pain.",weight gain | stomach pain,PRESENT | ABSENT
+112,"The anxiety is present today, while I have no muscle wasting.",anxiety | muscle wasting,PRESENT | ABSENT
+113,"I've been dealing with cold hands and feets; thankfully, there is no spotting urination.",cold hands and feets | spotting urination,PRESENT | ABSENT
+114,"My mood swings has continued, but I haven't noticed any anxiety.",mood swings | anxiety,PRESENT | ABSENT
+115,"I woke up with weight loss, although I deny having restlessness.",weight loss | restlessness,PRESENT | ABSENT
+116,"I have restlessness, but I don't have patches in throat.",restlessness | patches in throat,PRESENT | ABSENT
+117,"The lethargy is present today, while I have no high fever.",lethargy | high fever,PRESENT | ABSENT
+118,"I've been dealing with patches in throat; thankfully, there is no sweating.",patches in throat | sweating,PRESENT | ABSENT
+119,"My irregular sugar level has continued, but I haven't noticed any headache.",irregular sugar level | headache,PRESENT | ABSENT
+120,"I woke up with cough, although I deny having nausea.",cough | nausea,PRESENT | ABSENT
+121,"I have high fever, but I don't have back pain.",high fever | back pain,PRESENT | ABSENT
+122,"The sunken eyes is present today, while I have no itching.",sunken eyes | itching,PRESENT | ABSENT
+123,"I've been dealing with breathlessness; thankfully, there is no continuous sneezing.",breathlessness | continuous sneezing,PRESENT | ABSENT
+124,"My sweating has continued, but I haven't noticed any joint pain.",sweating | joint pain,PRESENT | ABSENT
+125,"I woke up with dehydration, although I deny having ulcers on tongue.",dehydration | ulcers on tongue,PRESENT | ABSENT
+126,"I have indigestion, but I don't have burning micturition.",indigestion | burning micturition,PRESENT | ABSENT
+127,"The headache is present today, while I have no weight gain.",headache | weight gain,PRESENT | ABSENT
+128,"I've been dealing with yellowish skin; thankfully, there is no mood swings.",yellowish skin | mood swings,PRESENT | ABSENT
+129,"My dark urine has continued, but I haven't noticed any lethargy.",dark urine | lethargy,PRESENT | ABSENT
+130,"I woke up with nausea, although I deny having cough.",nausea | cough,PRESENT | ABSENT
+131,"I have loss of appetite, but I don't have breathlessness.",loss of appetite | breathlessness,PRESENT | ABSENT
+132,"The pain behind the eyes is present today, while I have no indigestion.",pain behind the eyes | indigestion,PRESENT | ABSENT
+133,"I've been dealing with back pain; thankfully, there is no dark urine.",back pain | dark urine,PRESENT | ABSENT
+134,"My constipation has continued, but I haven't noticed any pain behind the eyes.",constipation | pain behind the eyes,PRESENT | ABSENT
+135,"I woke up with abdominal pain, although I deny having itching.",abdominal pain | itching,PRESENT | ABSENT
+136,"I have itching, but I don't have nodal skin eruptions.",itching | nodal skin eruptions,PRESENT | ABSENT
+137,"The skin rash is present today, while I have no chills.",skin rash | chills,PRESENT | ABSENT
+138,"I've been dealing with nodal skin eruptions; thankfully, there is no acidity.",nodal skin eruptions | acidity,PRESENT | ABSENT
+139,"My continuous sneezing has continued, but I haven't noticed any vomiting.",continuous sneezing | vomiting,PRESENT | ABSENT
+140,"I woke up with shivering, although I deny having fatigue.",shivering | fatigue,PRESENT | ABSENT
+141,"Lately, fatigue has made normal activities difficult.",fatigue,PRESENT
+142,I've been feeling severe fatigue after even small tasks.,fatigue,PRESENT
+143,Persistent fatigue has been bothering me for weeks.,fatigue,PRESENT
+144,"Lately, fatigue has made normal activities difficult.",fatigue,PRESENT
+145,I've been feeling severe fatigue after even small tasks.,fatigue,PRESENT
+146,Persistent fatigue has been bothering me for weeks.,fatigue,PRESENT
+147,"Lately, fatigue has made normal activities difficult.",fatigue,PRESENT
+148,I've been feeling severe fatigue after even small tasks.,fatigue,PRESENT
+149,"Unlike yesterday, I do not have fatigue today.",fatigue,ABSENT
+150,I don't have fatigue.,fatigue,ABSENT
+151,I've had unexpected weight gain over the last two months.,weight gain,PRESENT
+152,The recent weight gain happened despite no major change in my routine.,weight gain,PRESENT
+153,My clothes feel tighter because of weight gain.,weight gain,PRESENT
+154,I've had unexpected weight gain over the last two months.,weight gain,PRESENT
+155,The recent weight gain happened despite no major change in my routine.,weight gain,PRESENT
+156,My clothes feel tighter because of weight gain.,weight gain,PRESENT
+157,I've had unexpected weight gain over the last two months.,weight gain,PRESENT
+158,The recent weight gain happened despite no major change in my routine.,weight gain,PRESENT
+159,I don't have weight gain.,weight gain,ABSENT
+160,There is no sign of weight gain today.,weight gain,ABSENT
+161,My anxiety becomes worse before important events.,anxiety,PRESENT
+162,I've been struggling with severe anxiety lately.,anxiety,PRESENT
+163,There is a constant feeling of anxiety before appointments.,anxiety,PRESENT
+164,My anxiety becomes worse before important events.,anxiety,PRESENT
+165,I've been struggling with severe anxiety lately.,anxiety,PRESENT
+166,There is a constant feeling of anxiety before appointments.,anxiety,PRESENT
+167,My anxiety becomes worse before important events.,anxiety,PRESENT
+168,I've been struggling with severe anxiety lately.,anxiety,PRESENT
+169,There is no sign of anxiety today.,anxiety,ABSENT
+170,I deny having anxiety.,anxiety,ABSENT
+171,My cold hands and feets are especially noticeable at night.,cold hands and feets,PRESENT
+172,I've been bothered by cold hands and feets even indoors.,cold hands and feets,PRESENT
+173,The cold hands and feets continue despite wearing warm clothes.,cold hands and feets,PRESENT
+174,My cold hands and feets are especially noticeable at night.,cold hands and feets,PRESENT
+175,I've been bothered by cold hands and feets even indoors.,cold hands and feets,PRESENT
+176,The cold hands and feets continue despite wearing warm clothes.,cold hands and feets,PRESENT
+177,My cold hands and feets are especially noticeable at night.,cold hands and feets,PRESENT
+178,I've been bothered by cold hands and feets even indoors.,cold hands and feets,PRESENT
+179,I deny having cold hands and feets.,cold hands and feets,ABSENT
+180,"So far, I have not experienced cold hands and feets.",cold hands and feets,ABSENT
+181,My family has noticed frequent mood swings recently.,mood swings,PRESENT
+182,The mood swings have become difficult to predict.,mood swings,PRESENT
+183,I've been having sudden mood swings throughout the week.,mood swings,PRESENT
+184,My family has noticed frequent mood swings recently.,mood swings,PRESENT
+185,The mood swings have become difficult to predict.,mood swings,PRESENT
+186,I've been having sudden mood swings throughout the week.,mood swings,PRESENT
+187,My family has noticed frequent mood swings recently.,mood swings,PRESENT
+188,The mood swings have become difficult to predict.,mood swings,PRESENT
+189,"So far, I have not experienced mood swings.",mood swings,ABSENT
+190,I haven't noticed any mood swings recently.,mood swings,ABSENT
+191,I've experienced noticeable weight loss despite eating normally.,weight loss,PRESENT
+192,The recent weight loss has made my clothes loose.,weight loss,PRESENT
+193,My doctor asked about the unexplained weight loss.,weight loss,PRESENT
+194,I've experienced noticeable weight loss despite eating normally.,weight loss,PRESENT
+195,The recent weight loss has made my clothes loose.,weight loss,PRESENT
+196,My doctor asked about the unexplained weight loss.,weight loss,PRESENT
+197,I've experienced noticeable weight loss despite eating normally.,weight loss,PRESENT
+198,The recent weight loss has made my clothes loose.,weight loss,PRESENT
+199,I haven't noticed any weight loss recently.,weight loss,ABSENT
+200,"Thankfully, I have no weight loss at the moment.",weight loss,ABSENT
+201,There is constant restlessness whenever I try to sit still.,restlessness,PRESENT
+202,I've been experiencing severe restlessness at night.,restlessness,PRESENT
+203,The restlessness makes it difficult to relax.,restlessness,PRESENT
+204,There is constant restlessness whenever I try to sit still.,restlessness,PRESENT
+205,I've been experiencing severe restlessness at night.,restlessness,PRESENT
+206,The restlessness makes it difficult to relax.,restlessness,PRESENT
+207,There is constant restlessness whenever I try to sit still.,restlessness,PRESENT
+208,I've been experiencing severe restlessness at night.,restlessness,PRESENT
+209,"Thankfully, I have no restlessness at the moment.",restlessness,ABSENT
+210,The patient reports no restlessness.,restlessness,ABSENT
+211,"For several days, I've mostly felt lethargy.",lethargy,PRESENT
+212,This persistent lethargy makes me want to stay in bed.,lethargy,PRESENT
+213,I've noticed unusual lethargy since the weekend.,lethargy,PRESENT
+214,"For several days, I've mostly felt lethargy.",lethargy,PRESENT
+215,This persistent lethargy makes me want to stay in bed.,lethargy,PRESENT
+216,I've noticed unusual lethargy since the weekend.,lethargy,PRESENT
+217,"For several days, I've mostly felt lethargy.",lethargy,PRESENT
+218,This persistent lethargy makes me want to stay in bed.,lethargy,PRESENT
+219,The patient reports no lethargy.,lethargy,ABSENT
+220,"Unlike yesterday, I do not have lethargy today.",lethargy,ABSENT
+221,The doctor noticed patches in throat during the examination.,patches in throat,PRESENT
+222,I can see patches in throat when I look in the mirror.,patches in throat,PRESENT
+223,These patches in throat have been present for several days.,patches in throat,PRESENT
+224,The doctor noticed patches in throat during the examination.,patches in throat,PRESENT
+225,I can see patches in throat when I look in the mirror.,patches in throat,PRESENT
+226,These patches in throat have been present for several days.,patches in throat,PRESENT
+227,The doctor noticed patches in throat during the examination.,patches in throat,PRESENT
+228,I can see patches in throat when I look in the mirror.,patches in throat,PRESENT
+229,"Unlike yesterday, I do not have patches in throat today.",patches in throat,ABSENT
+230,I don't have patches in throat.,patches in throat,ABSENT
+231,My readings have been unpredictable because of an irregular sugar level.,irregular sugar level,PRESENT
+232,The doctor is monitoring my irregular sugar level closely.,irregular sugar level,PRESENT
+233,I've noticed an irregular sugar level during recent checks.,irregular sugar level,PRESENT
+234,My readings have been unpredictable because of an irregular sugar level.,irregular sugar level,PRESENT
+235,The doctor is monitoring my irregular sugar level closely.,irregular sugar level,PRESENT
+236,I've noticed an irregular sugar level during recent checks.,irregular sugar level,PRESENT
+237,My readings have been unpredictable because of an irregular sugar level.,irregular sugar level,PRESENT
+238,The doctor is monitoring my irregular sugar level closely.,irregular sugar level,PRESENT
+239,I don't have irregular sugar level.,irregular sugar level,ABSENT
+240,There is no sign of irregular sugar level today.,irregular sugar level,ABSENT
+241,I've had a dry cough throughout the day.,cough,PRESENT
+242,The cough keeps waking me up at night.,cough,PRESENT
+243,My cough has lasted for nearly a week.,cough,PRESENT
+244,I've had a dry cough throughout the day.,cough,PRESENT
+245,The cough keeps waking me up at night.,cough,PRESENT
+246,My cough has lasted for nearly a week.,cough,PRESENT
+247,I've had a dry cough throughout the day.,cough,PRESENT
+248,The cough keeps waking me up at night.,cough,PRESENT
+249,There is no sign of cough today.,cough,ABSENT
+250,I deny having cough.,cough,ABSENT
+251,My temperature suddenly rose and I developed a high fever.,high fever,PRESENT
+252,I've been running a high fever since last night.,high fever,PRESENT
+253,The high fever made me feel extremely unwell.,high fever,PRESENT
+254,My temperature suddenly rose and I developed a high fever.,high fever,PRESENT
+255,I've been running a high fever since last night.,high fever,PRESENT
+256,The high fever made me feel extremely unwell.,high fever,PRESENT
+257,My temperature suddenly rose and I developed a high fever.,high fever,PRESENT
+258,I've been running a high fever since last night.,high fever,PRESENT
+259,I deny having high fever.,high fever,ABSENT
+260,"So far, I have not experienced high fever.",high fever,ABSENT
+261,"After several days of illness, I noticed sunken eyes in the mirror.",sunken eyes,PRESENT
+262,My family pointed out that I had sunken eyes.,sunken eyes,PRESENT
+263,The sunken eyes appeared after I became dehydrated.,sunken eyes,PRESENT
+264,"After several days of illness, I noticed sunken eyes in the mirror.",sunken eyes,PRESENT
+265,My family pointed out that I had sunken eyes.,sunken eyes,PRESENT
+266,The sunken eyes appeared after I became dehydrated.,sunken eyes,PRESENT
+267,"After several days of illness, I noticed sunken eyes in the mirror.",sunken eyes,PRESENT
+268,My family pointed out that I had sunken eyes.,sunken eyes,PRESENT
+269,"So far, I have not experienced sunken eyes.",sunken eyes,ABSENT
+270,I haven't noticed any sunken eyes recently.,sunken eyes,ABSENT
+271,Walking upstairs leaves me with severe breathlessness.,breathlessness,PRESENT
+272,I've been experiencing breathlessness even during short walks.,breathlessness,PRESENT
+273,The breathlessness becomes worse when I exert myself.,breathlessness,PRESENT
+274,Walking upstairs leaves me with severe breathlessness.,breathlessness,PRESENT
+275,I've been experiencing breathlessness even during short walks.,breathlessness,PRESENT
+276,The breathlessness becomes worse when I exert myself.,breathlessness,PRESENT
+277,Walking upstairs leaves me with severe breathlessness.,breathlessness,PRESENT
+278,I've been experiencing breathlessness even during short walks.,breathlessness,PRESENT
+279,I haven't noticed any breathlessness recently.,breathlessness,ABSENT
+280,"Thankfully, I have no breathlessness at the moment.",breathlessness,ABSENT
+281,I started sweating heavily even though the weather was cool.,sweating,PRESENT
+282,There has been unusual sweating during the night.,sweating,PRESENT
+283,The sweating began while I was sitting quietly.,sweating,PRESENT
+284,I started sweating heavily even though the weather was cool.,sweating,PRESENT
+285,There has been unusual sweating during the night.,sweating,PRESENT
+286,The sweating began while I was sitting quietly.,sweating,PRESENT
+287,I started sweating heavily even though the weather was cool.,sweating,PRESENT
+288,There has been unusual sweating during the night.,sweating,PRESENT
+289,"Thankfully, I have no sweating at the moment.",sweating,ABSENT
+290,The patient reports no sweating.,sweating,ABSENT
+291,"After spending hours outside without enough water, I developed dehydration.",dehydration,PRESENT
+292,The doctor was concerned about dehydration after I became ill.,dehydration,PRESENT
+293,I've been feeling signs of dehydration since yesterday.,dehydration,PRESENT
+294,"After spending hours outside without enough water, I developed dehydration.",dehydration,PRESENT
+295,The doctor was concerned about dehydration after I became ill.,dehydration,PRESENT
+296,I've been feeling signs of dehydration since yesterday.,dehydration,PRESENT
+297,"After spending hours outside without enough water, I developed dehydration.",dehydration,PRESENT
+298,The doctor was concerned about dehydration after I became ill.,dehydration,PRESENT
+299,The patient reports no dehydration.,dehydration,ABSENT
+300,"Unlike yesterday, I do not have dehydration today.",dehydration,ABSENT
+301,I've been having indigestion after almost every meal.,indigestion,PRESENT
+302,The indigestion started earlier this week.,indigestion,PRESENT
+303,Spicy food seems to make my indigestion worse.,indigestion,PRESENT
+304,I've been having indigestion after almost every meal.,indigestion,PRESENT
+305,The indigestion started earlier this week.,indigestion,PRESENT
+306,Spicy food seems to make my indigestion worse.,indigestion,PRESENT
+307,I've been having indigestion after almost every meal.,indigestion,PRESENT
+308,The indigestion started earlier this week.,indigestion,PRESENT
+309,"Unlike yesterday, I do not have indigestion today.",indigestion,ABSENT
+310,I don't have indigestion.,indigestion,ABSENT
+311,This headache has been bothering me since I woke up.,headache,PRESENT
+312,I've had a severe headache all afternoon.,headache,PRESENT
+313,The headache gets worse when I look at bright screens.,headache,PRESENT
+314,This headache has been bothering me since I woke up.,headache,PRESENT
+315,I've had a severe headache all afternoon.,headache,PRESENT
+316,The headache gets worse when I look at bright screens.,headache,PRESENT
+317,This headache has been bothering me since I woke up.,headache,PRESENT
+318,I've had a severe headache all afternoon.,headache,PRESENT
+319,I don't have headache.,headache,ABSENT
+320,There is no sign of headache today.,headache,ABSENT
+321,My family noticed that I had yellowish skin.,yellowish skin,PRESENT
+322,"There is a yellow tint to my skin, which looks like yellowish skin.",yellowish skin,PRESENT
+323,The doctor observed yellowish skin during the examination.,yellowish skin,PRESENT
+324,My family noticed that I had yellowish skin.,yellowish skin,PRESENT
+325,"There is a yellow tint to my skin, which looks like yellowish skin.",yellowish skin,PRESENT
+326,The doctor observed yellowish skin during the examination.,yellowish skin,PRESENT
+327,My family noticed that I had yellowish skin.,yellowish skin,PRESENT
+328,"There is a yellow tint to my skin, which looks like yellowish skin.",yellowish skin,PRESENT
+329,There is no sign of yellowish skin today.,yellowish skin,ABSENT
+330,I deny having yellowish skin.,yellowish skin,ABSENT
+331,My urine has become unusually dark urine over the past two days.,dark urine,PRESENT
+332,I noticed dark urine when I used the bathroom this morning.,dark urine,PRESENT
+333,The dark urine started after I became unwell.,dark urine,PRESENT
+334,My urine has become unusually dark urine over the past two days.,dark urine,PRESENT
+335,I noticed dark urine when I used the bathroom this morning.,dark urine,PRESENT
+336,The dark urine started after I became unwell.,dark urine,PRESENT
+337,My urine has become unusually dark urine over the past two days.,dark urine,PRESENT
+338,I noticed dark urine when I used the bathroom this morning.,dark urine,PRESENT
+339,I deny having dark urine.,dark urine,ABSENT
+340,"So far, I have not experienced dark urine.",dark urine,ABSENT
+341,I felt nausea almost immediately after taking the medicine.,nausea,PRESENT
+342,The nausea has been coming and going all day.,nausea,PRESENT
+343,Strong smells make my nausea worse.,nausea,PRESENT
+344,I felt nausea almost immediately after taking the medicine.,nausea,PRESENT
+345,The nausea has been coming and going all day.,nausea,PRESENT
+346,Strong smells make my nausea worse.,nausea,PRESENT
+347,I felt nausea almost immediately after taking the medicine.,nausea,PRESENT
+348,The nausea has been coming and going all day.,nausea,PRESENT
+349,"So far, I have not experienced nausea.",nausea,ABSENT
+350,I haven't noticed any nausea recently.,nausea,ABSENT
+351,I've had loss of appetite and barely feel like eating.,loss of appetite,PRESENT
+352,The recent loss of appetite has lasted for several days.,loss of appetite,PRESENT
+353,I have almost no desire to eat because of loss of appetite.,loss of appetite,PRESENT
+354,I've had loss of appetite and barely feel like eating.,loss of appetite,PRESENT
+355,The recent loss of appetite has lasted for several days.,loss of appetite,PRESENT
+356,I have almost no desire to eat because of loss of appetite.,loss of appetite,PRESENT
+357,I've had loss of appetite and barely feel like eating.,loss of appetite,PRESENT
+358,The recent loss of appetite has lasted for several days.,loss of appetite,PRESENT
+359,I haven't noticed any loss of appetite recently.,loss of appetite,ABSENT
+360,"Thankfully, I have no loss of appetite at the moment.",loss of appetite,ABSENT
+361,A sharp pain behind the eyes started this morning.,pain behind the eyes,PRESENT
+362,I've had severe pain behind the eyes whenever I look at bright light.,pain behind the eyes,PRESENT
+363,The pain behind the eyes has continued throughout the day.,pain behind the eyes,PRESENT
+364,A sharp pain behind the eyes started this morning.,pain behind the eyes,PRESENT
+365,I've had severe pain behind the eyes whenever I look at bright light.,pain behind the eyes,PRESENT
+366,The pain behind the eyes has continued throughout the day.,pain behind the eyes,PRESENT
+367,A sharp pain behind the eyes started this morning.,pain behind the eyes,PRESENT
+368,I've had severe pain behind the eyes whenever I look at bright light.,pain behind the eyes,PRESENT
+369,"Thankfully, I have no pain behind the eyes at the moment.",pain behind the eyes,ABSENT
+370,The patient reports no pain behind the eyes.,pain behind the eyes,ABSENT
+371,My lower back has been aching with back pain.,back pain,PRESENT
+372,The back pain gets worse whenever I bend down.,back pain,PRESENT
+373,I've had persistent back pain since lifting a heavy bag.,back pain,PRESENT
+374,My lower back has been aching with back pain.,back pain,PRESENT
+375,The back pain gets worse whenever I bend down.,back pain,PRESENT
+376,I've had persistent back pain since lifting a heavy bag.,back pain,PRESENT
+377,My lower back has been aching with back pain.,back pain,PRESENT
+378,The back pain gets worse whenever I bend down.,back pain,PRESENT
+379,The patient reports no back pain.,back pain,ABSENT
+380,"Unlike yesterday, I do not have back pain today.",back pain,ABSENT
+381,I've been struggling with constipation for nearly a week.,constipation,PRESENT
+382,The constipation has become uncomfortable over the last few days.,constipation,PRESENT
+383,I haven't had a normal bowel movement because of constipation.,constipation,PRESENT
+384,I've been struggling with constipation for nearly a week.,constipation,PRESENT
+385,The constipation has become uncomfortable over the last few days.,constipation,PRESENT
+386,I haven't had a normal bowel movement because of constipation.,constipation,PRESENT
+387,I've been struggling with constipation for nearly a week.,constipation,PRESENT
+388,The constipation has become uncomfortable over the last few days.,constipation,PRESENT
+389,"Unlike yesterday, I do not have constipation today.",constipation,ABSENT
+390,I don't have constipation.,constipation,ABSENT
+391,The abdominal pain started suddenly after lunch.,abdominal pain,PRESENT
+392,I've had severe abdominal pain since yesterday evening.,abdominal pain,PRESENT
+393,The doctor asked about my recurring abdominal pain.,abdominal pain,PRESENT
+394,The abdominal pain started suddenly after lunch.,abdominal pain,PRESENT
+395,I've had severe abdominal pain since yesterday evening.,abdominal pain,PRESENT
+396,The doctor asked about my recurring abdominal pain.,abdominal pain,PRESENT
+397,The abdominal pain started suddenly after lunch.,abdominal pain,PRESENT
+398,I've had severe abdominal pain since yesterday evening.,abdominal pain,PRESENT
+399,I don't have abdominal pain.,abdominal pain,ABSENT
+400,There is no sign of abdominal pain today.,abdominal pain,ABSENT
+401,I have had diarrhoea since yesterday morning.,diarrhoea,PRESENT
+402,The diarrhoea has been quite severe since last night.,diarrhoea,PRESENT
+403,She developed mild fever two days ago.,mild fever,PRESENT
+404,My temperature has been associated with mild fever for three days.,mild fever,PRESENT
+405,I noticed yellow urine when I used the bathroom this morning.,yellow urine,PRESENT
+406,The yellow urine has continued throughout the day.,yellow urine,PRESENT
+407,His family noticed yellowing of eyes over the weekend.,yellowing of eyes,PRESENT
+408,There is still some yellowing of eyes despite drinking plenty of water.,yellowing of eyes,PRESENT
+409,The doctor was concerned about acute liver failure after my tests.,acute liver failure,PRESENT
+410,She was admitted because of suspected acute liver failure.,acute liver failure,PRESENT
+411,I have been told that fluid overload may be causing my swelling.,fluid overload,PRESENT
+412,The hospital team is monitoring me for fluid overload.,fluid overload,PRESENT
+413,There is noticeable swelling of stomach after meals.,swelling of stomach,PRESENT
+414,His swelling of stomach has become uncomfortable over the past week.,swelling of stomach,PRESENT
+415,I can feel swelled lymph nodes on both sides of my neck.,swelled lymph nodes,PRESENT
+416,The doctor noticed swelled lymph nodes during the examination.,swelled lymph nodes,PRESENT
+417,I have felt a general sense of malaise all afternoon.,malaise,PRESENT
+418,Her malaise has lasted for nearly a week.,malaise,PRESENT
+419,My vision has become blurred and distorted vision while reading.,blurred and distorted vision,PRESENT
+420,He complained of blurred and distorted vision after waking up.,blurred and distorted vision,PRESENT
+421,There is thick phlegm in my throat every morning.,phlegm,PRESENT
+422,The phlegm has been difficult to clear for several days.,phlegm,PRESENT
+423,I have persistent throat irritation after meals.,throat irritation,PRESENT
+424,The throat irritation gets worse when I talk for a long time.,throat irritation,PRESENT
+425,My eyes have had noticeable redness of eyes since yesterday.,redness of eyes,PRESENT
+426,She developed redness of eyes after spending time outdoors.,redness of eyes,PRESENT
+427,I feel strong sinus pressure around my forehead.,sinus pressure,PRESENT
+428,The sinus pressure has been bothering me since Monday.,sinus pressure,PRESENT
+429,My runny nose started early this morning.,runny nose,PRESENT
+430,He has had a constant runny nose for three days.,runny nose,PRESENT
+431,I woke up with severe congestion today.,congestion,PRESENT
+432,Her congestion makes it difficult to breathe through her nose.,congestion,PRESENT
+433,I felt sharp chest pain while walking upstairs.,chest pain,PRESENT
+434,The chest pain has come and gone since yesterday.,chest pain,PRESENT
+435,My arms have had weakness in limbs for several days.,weakness in limbs,PRESENT
+436,He reported weakness in limbs after getting out of bed.,weakness in limbs,PRESENT
+437,"My heart rate feels unusually fast, with fast heart rate episodes at night.",fast heart rate,PRESENT
+438,She was worried about her fast heart rate after climbing the stairs.,fast heart rate,PRESENT
+439,I feel pain during bowel movements almost every morning.,pain during bowel movements,PRESENT
+440,The pain during bowel movements has become worse this week.,pain during bowel movements,PRESENT
+441,There is sharp pain in anal region when I sit down.,pain in anal region,PRESENT
+442,He has persistent pain in anal region after using the bathroom.,pain in anal region,PRESENT
+443,I noticed bloody stool twice yesterday.,bloody stool,PRESENT
+444,She reported bloody stool after several difficult bowel movements.,bloody stool,PRESENT
+445,I have irritation in anus that gets worse after walking.,irritation in anus,PRESENT
+446,The irritation in anus has been present for four days.,irritation in anus,PRESENT
+447,My neck pain started after I woke up yesterday.,neck pain,PRESENT
+448,He has severe neck pain when turning his head.,neck pain,PRESENT
+449,I felt dizziness when I stood up quickly.,dizziness,PRESENT
+450,The dizziness lasted for almost an hour this morning.,dizziness,PRESENT
+451,I get painful cramps in my legs at night.,cramps,PRESENT
+452,Her cramps have been occurring several times a day.,cramps,PRESENT
+453,I noticed bruising on my arms without remembering an injury.,bruising,PRESENT
+454,The bruising has increased over the past few days.,bruising,PRESENT
+455,My doctor says my obesity is affecting my mobility.,obesity,PRESENT
+456,He has struggled with obesity for many years.,obesity,PRESENT
+457,Both of my legs have developed swollen legs by evening.,swollen legs,PRESENT
+458,She noticed swollen legs after standing all day.,swollen legs,PRESENT
+459,The nurse pointed out swollen blood vessels on my legs.,swollen blood vessels,PRESENT
+460,I have visible swollen blood vessels near my ankle.,swollen blood vessels,PRESENT
+461,"My face looks puffy, especially with puffy face and eyes in the morning.",puffy face and eyes,PRESENT
+462,He woke up with noticeable puffy face and eyes.,puffy face and eyes,PRESENT
+463,The scan showed an enlarged thyroid.,enlarged thyroid,PRESENT
+464,She has noticed swelling around her neck from an enlarged thyroid.,enlarged thyroid,PRESENT
+465,My nails have become brittle nails that break easily.,brittle nails,PRESENT
+466,She complained that her brittle nails keep splitting.,brittle nails,PRESENT
+467,"I have swollen extremeties, especially after standing for long periods.",swollen extremeties,PRESENT
+468,The doctor examined my swollen extremeties during the visit.,swollen extremeties,PRESENT
+469,I have excessive hunger even after eating a full meal.,excessive hunger,PRESENT
+470,His excessive hunger has continued for several weeks.,excessive hunger,PRESENT
+471,The doctor asked about extra marital contacts during the history.,extra marital contacts,PRESENT
+472,She disclosed a history of extra marital contacts during the consultation.,extra marital contacts,PRESENT
+473,My lips have been affected by drying and tingling lips throughout the day.,drying and tingling lips,PRESENT
+474,He noticed drying and tingling lips after waking up.,drying and tingling lips,PRESENT
+475,My speech became slurred speech for several minutes.,slurred speech,PRESENT
+476,Her family noticed slurred speech during the evening.,slurred speech,PRESENT
+477,I have persistent knee pain when climbing stairs.,knee pain,PRESENT
+478,The knee pain has been present since last weekend.,knee pain,PRESENT
+479,He developed hip joint pain after walking for an hour.,hip joint pain,PRESENT
+480,My hip joint pain is worse when I stand up.,hip joint pain,PRESENT
+481,I have muscle weakness in both arms.,muscle weakness,PRESENT
+482,She noticed muscle weakness after several days of illness.,muscle weakness,PRESENT
+483,My joints have painful swelling joints in the morning.,swelling joints,PRESENT
+484,The swelling joints make it difficult to move my fingers.,swelling joints,PRESENT
+485,I have movement stiffness after sitting for a long time.,movement stiffness,PRESENT
+486,His movement stiffness is worse early in the morning.,movement stiffness,PRESENT
+487,I feel spinning movements whenever I turn quickly.,spinning movements,PRESENT
+488,The spinning movements lasted for several minutes.,spinning movements,PRESENT
+489,I have loss of balance when walking on uneven ground.,loss of balance,PRESENT
+490,She experienced sudden loss of balance yesterday.,loss of balance,PRESENT
+491,There is unsteadiness in my walking today.,unsteadiness,PRESENT
+492,His unsteadiness has become more noticeable over the past month.,unsteadiness,PRESENT
+493,I suddenly developed weakness of one body side yesterday.,weakness of one body side,PRESENT
+494,The doctor examined me after I reported weakness of one body side.,weakness of one body side,PRESENT
+495,I have almost complete loss of smell since this morning.,loss of smell,PRESENT
+496,Her loss of smell continued after the congestion improved.,loss of smell | congestion,PRESENT | PRESENT
+497,I feel bladder discomfort whenever I urinate.,bladder discomfort,PRESENT
+498,The bladder discomfort has persisted for two days.,bladder discomfort,PRESENT
+499,My urine has a foul smell of urine that I noticed today.,foul smell of urine,PRESENT
+500,She complained about a strong foul smell of urine.,foul smell of urine,PRESENT
+501,I have a continuous feel of urine even after using the bathroom.,continuous feel of urine,PRESENT
+502,His continuous feel of urine has kept him awake at night.,continuous feel of urine,PRESENT
+503,I have been having passage of gases throughout the afternoon.,passage of gases,PRESENT
+504,The passage of gases has become frequent after meals.,passage of gases,PRESENT
+505,There is internal itching that I cannot locate on the skin.,internal itching,PRESENT
+506,She described persistent internal itching during the consultation.,internal itching,PRESENT
+507,The nurse documented a toxic look (typhos) during the examination.,toxic look (typhos),PRESENT
+508,He appeared to have a toxic look (typhos) when he arrived.,toxic look (typhos),PRESENT
+509,I have been dealing with depression for several weeks.,depression,PRESENT
+510,Her depression has made daily activities more difficult.,depression,PRESENT
+511,I have noticed unusual irritability since last week.,irritability,PRESENT
+512,His irritability has increased over the past few days.,irritability,PRESENT
+513,My muscles have been aching with persistent muscle pain.,muscle pain,PRESENT
+514,She has severe muscle pain after walking for a short distance.,muscle pain,PRESENT
+515,The emergency team noted altered sensorium when I arrived.,altered sensorium,PRESENT
+516,He developed altered sensorium during the night.,altered sensorium,PRESENT
+517,I noticed red spots over body after waking up.,red spots over body,PRESENT
+518,The red spots over body have spread since yesterday.,red spots over body,PRESENT
+519,I have belly pain after eating oily food.,belly pain,PRESENT
+520,Her belly pain has lasted since early morning.,belly pain,PRESENT
+521,I have been having abnormal menstruation for the last three months.,abnormal menstruation,PRESENT
+522,She consulted a doctor because of abnormal menstruation.,abnormal menstruation,PRESENT
+523,There are dischromic patches on my arms and back.,dischromic patches,PRESENT
+524,His dischromic patches have become more noticeable recently.,dischromic patches,PRESENT
+525,I have watering from eyes whenever I go outside.,watering from eyes,PRESENT
+526,The watering from eyes has continued throughout the afternoon.,watering from eyes,PRESENT
+527,I have increased appetite even though I am eating normally.,increased appetite,PRESENT
+528,Her increased appetite has been present for several weeks.,increased appetite,PRESENT
+529,I have polyuria and need to use the bathroom frequently.,polyuria,PRESENT
+530,His polyuria has been particularly noticeable at night.,polyuria,PRESENT
+531,"My father had similar symptoms, so the doctor asked about family history.",family history,PRESENT
+532,There is a strong family history of this condition.,family history,PRESENT
+533,I am coughing up mucoid sputum in the mornings.,mucoid sputum,PRESENT
+534,She has had thick mucoid sputum for almost a week.,mucoid sputum,PRESENT
+535,I noticed rusty sputum when I coughed this morning.,rusty sputum,PRESENT
+536,The rusty sputum appeared again later in the day.,rusty sputum,PRESENT
+537,I have lack of concentration while studying.,lack of concentration,PRESENT
+538,His lack of concentration has affected his work recently.,lack of concentration,PRESENT
+539,I have visual disturbances when looking at bright lights.,visual disturbances,PRESENT
+540,She reported visual disturbances while reading.,visual disturbances,PRESENT
+541,I received a blood transfusion several years ago.,,
+542,The medical history includes receiving blood transfusion.,receiving blood transfusion,PRESENT
+543,He reported receiving unsterile injections at a local clinic.,receiving unsterile injections,PRESENT
+544,Her history includes receiving unsterile injections in the past.,receiving unsterile injections,PRESENT
+545,The patient was found in coma on arrival.,coma,PRESENT
+546,He remained in coma during the initial examination.,coma,PRESENT
+547,I was told that stomach bleeding had occurred overnight.,stomach bleeding,PRESENT
+548,The doctor is investigating possible stomach bleeding.,stomach bleeding,PRESENT
+549,My abdomen has become enlarged because of distention of abdomen.,distention of abdomen,PRESENT
+550,She complained of uncomfortable distention of abdomen after meals.,distention of abdomen,PRESENT
+551,I have a history of alcohol consumption.,history of alcohol consumption,PRESENT
+552,The doctor asked about my history of alcohol consumption.,history of alcohol consumption,PRESENT
+553,I noticed blood in sputum after coughing.,blood in sputum,PRESENT
+554,He has occasionally seen blood in sputum over the past two days.,blood in sputum,PRESENT
+555,There are prominent veins on calf that were not visible before.,prominent veins on calf,PRESENT
+556,She noticed prominent veins on calf after exercising.,prominent veins on calf,PRESENT
+557,I have palpitations when I lie down at night.,palpitations,PRESENT
+558,The palpitations lasted for several minutes yesterday.,palpitations,PRESENT
+559,Walking causes painful walking because my legs hurt.,painful walking,PRESENT
+560,He has experienced painful walking for the past month.,painful walking,PRESENT
+561,My face has several pus filled pimples.,pus filled pimples,PRESENT
+562,She developed pus filled pimples around her cheeks.,pus filled pimples,PRESENT
+563,I have blackheads around my nose and chin.,blackheads,PRESENT
+564,His blackheads have become more noticeable recently.,blackheads,PRESENT
+565,The doctor noticed scurring on my skin during the examination.,scurring,PRESENT
+566,She has developed scurring over several areas of the skin.,scurring,PRESENT
+567,I have skin peeling around my fingers.,skin peeling,PRESENT
+568,The skin peeling has become worse during the past week.,skin peeling,PRESENT
+569,My dermatologist noticed silver like dusting on my skin.,silver like dusting,PRESENT
+570,There is visible silver like dusting over the affected area.,silver like dusting,PRESENT
+571,I have small dents in nails on several fingers.,small dents in nails,PRESENT
+572,She noticed small dents in nails while trimming them.,small dents in nails,PRESENT
+573,My doctor found inflammatory nails during the examination.,inflammatory nails,PRESENT
+574,The inflammatory nails have become painful recently.,inflammatory nails,PRESENT
+575,I developed a blister on my hand yesterday.,blister,PRESENT
+576,There is a painful blister near my thumb.,blister,PRESENT
+577,I have a red sore around nose that keeps crusting.,red sore around nose,PRESENT
+578,The red sore around nose appeared three days ago.,red sore around nose,PRESENT
+579,There is yellow crust ooze coming from the sore.,yellow crust ooze,PRESENT
+580,She noticed yellow crust ooze around the affected area.,yellow crust ooze,PRESENT
+581,"I have diarrhoea, mild fever, and dizziness since yesterday.",diarrhoea | mild fever | dizziness,PRESENT | PRESENT | PRESENT
+582,The patient reports yellow urine along with yellowing of eyes.,yellow urine | yellowing of eyes,PRESENT | PRESENT
+583,I was admitted with acute liver failure and fluid overload.,acute liver failure | fluid overload,PRESENT | PRESENT
+584,She has swelling of stomach and distention of abdomen after meals.,swelling of stomach | distention of abdomen,PRESENT | PRESENT
+585,I noticed swelled lymph nodes with a persistent sore feeling in my neck.,swelled lymph nodes,PRESENT
+586,Malaise and mild fever have bothered me since Monday.,Malaise | mild fever,PRESENT | PRESENT
+587,My blurred and distorted vision comes with occasional dizziness.,blurred and distorted vision | dizziness,PRESENT | PRESENT
+588,There is phlegm in my throat along with throat irritation.,phlegm | throat irritation,PRESENT | PRESENT
+589,"I woke up with redness of eyes, watering from eyes, and runny nose.",redness of eyes | watering from eyes | runny nose,PRESENT | PRESENT | PRESENT
+590,Sinus pressure and congestion have been bothering me all week.,Sinus pressure | congestion,PRESENT | PRESENT
+591,I developed chest pain and fast heart rate while climbing stairs.,chest pain | fast heart rate,PRESENT | PRESENT
+592,Weakness in limbs and muscle weakness made walking difficult.,Weakness in limbs | muscle weakness,PRESENT | PRESENT
+593,I have pain during bowel movements together with pain in anal region.,pain during bowel movements | pain in anal region,PRESENT | PRESENT
+594,Bloody stool was accompanied by irritation in anus.,Bloody stool | irritation in anus,PRESENT | PRESENT
+595,My neck pain is worse when I experience dizziness.,neck pain | dizziness,PRESENT | PRESENT
+596,I get cramps in my legs and sometimes notice swollen legs.,cramps | swollen legs,PRESENT | PRESENT
+597,Bruising appeared together with red spots over body.,Bruising | red spots over body,PRESENT | PRESENT
+598,The doctor discussed obesity and excessive hunger during my visit.,obesity | excessive hunger,PRESENT | PRESENT
+599,I have swollen blood vessels and prominent veins on calf.,swollen blood vessels | prominent veins on calf,PRESENT | PRESENT
+600,My puffy face and eyes appeared alongside an enlarged thyroid.,puffy face and eyes | enlarged thyroid,PRESENT | PRESENT
+601,Brittle nails and small dents in nails have developed recently.,Brittle nails | small dents in nails,PRESENT | PRESENT
+602,I noticed swollen extremeties with fluid overload.,swollen extremeties | fluid overload,PRESENT | PRESENT
+603,Drying and tingling lips occurred with dizziness this morning.,Drying and tingling lips | dizziness,PRESENT | PRESENT
+604,My slurred speech was followed by loss of balance.,slurred speech | loss of balance,PRESENT | PRESENT
+605,Knee pain and hip joint pain make long walks difficult.,Knee pain | hip joint pain,PRESENT | PRESENT
+606,I have swelling joints and movement stiffness in both hands.,swelling joints | movement stiffness,PRESENT | PRESENT
+607,Spinning movements caused sudden loss of balance.,Spinning movements | loss of balance,PRESENT | PRESENT
+608,I have unsteadiness along with weakness of one body side.,unsteadiness | weakness of one body side,PRESENT | PRESENT
+609,Loss of smell continued even after my congestion improved.,Loss of smell | congestion,PRESENT | PRESENT
+610,Bladder discomfort and foul smell of urine began together.,Bladder discomfort | foul smell of urine,PRESENT | PRESENT
+611,I have a continuous feel of urine and polyuria at night.,continuous feel of urine | polyuria,PRESENT | PRESENT
+612,Passage of gases has increased along with belly pain.,Passage of gases | belly pain,PRESENT | PRESENT
+613,Internal itching has been accompanied by dischromic patches.,Internal itching | dischromic patches,PRESENT | PRESENT
+614,The patient had a toxic look (typhos) and altered sensorium.,toxic look (typhos) | altered sensorium,PRESENT | PRESENT
+615,Depression and irritability have continued for several weeks.,Depression | irritability,PRESENT | PRESENT
+616,Muscle pain and muscle weakness appeared after the illness.,Muscle pain | muscle weakness,PRESENT | PRESENT
+617,I developed abnormal menstruation with belly pain this month.,abnormal menstruation | belly pain,PRESENT | PRESENT
+618,Increased appetite and excessive hunger have been difficult to control.,Increased appetite | excessive hunger,PRESENT | PRESENT
+619,My visual disturbances are worse when I have lack of concentration.,visual disturbances | lack of concentration,PRESENT | PRESENT
+620,I have mucoid sputum without any blood in sputum.,mucoid sputum | blood in sputum,PRESENT | ABSENT
+621,The rusty sputum was followed by bloody stool.,rusty sputum | bloody stool,PRESENT | PRESENT
+622,My family history includes receiving blood transfusion.,family history | receiving blood transfusion,PRESENT | PRESENT
+623,I have a history of receiving unsterile injections and alcohol consumption.,receiving unsterile injections,PRESENT
+624,The emergency report mentioned coma and altered sensorium.,coma | altered sensorium,PRESENT | PRESENT
+625,Stomach bleeding occurred with distention of abdomen.,Stomach bleeding | distention of abdomen,PRESENT | PRESENT
+626,Palpitations and fast heart rate woke me during the night.,Palpitations | fast heart rate,PRESENT | PRESENT
+627,Painful walking became worse because of knee pain.,Painful walking | knee pain,PRESENT | PRESENT
+628,Pus filled pimples appeared along with blackheads.,Pus filled pimples | blackheads,PRESENT | PRESENT
+629,Skin peeling has exposed areas with silver like dusting.,Skin peeling | silver like dusting,PRESENT | PRESENT
+630,I have inflammatory nails and brittle nails on several fingers.,inflammatory nails | brittle nails,PRESENT | PRESENT
+631,A blister developed near the red sore around nose.,blister | red sore around nose,PRESENT | PRESENT
+632,The red sore around nose has yellow crust ooze around it.,red sore around nose | yellow crust ooze,PRESENT | PRESENT
+633,"I have no diarrhoea today, but I still have mild fever.",diarrhoea | mild fever,ABSENT | PRESENT
+634,She denies mild fever but reports dizziness.,mild fever | dizziness,ABSENT | PRESENT
+635,"I don't have yellow urine, although I have yellowing of eyes.",yellow urine | yellowing of eyes,PRESENT | PRESENT
+636,He has no yellowing of eyes and no yellow urine.,yellowing of eyes | yellow urine,ABSENT | ABSENT
+637,I deny acute liver failure but the doctor is monitoring fluid overload.,acute liver failure | fluid overload,ABSENT | PRESENT
+638,"There is no fluid overload, but I have swollen extremeties.",fluid overload | swollen extremeties,ABSENT | PRESENT
+639,"I don't have swelling of stomach, but I do have belly pain.",swelling of stomach | belly pain,PRESENT | PRESENT
+640,She denies swelled lymph nodes but reports neck pain.,swelled lymph nodes | neck pain,ABSENT | PRESENT
+641,"I have no malaise, although the dizziness is severe.",malaise | dizziness,ABSENT | PRESENT
+642,He denies blurred and distorted vision but reports visual disturbances.,blurred and distorted vision | visual disturbances,ABSENT | PRESENT
+643,"I don't have phlegm, but I do have throat irritation.",phlegm | throat irritation,PRESENT | PRESENT
+644,"There is no redness of eyes, although I have watering from eyes.",redness of eyes | watering from eyes,ABSENT | PRESENT
+645,I have no sinus pressure but my congestion is severe.,sinus pressure | congestion,ABSENT | PRESENT
+646,She denies runny nose but complains of congestion.,runny nose | congestion,ABSENT | PRESENT
+647,"I don't have chest pain, but I have palpitations.",chest pain | palpitations,PRESENT | PRESENT
+648,He denies weakness in limbs but has muscle weakness.,weakness in limbs | muscle weakness,ABSENT | PRESENT
+649,"I have no fast heart rate, although I still experience palpitations.",fast heart rate | palpitations,ABSENT | PRESENT
+650,She denies pain during bowel movements but reports pain in anal region.,pain during bowel movements | pain in anal region,ABSENT | PRESENT
+651,"I have no bloody stool, but the irritation in anus continues.",bloody stool | irritation in anus,ABSENT | PRESENT
+652,He denies neck pain but reports dizziness.,neck pain | dizziness,ABSENT | PRESENT
+653,I don't have cramps or bruising at the moment.,cramps | bruising,PRESENT | PRESENT
+654,She denies obesity but reports excessive hunger.,obesity | excessive hunger,ABSENT | PRESENT
+655,"I have no swollen legs, although I have swollen extremeties.",swollen legs | swollen extremeties,ABSENT | PRESENT
+656,He denies swollen blood vessels but has prominent veins on calf.,swollen blood vessels | prominent veins on calf,ABSENT | PRESENT
+657,"I don't have puffy face and eyes, but my enlarged thyroid remains noticeable.",puffy face and eyes | enlarged thyroid,PRESENT | PRESENT
+658,She denies brittle nails but has inflammatory nails.,brittle nails | inflammatory nails,ABSENT | PRESENT
+659,I have no drying and tingling lips today.,drying and tingling lips,ABSENT
+660,He denies slurred speech but still has loss of balance.,slurred speech | loss of balance,ABSENT | PRESENT
+661,"I don't have knee pain, but my hip joint pain is severe.",knee pain | hip joint pain,PRESENT | PRESENT
+662,She denies muscle weakness but reports swelling joints.,muscle weakness | swelling joints,ABSENT | PRESENT
+663,"I have no movement stiffness, although I have knee pain.",movement stiffness | knee pain,ABSENT | PRESENT
+664,He denies spinning movements but has dizziness.,spinning movements | dizziness,ABSENT | PRESENT
+665,"I don't have loss of balance, but there is unsteadiness when I walk.",loss of balance | unsteadiness,PRESENT | PRESENT
+666,She denies weakness of one body side and reports only muscle weakness.,weakness of one body side | muscle weakness,ABSENT | PRESENT
+667,"I have no loss of smell, although my nose is congested.",loss of smell,ABSENT
+668,He denies bladder discomfort but reports foul smell of urine.,bladder discomfort | foul smell of urine,ABSENT | PRESENT
+669,"I don't have a continuous feel of urine, but I have polyuria.",continuous feel of urine | polyuria,PRESENT | PRESENT
+670,She denies passage of gases but has belly pain.,passage of gases | belly pain,ABSENT | PRESENT
+671,I have no internal itching or dischromic patches.,internal itching | dischromic patches,ABSENT | PRESENT
+672,He denies a toxic look (typhos) but has malaise.,toxic look (typhos) | malaise,PRESENT | PRESENT
+673,"I don't have depression, although irritability has increased.",depression | irritability,PRESENT | PRESENT
+674,She denies muscle pain but reports muscle weakness.,muscle pain | muscle weakness,ABSENT | PRESENT
+675,I have no altered sensorium and no loss of balance.,altered sensorium | loss of balance,ABSENT | ABSENT
+676,He denies red spots over body but has bruising.,red spots over body | bruising,ABSENT | PRESENT
+677,"I don't have abnormal menstruation, but I have belly pain.",abnormal menstruation | belly pain,PRESENT | PRESENT
+678,She denies watering from eyes but reports redness of eyes.,watering from eyes | redness of eyes,ABSENT | PRESENT
+679,"I have no increased appetite, despite having excessive hunger.",increased appetite | excessive hunger,ABSENT | PRESENT
+680,He denies polyuria but reports a continuous feel of urine.,polyuria | continuous feel of urine,ABSENT | PRESENT
+681,I have no family history of the condition.,family history,ABSENT
+682,She denies mucoid sputum but has rusty sputum.,mucoid sputum | rusty sputum,ABSENT | PRESENT
+683,"I don't have visual disturbances, although I have lack of concentration.",visual disturbances | lack of concentration,PRESENT | PRESENT
+684,He denies receiving blood transfusion in the past.,receiving blood transfusion,ABSENT
+685,I have no history of receiving unsterile injections.,receiving unsterile injections,PRESENT
+686,She was not in coma and had no altered sensorium.,coma | altered sensorium,PRESENT | ABSENT
+687,I deny stomach bleeding but report distention of abdomen.,stomach bleeding | distention of abdomen,ABSENT | PRESENT
+688,He has no history of alcohol consumption.,history of alcohol consumption,ABSENT
+689,"I don't have blood in sputum, but I do have mucoid sputum.",blood in sputum | mucoid sputum,PRESENT | PRESENT
+690,She denies prominent veins on calf but has swollen blood vessels.,prominent veins on calf | swollen blood vessels,ABSENT | PRESENT
+691,"I have no palpitations, although I sometimes have fast heart rate.",palpitations | fast heart rate,ABSENT | PRESENT
+692,He denies painful walking but reports knee pain.,painful walking | knee pain,ABSENT | PRESENT
+693,"I don't have pus filled pimples, but I have blackheads.",pus filled pimples | blackheads,PRESENT | PRESENT
+694,She denies scurring but has skin peeling.,scurring | skin peeling,ABSENT | PRESENT
+695,"I have no silver like dusting, but my skin has skin peeling.",silver like dusting | skin peeling,ABSENT | PRESENT
+696,He denies small dents in nails but has brittle nails.,small dents in nails | brittle nails,ABSENT | PRESENT
+697,"I don't have inflammatory nails, although I have small dents in nails.",inflammatory nails | small dents in nails,PRESENT | PRESENT
+698,She has no blister but does have a red sore around nose.,blister | red sore around nose,ABSENT | PRESENT
+699,I deny yellow crust ooze but still have a red sore around nose.,yellow crust ooze | red sore around nose,ABSENT | PRESENT
+700,"He has no diarrhoea or mild fever, but dizziness began this morning.",diarrhoea | mild fever | dizziness,ABSENT | PRESENT | PRESENT
+701,My yellow urine and yellowing of eyes appeared at the same time.,yellow urine | yellowing of eyes,PRESENT | PRESENT
+702,Acute liver failure was considered because of yellowing of eyes and yellow urine.,Acute liver failure | yellowing of eyes | yellow urine,PRESENT | PRESENT | PRESENT
+703,Fluid overload has caused swollen legs and swollen extremeties.,Fluid overload | swollen legs | swollen extremeties,PRESENT | PRESENT | PRESENT
+704,I noticed swelling of stomach together with distention of abdomen.,swelling of stomach | distention of abdomen,PRESENT | PRESENT
+705,Swelled lymph nodes appeared with neck pain and mild fever.,Swelled lymph nodes | neck pain | mild fever,PRESENT | PRESENT | PRESENT
+706,"Malaise, weakness in limbs, and muscle weakness started together.",Malaise | weakness in limbs | muscle weakness,PRESENT | PRESENT | PRESENT
+707,My blurred and distorted vision was accompanied by watering from eyes.,blurred and distorted vision | watering from eyes,PRESENT | PRESENT
+708,Phlegm and mucoid sputum have been present every morning.,Phlegm | mucoid sputum,PRESENT | PRESENT
+709,Throat irritation occurs whenever the phlegm becomes thick.,Throat irritation | phlegm,PRESENT | PRESENT
+710,Redness of eyes and watering from eyes started after lunch.,Redness of eyes | watering from eyes,PRESENT | PRESENT
+711,"Sinus pressure, runny nose, and congestion began overnight.",Sinus pressure | runny nose | congestion,PRESENT | PRESENT | PRESENT
+712,I have chest pain with palpitations and fast heart rate.,chest pain | palpitations | fast heart rate,PRESENT | PRESENT | PRESENT
+713,Weakness in limbs and loss of balance made me stop walking.,Weakness in limbs | loss of balance,PRESENT | PRESENT
+714,Pain during bowel movements and bloody stool occurred together.,Pain during bowel movements | bloody stool,PRESENT | PRESENT
+715,Pain in anal region and irritation in anus have persisted all week.,Pain in anal region | irritation in anus,PRESENT | PRESENT
+716,Neck pain became worse whenever I experienced dizziness.,Neck pain | dizziness,PRESENT | PRESENT
+717,Cramps and swollen legs are worse by the end of the day.,Cramps | swollen legs,PRESENT | PRESENT
+718,Bruising and red spots over body appeared without an obvious injury.,Bruising | red spots over body,PRESENT | PRESENT
+719,"Obesity, excessive hunger, and increased appetite were discussed at the visit.",Obesity | excessive hunger | increased appetite,PRESENT | PRESENT | PRESENT
+720,Swollen blood vessels and prominent veins on calf are visible on my legs.,Swollen blood vessels | prominent veins on calf,PRESENT | PRESENT
+721,Puffy face and eyes appeared after the enlarged thyroid became noticeable.,Puffy face and eyes | enlarged thyroid,PRESENT | PRESENT
+722,Brittle nails and inflammatory nails developed on the same fingers.,Brittle nails | inflammatory nails,PRESENT | PRESENT
+723,Swollen extremeties became more obvious during the evening.,Swollen extremeties,PRESENT
+724,Drying and tingling lips started shortly before the dizziness.,Drying and tingling lips | dizziness,PRESENT | PRESENT
+725,Slurred speech and weakness of one body side were noticed by my family.,Slurred speech | weakness of one body side,PRESENT | PRESENT
+726,Knee pain and painful walking have limited my daily activities.,Knee pain | painful walking,PRESENT | PRESENT
+727,Hip joint pain is accompanied by movement stiffness in the morning.,Hip joint pain | movement stiffness,PRESENT | PRESENT
+728,Swelling joints and muscle weakness make it difficult to grip objects.,Swelling joints | muscle weakness,PRESENT | PRESENT
+729,Spinning movements and unsteadiness occur whenever I turn quickly.,Spinning movements | unsteadiness,PRESENT | PRESENT
+730,Loss of balance occurred after a brief episode of dizziness.,Loss of balance | dizziness,PRESENT | PRESENT
+731,Loss of smell has remained since the runny nose started.,Loss of smell | runny nose,PRESENT | PRESENT
+732,"Bladder discomfort, foul smell of urine, and continuous feel of urine started together.",Bladder discomfort | foul smell of urine | continuous feel of urine,PRESENT | PRESENT | PRESENT
+733,Passage of gases and belly pain are worse after dinner.,Passage of gases | belly pain,PRESENT | PRESENT
+734,Internal itching appeared along with dischromic patches.,Internal itching | dischromic patches,PRESENT | PRESENT
+735,"A toxic look (typhos), malaise, and altered sensorium were documented.",toxic look (typhos) | malaise | altered sensorium,PRESENT | PRESENT | PRESENT
+736,"Depression, irritability, and lack of concentration have affected my studies.",Depression | irritability | lack of concentration,PRESENT | PRESENT | PRESENT
+737,Muscle pain and cramps have been waking me at night.,Muscle pain | cramps,PRESENT | PRESENT
+738,Abnormal menstruation and belly pain occurred during the same month.,Abnormal menstruation | belly pain,PRESENT | PRESENT
+739,Visual disturbances and lack of concentration make reading difficult.,Visual disturbances | lack of concentration,PRESENT | PRESENT
+740,I have polyuria together with increased appetite and excessive hunger.,polyuria | increased appetite | excessive hunger,PRESENT | PRESENT | PRESENT
+741,My family history includes receiving blood transfusion many years ago.,family history | receiving blood transfusion,PRESENT | PRESENT
+742,Rusty sputum and blood in sputum appeared after a severe cough.,Rusty sputum | blood in sputum,PRESENT | PRESENT
+743,I have visual disturbances but no blurred and distorted vision.,visual disturbances | blurred and distorted vision,PRESENT | ABSENT
+744,The patient reported receiving unsterile injections and a history of alcohol consumption.,receiving unsterile injections | history of alcohol consumption,PRESENT | PRESENT
+745,Coma developed after altered sensorium was noticed.,Coma | altered sensorium,PRESENT | PRESENT
+746,Stomach bleeding was accompanied by distention of abdomen.,Stomach bleeding | distention of abdomen,PRESENT | PRESENT
+747,My history of alcohol consumption was discussed because of the stomach bleeding.,history of alcohol consumption | stomach bleeding,PRESENT | PRESENT
+748,Blood in sputum was noticed along with rusty sputum.,Blood in sputum | rusty sputum,PRESENT | PRESENT
+749,Palpitations occurred with fast heart rate while I was resting.,Palpitations | fast heart rate,PRESENT | PRESENT
+750,Painful walking and knee pain have continued for several weeks.,Painful walking | knee pain,PRESENT | PRESENT
+751,Pus filled pimples and blackheads appeared around my face.,Pus filled pimples | blackheads,PRESENT | PRESENT
+752,Scurring developed around areas of skin peeling.,Scurring | skin peeling,PRESENT | PRESENT
+753,Silver like dusting appeared over areas with skin peeling.,Silver like dusting | skin peeling,PRESENT | PRESENT
+754,Small dents in nails were found together with inflammatory nails.,Small dents in nails | inflammatory nails,PRESENT | PRESENT
+755,A blister developed near a red sore around nose.,blister | red sore around nose,PRESENT | PRESENT
+756,Yellow crust ooze appeared around the red sore around nose.,Yellow crust ooze | red sore around nose,PRESENT | PRESENT
+757,I have mild fever but no diarrhoea or dizziness.,mild fever | diarrhoea | dizziness,PRESENT | ABSENT | PRESENT
+758,"There is yellow urine, but I have no yellowing of eyes.",yellow urine | yellowing of eyes,PRESENT | ABSENT
+759,The doctors ruled out acute liver failure but found fluid overload.,acute liver failure | fluid overload,ABSENT | PRESENT
+760,I have swelling of stomach but no distention of abdomen.,swelling of stomach | distention of abdomen,PRESENT | ABSENT
+761,"Swelled lymph nodes are present, but I have no neck pain.",Swelled lymph nodes | neck pain,PRESENT | ABSENT
+762,Malaise is present without any weakness in limbs.,Malaise | weakness in limbs,PRESENT | ABSENT
+763,I have blurred and distorted vision but no visual disturbances.,blurred and distorted vision | visual disturbances,PRESENT | ABSENT
+764,There is phlegm but no mucoid sputum according to the patient.,phlegm | mucoid sputum,PRESENT | ABSENT
+765,I have throat irritation but no redness of eyes.,throat irritation | redness of eyes,PRESENT | ABSENT
+766,Sinus pressure is present without a runny nose.,Sinus pressure | runny nose,PRESENT | PRESENT
+767,"My congestion remains, but I have no loss of smell.",congestion | loss of smell,PRESENT | ABSENT
+768,"Chest pain occurred, but there was no fast heart rate.",Chest pain | fast heart rate,PRESENT | ABSENT
+769,I have weakness in limbs but no muscle weakness according to the examination.,weakness in limbs | muscle weakness,PRESENT | ABSENT
+770,There is pain during bowel movements without bloody stool.,pain during bowel movements | bloody stool,PRESENT | ABSENT
+771,"Pain in anal region continues, but there is no irritation in anus.",Pain in anal region | irritation in anus,PRESENT | ABSENT
+772,I have neck pain but no dizziness when standing.,neck pain | dizziness,PRESENT | ABSENT
+773,"Cramps are present, but I have no swollen legs.",Cramps | swollen legs,PRESENT | ABSENT
+774,"Bruising is visible, but there are no red spots over body.",Bruising | red spots over body,PRESENT | ABSENT
+775,Obesity is present without excessive hunger.,Obesity | excessive hunger,PRESENT | ABSENT
+776,I have swollen blood vessels but no prominent veins on calf.,swollen blood vessels | prominent veins on calf,PRESENT | ABSENT
+777,"Puffy face and eyes are noticeable, but there is no enlarged thyroid.",Puffy face and eyes | enlarged thyroid,PRESENT | ABSENT
+778,My brittle nails are present without small dents in nails.,brittle nails | small dents in nails,PRESENT | ABSENT
+779,"Swollen extremeties are present, but there is no fluid overload.",Swollen extremeties | fluid overload,PRESENT | ABSENT
+780,I have drying and tingling lips but no slurred speech.,drying and tingling lips | slurred speech,PRESENT | ABSENT
+781,"Knee pain is present, but I have no hip joint pain.",Knee pain | hip joint pain,PRESENT | ABSENT
+782,Muscle weakness is present without swelling joints.,Muscle weakness | swelling joints,PRESENT | ABSENT
+783,I have movement stiffness but no spinning movements.,movement stiffness | spinning movements,PRESENT | ABSENT
+784,"Loss of balance is present, but I have no unsteadiness.",Loss of balance | unsteadiness,PRESENT | ABSENT
+785,There is weakness of one body side but no slurred speech.,weakness of one body side | slurred speech,PRESENT | ABSENT
+786,Bladder discomfort is present without a foul smell of urine.,Bladder discomfort | foul smell of urine,PRESENT | PRESENT
+787,I have a continuous feel of urine but no polyuria.,continuous feel of urine | polyuria,PRESENT | ABSENT
+788,"Passage of gases is present, but there is no belly pain.",Passage of gases | belly pain,PRESENT | ABSENT
+789,Internal itching continues without dischromic patches.,Internal itching | dischromic patches,PRESENT | ABSENT
+790,"Depression is present, but I deny irritability.",Depression | irritability,PRESENT | ABSENT
+791,Muscle pain is present without cramps.,Muscle pain | cramps,PRESENT | ABSENT
+792,"Altered sensorium was present, but the patient was not in coma.",Altered sensorium | coma,PRESENT | PRESENT
+793,Abnormal menstruation is present without belly pain.,Abnormal menstruation | belly pain,PRESENT | ABSENT
+794,"Watering from eyes is present, but there is no redness of eyes.",Watering from eyes | redness of eyes,PRESENT | ABSENT
+795,Increased appetite is present without polyuria.,Increased appetite | polyuria,PRESENT | ABSENT
+796,I have rusty sputum but no blood in sputum.,rusty sputum | blood in sputum,PRESENT | ABSENT
+797,"Lack of concentration is present, but I deny visual disturbances.",Lack of concentration | visual disturbances,PRESENT | ABSENT
+798,The patient has receiving blood transfusion in the past but denies receiving unsterile injections.,receiving blood transfusion | receiving unsterile injections,PRESENT | ABSENT
+799,"Skin peeling is present, but there is no silver like dusting.",Skin peeling | silver like dusting,PRESENT | ABSENT
+800,"A blister is present, but there is no yellow crust ooze around the red sore around nose.",blister | yellow crust ooze | red sore around nose,PRESENT | ABSENT | PRESENT
+801,I've had muscle weakness in both legs for the past three weeks.,muscle weakness,PRESENT
+802,Muscle weakness hit me out of nowhere after the long hospital stay.,Muscle weakness,PRESENT
+803,"No muscle weakness at all, I can still lift my grandson.",muscle weakness,ABSENT
+804,My doctor wanted to know if the muscle weakness gets worse by evening.,muscle weakness,PRESENT
+805,Severe muscle weakness makes it hard for me to climb the bus steps.,muscle weakness,PRESENT
+806,I deny any muscle weakness or trouble gripping things.,muscle weakness,ABSENT
+807,My arms feel so weak since the surgery that I can barely carry groceries.,arms feel so weak,PRESENT
+808,"Over the past six months, a creeping muscle weakness has taken over my thighs.",muscle weakness,PRESENT
+809,"Honestly, the muscle weakness is the worst part, I can't even open a jar.",muscle weakness,PRESENT
+810,She hasn't had muscle weakness since starting the new vitamins.,muscle weakness,ABSENT
+811,I woke up with a stiff neck again today.,stiff neck,PRESENT
+812,"Stiff neck, and I can barely look over my shoulder when I drive.",Stiff neck,PRESENT
+813,"There's no stiff neck, thank goodness, I can turn my head fine.",stiff neck,ABSENT
+814,My neck feels stiff every morning for about an hour.,neck feels stiff,PRESENT
+815,For the last four days I've had a terribly stiff neck after sleeping on the couch.,stiff neck,PRESENT
+816,"Doctor, my son has a stiff neck and hates bending his chin down.",stiff neck,PRESENT
+817,I never get a stiff neck even after long drives.,stiff neck,ABSENT
+818,A persistent stiff neck is making desk work miserable.,stiff neck,PRESENT
+819,He complained of a stiff neck last night that still hasn't eased.,stiff neck,PRESENT
+820,"I've got a mild stiff neck, nothing dramatic.",stiff neck,PRESENT
+821,Swelling joints in my fingers are making it hard to knit.,Swelling joints,PRESENT
+822,I noticed swelling joints in both wrists this morning.,swelling joints,PRESENT
+823,"No swelling joints anywhere, the rheumatologist checked.",swelling joints,ABSENT
+824,My joints are swollen and warm to the touch after walking.,joints are swollen,PRESENT
+825,I've had persistent swelling joints for about two months now.,swelling joints,PRESENT
+826,My sister says my swelling joints look worse in winter.,swelling joints,PRESENT
+827,"I don't have any swelling joints, so the doctor ruled out arthritis.",swelling joints,ABSENT
+828,Mild swelling joints in my ankles come and go through the week.,swelling joints,PRESENT
+829,The swelling joints in my hands were so bad last night I couldn't make a fist.,swelling joints,PRESENT
+830,She reports swelling joints in her elbows since last spring.,swelling joints,PRESENT
+831,Movement stiffness is worst when I first get out of bed.,Movement stiffness,PRESENT
+832,I get movement stiffness in my hips after sitting through a film.,movement stiffness,PRESENT
+833,There's no movement stiffness in the mornings anymore.,movement stiffness,ABSENT
+834,Terrible movement stiffness has stopped me from gardening this summer.,movement stiffness,PRESENT
+835,My grandfather's movement stiffness gets worse whenever it's cold.,movement stiffness,PRESENT
+836,I feel stiff whenever I try to move after a nap.,feel stiff,PRESENT
+837,I haven't had any movement stiffness since I began swimming.,movement stiffness,ABSENT
+838,"For three weeks now, movement stiffness has slowed me down in the morning.",movement stiffness,PRESENT
+839,Brief movement stiffness shows up whenever I stand after a long drive.,movement stiffness,PRESENT
+840,"Doctor, I'm worried about this movement stiffness that won't loosen up.",movement stiffness,PRESENT
+841,I keep getting spinning movements when I roll over in bed.,spinning movements,PRESENT
+842,Spinning movements began suddenly last night and lasted about an hour.,Spinning movements,PRESENT
+843,"No spinning movements when I stand up quickly, thankfully.",spinning movements,ABSENT
+844,The whole room was caught in spinning movements for ten minutes.,spinning movements,PRESENT
+845,I get a brief sense of spinning movements whenever I look up at shelves.,spinning movements,PRESENT
+846,She denies any spinning movements since the medication change.,spinning movements,ABSENT
+847,"Spinning movements come on out of nowhere, usually in the afternoon.",Spinning movements,PRESENT
+848,For two weeks I've had mild spinning movements first thing in the morning.,spinning movements,PRESENT
+849,My dad says the world is spinning around him when he bends down.,world is spinning around him,PRESENT
+850,I had spinning movements during the whole bus ride yesterday.,spinning movements,PRESENT
+851,I had a sudden loss of balance while stepping out of the shower.,loss of balance,PRESENT
+852,Loss of balance has me gripping the railing on every staircase.,Loss of balance,PRESENT
+853,"No loss of balance, I can still walk a straight line.",loss of balance,ABSENT
+854,I keep losing my balance when I turn around quickly.,losing my balance,PRESENT
+855,My grandmother's loss of balance started around her birthday in March.,loss of balance,PRESENT
+856,"He doesn't have any loss of balance, even in the dark.",loss of balance,ABSENT
+857,"Honestly, the loss of balance scares me more than anything else.",loss of balance,PRESENT
+858,There was a brief loss of balance as I stood up from the sofa.,loss of balance,PRESENT
+859,I've had episodes of loss of balance for about three months.,loss of balance,PRESENT
+860,Terrible loss of balance made me miss the last step and twist my foot.,loss of balance,PRESENT
+861,Unsteadiness has made me nervous about walking alone.,Unsteadiness,PRESENT
+862,I feel unsteadiness every time I stand up from the toilet.,unsteadiness,PRESENT
+863,There's no unsteadiness when I walk on flat ground.,unsteadiness,ABSENT
+864,I feel unsteady on my feet whenever I'm in a crowd.,unsteady,PRESENT
+865,"A little unsteadiness in the mornings, otherwise I'm fine.",unsteadiness,PRESENT
+866,My mother says her unsteadiness is worse after dark.,unsteadiness,PRESENT
+867,I deny any unsteadiness while climbing stairs.,unsteadiness,ABSENT
+868,Persistent unsteadiness has kept me from going on my usual walks.,unsteadiness,PRESENT
+869,For the last week I've had a strange unsteadiness when I turn my head.,unsteadiness,PRESENT
+870,My legs feel wobbly and unsteady when I carry heavy bags.,unsteady,PRESENT
+871,"Since last night I've had weakness of one body side, mostly the left.",weakness of one body side,PRESENT
+872,My husband woke up with weakness of one body side and we came straight in.,weakness of one body side,PRESENT
+873,"There is no weakness of one body side, both arms are equally strong.",weakness of one body side,ABSENT
+874,"The weakness of one body side comes and goes, usually after lunch.",weakness of one body side,PRESENT
+875,"I noticed my right side feels weaker than the left, and it's getting worse.",right side feels weaker than the left,PRESENT
+876,He denies any weakness of one body side.,weakness of one body side,ABSENT
+877,Sudden weakness of one body side worried me enough to call an ambulance.,weakness of one body side,PRESENT
+878,Weakness of one body side has lasted since yesterday morning.,Weakness of one body side,PRESENT
+879,"For two days, I've had mild weakness of one body side while brushing my teeth.",weakness of one body side,PRESENT
+880,She doesn't have any weakness of one body side after the procedure.,weakness of one body side,ABSENT
+881,I've had a total loss of smell since Tuesday.,loss of smell,PRESENT
+882,Loss of smell means I can't tell when the milk has gone off.,Loss of smell,PRESENT
+883,"No loss of smell, I can still smell the coffee brewing.",loss of smell,ABSENT
+884,"I can't smell anything anymore, not even perfume.",can't smell anything,PRESENT
+885,My loss of smell has lasted nearly two months.,loss of smell,PRESENT
+886,My daughter has had a partial loss of smell for about a week.,loss of smell,PRESENT
+887,"I deny any loss of smell, and I noticed the neighbor's cooking right away.",loss of smell,ABSENT
+888,"A sudden loss of smell happened overnight, and I'm quite worried.",loss of smell,PRESENT
+889,"Hi doctor, this loss of smell just won't go away.",loss of smell,PRESENT
+890,He hasn't noticed any loss of smell since the surgery.,loss of smell,ABSENT
+891,There's constant bladder discomfort whenever I hold it too long.,bladder discomfort,PRESENT
+892,Bladder discomfort wakes me up at night.,Bladder discomfort,PRESENT
+893,No bladder discomfort at the moment.,bladder discomfort,ABSENT
+894,I get a nagging bladder discomfort after drinking tea.,bladder discomfort,PRESENT
+895,My bladder feels uncomfortable and heavy by the evening.,bladder feels uncomfortable,PRESENT
+896,She has had mild bladder discomfort for about a week.,bladder discomfort,PRESENT
+897,I don't have any bladder discomfort now that the antibiotics are done.,bladder discomfort,ABSENT
+898,"Honestly, the bladder discomfort is the thing that bothers me most.",bladder discomfort,PRESENT
+899,Severe bladder discomfort began two days ago and hasn't eased.,bladder discomfort,PRESENT
+900,He denies bladder discomfort when passing water.,bladder discomfort,ABSENT
+901,"Doctor, I noticed a foul smell of urine for the past three days.",foul smell of urine,PRESENT
+902,A foul smell of urine hit me when I used the bathroom this morning.,foul smell of urine,PRESENT
+903,"No foul smell of urine, it looks and smells normal.",foul smell of urine,ABSENT
+904,"My urine smells terrible lately, almost like ammonia.",urine smells terrible,PRESENT
+905,I've had a foul smell of urine since I started those supplements.,foul smell of urine,PRESENT
+906,He mentioned a persistent foul smell of urine that he finds embarrassing.,foul smell of urine,PRESENT
+907,"There is no foul smell of urine, so I think I'm fine.",foul smell of urine,ABSENT
+908,My son's foul smell of urine started on Sunday.,foul smell of urine,PRESENT
+909,"Foul smell of urine, off and on, for about two weeks.",Foul smell of urine,PRESENT
+910,She says there's been no foul smell of urine since the clinic visit.,foul smell of urine,ABSENT
+911,I get a continuous feel of urine even right after using the toilet.,continuous feel of urine,PRESENT
+912,Continuous feel of urine has me running to the bathroom all day.,Continuous feel of urine,PRESENT
+913,"No continuous feel of urine, I can go hours without thinking about it.",continuous feel of urine,ABSENT
+914,"I constantly feel like I need to pass urine, even when my bladder is empty.",feel like I need to pass urine,PRESENT
+915,For two weeks I've had a continuous feel of urine that won't let up.,continuous feel of urine,PRESENT
+916,My uncle complains of a continuous feel of urine at night.,continuous feel of urine,PRESENT
+917,I don't have a continuous feel of urine anymore.,continuous feel of urine,ABSENT
+918,A mild continuous feel of urine is bothering me during meetings.,continuous feel of urine,PRESENT
+919,"Honestly, the continuous feel of urine is making it hard to travel.",continuous feel of urine,PRESENT
+920,She denies any continuous feel of urine.,continuous feel of urine,ABSENT
+921,Excess passage of gases after meals is embarrassing me at work.,passage of gases,PRESENT
+922,I've had a lot of passage of gases since last weekend.,passage of gases,PRESENT
+923,There was no passage of gases yesterday and I'm worried.,passage of gases,ABSENT
+924,I keep passing gas all evening no matter what I eat.,passing gas,PRESENT
+925,Passage of gases has been constant for about a month.,Passage of gases,PRESENT
+926,My brother's passage of gases gets worse after beans.,passage of gases,PRESENT
+927,I don't have much passage of gases anymore.,passage of gases,ABSENT
+928,Terrible passage of gases at night keeps my wife awake.,passage of gases,PRESENT
+929,There's been no passage of gases since morning.,passage of gases,ABSENT
+930,Noisy passage of gases happens a few minutes after I eat.,passage of gases,PRESENT
+931,I have internal itching that I can't reach and it's driving me crazy.,internal itching,PRESENT
+932,Internal itching started two weeks ago and keeps getting worse.,Internal itching,PRESENT
+933,"There's no internal itching, thankfully.",internal itching,ABSENT
+934,"It itches deep inside, and scratching doesn't help.",itches deep inside,PRESENT
+935,Persistent internal itching wakes me up at night.,internal itching,PRESENT
+936,My son complains about internal itching after meals.,internal itching,PRESENT
+937,She denies having internal itching.,internal itching,ABSENT
+938,A mild internal itching comes and goes during the day.,internal itching,PRESENT
+939,For three days I've had awful internal itching.,internal itching,PRESENT
+940,I haven't had internal itching since the cream was stopped.,internal itching,ABSENT
+941,The nurse said my brother has a toxic look and needs to be seen right away.,toxic look,PRESENT
+942,"He looks drawn and ill, a real toxic look, according to his wife.",toxic look,PRESENT
+943,"She has no toxic look, she's alert and smiling.",toxic look,ABSENT
+944,The doctor noted a toxic look the moment my father walked in.,toxic look,PRESENT
+945,Everyone said I had a toxic look at the family dinner.,toxic look,PRESENT
+946,"No toxic look today, his color and energy seem better.",toxic look,ABSENT
+947,The ward doctor flagged a toxic look in the new admission.,toxic look,PRESENT
+948,My roommate has had a toxic look for three days.,toxic look,PRESENT
+949,"He doesn't have a toxic look, he's chatting happily with the staff.",toxic look,ABSENT
+950,Her toxic look worried the triage nurse more than anything she said.,toxic look,PRESENT
+951,Depression has been weighing on me for months.,Depression,PRESENT
+952,I've been struggling with depression since I lost my job.,depression,PRESENT
+953,"No depression, I'm feeling like myself again.",depression,ABSENT
+954,I feel so depressed most days lately.,depressed,PRESENT
+955,My wife says my depression is worse in the winter.,depression,PRESENT
+956,I deny any depression or hopelessness.,depression,ABSENT
+957,"For the past two weeks, a deep depression has kept me in bed.",depression,PRESENT
+958,"Mild depression comes and goes, usually on Sundays.",depression,PRESENT
+959,My teenage daughter has been dealing with depression for a year.,depression,PRESENT
+960,"He doesn't have depression, the screening was clear.",depression,ABSENT
+961,Constant irritability is ruining my relationship with my coworkers.,irritability,PRESENT
+962,I've noticed irritability over small things like the dishwasher noise.,irritability,PRESENT
+963,"No irritability, I've been calm all week.",irritability,ABSENT
+964,I get irritable with my kids over nothing.,irritable,PRESENT
+965,Irritability started about a month ago.,Irritability,PRESENT
+966,My husband says my irritability is worse before dinner.,irritability,PRESENT
+967,He denies irritability and says his mood is steady.,irritability,ABSENT
+968,Terrible irritability kept me from enjoying the holiday.,irritability,PRESENT
+969,My mother's irritability has increased since she retired.,irritability,PRESENT
+970,I haven't had any irritability since changing my schedule.,irritability,ABSENT
+971,Severe muscle pain in my thighs lasted three days after the gym.,muscle pain,PRESENT
+972,Muscle pain started in my calves last night.,Muscle pain,PRESENT
+973,"No muscle pain this week, thankfully.",muscle pain,ABSENT
+974,My muscles ache all over after a day of gardening.,muscles ache,PRESENT
+975,I've had muscle pain in my shoulders for about two weeks.,muscle pain,PRESENT
+976,My brother says his muscle pain gets worse when it rains.,muscle pain,PRESENT
+977,I don't have any muscle pain after yesterday's run.,muscle pain,ABSENT
+978,Dull muscle pain keeps nagging at my forearms while I type.,muscle pain,PRESENT
+979,"Doctor, this muscle pain just won't go away.",muscle pain,PRESENT
+980,She denies any muscle pain after starting physiotherapy.,muscle pain,ABSENT
+981,His family says he has had altered sensorium since last night.,altered sensorium,PRESENT
+982,My grandmother has altered sensorium and doesn't recognize anyone.,altered sensorium,PRESENT
+983,"No altered sensorium, he's fully awake and oriented.",altered sensorium,ABSENT
+984,The patient kept drifting in and out of awareness all afternoon.,kept drifting in and out of awareness,PRESENT
+985,"Altered sensorium appeared suddenly this morning, according to his wife.",Altered sensorium,PRESENT
+986,She doesn't have any altered sensorium and answered every question clearly.,altered sensorium,ABSENT
+987,"Over two days, his altered sensorium has gotten worse.",altered sensorium,PRESENT
+988,My uncle's altered sensorium frightened the whole family.,altered sensorium,PRESENT
+989,The nurse noted mild altered sensorium at the night check.,altered sensorium,PRESENT
+990,There has been no altered sensorium since the medication was adjusted.,altered sensorium,ABSENT
+991,"Red spots over body appeared overnight, mostly on my back and arms.",Red spots over body,PRESENT
+992,I noticed red spots over body this morning when I got out of the shower.,red spots over body,PRESENT
+993,"No red spots over body, just dry hands.",red spots over body,ABSENT
+994,My daughter has red spots all over her body since yesterday.,red spots all over her body,PRESENT
+995,Red spots over body have been spreading for three days.,Red spots over body,PRESENT
+996,I haven't seen any red spots over body since last month.,red spots over body,ABSENT
+997,Tiny red spots over body showed up after the camping trip.,red spots over body,PRESENT
+998,"Doctor, these red spots over body just keep multiplying.",red spots over body,PRESENT
+999,My son woke up with red spots over body today.,red spots over body,PRESENT
+1000,No new red spots over body since Friday.,red spots over body,ABSENT
+1001,Belly pain has been coming in waves since lunch.,Belly pain,PRESENT
+1002,I woke up with belly pain on the lower right side.,belly pain,PRESENT
+1003,No belly pain at the moment.,belly pain,ABSENT
+1004,My tummy hurts every time I eat spicy food.,tummy hurts,PRESENT
+1005,Severe belly pain doubled me over during the meeting.,belly pain,PRESENT
+1006,My son has had belly pain for two days.,belly pain,PRESENT
+1007,I don't have any belly pain after the meal.,belly pain,ABSENT
+1008,Mild belly pain comes and goes after dinner.,belly pain,PRESENT
+1009,"For a week now, belly pain has bothered me before bedtime.",belly pain,PRESENT
+1010,She says there's been no belly pain since the visit.,belly pain,ABSENT
+1011,For three months I've had abnormal menstruation with very heavy flow.,abnormal menstruation,PRESENT
+1012,Abnormal menstruation has thrown off my calendar completely.,Abnormal menstruation,PRESENT
+1013,"No abnormal menstruation, my cycles are regular.",abnormal menstruation,ABSENT
+1014,My periods have been all over the place this year.,periods have been all over the place,PRESENT
+1015,I've had abnormal menstruation since I started the new job.,abnormal menstruation,PRESENT
+1016,My sister's abnormal menstruation worries our whole family.,abnormal menstruation,PRESENT
+1017,I don't have abnormal menstruation anymore.,abnormal menstruation,ABSENT
+1018,"Mild abnormal menstruation showed up last month, then things went back to normal.",abnormal menstruation,PRESENT
+1019,"Doctor, this abnormal menstruation has lasted for about six weeks.",abnormal menstruation,PRESENT
+1020,She says there is no abnormal menstruation in her recent cycles.,abnormal menstruation,ABSENT
+1021,There are dischromic patches on both my cheeks that keep getting darker.,dischromic patches,PRESENT
+1022,Dischromic patches appeared on my neck last summer.,Dischromic patches,PRESENT
+1023,"No dischromic patches, my skin tone is even.",dischromic patches,ABSENT
+1024,I have lighter and darker blotches on my arms that weren't there before.,lighter and darker blotches,PRESENT
+1025,Dischromic patches on my forehead have spread over two months.,Dischromic patches,PRESENT
+1026,My mother has dischromic patches on her hands.,dischromic patches,PRESENT
+1027,I don't have dischromic patches anywhere.,dischromic patches,ABSENT
+1028,Faint dischromic patches show up on my shoulders after sun exposure.,dischromic patches,PRESENT
+1029,"Doctor, these dischromic patches are bothering me more each week.",dischromic patches,PRESENT
+1030,He says there are no dischromic patches on his legs.,dischromic patches,ABSENT
+1031,Constant watering from eyes in the morning is so annoying.,watering from eyes,PRESENT
+1032,Watering from eyes started two days ago when I woke up.,Watering from eyes,PRESENT
+1033,No watering from eyes today.,watering from eyes,ABSENT
+1034,My eyes keep watering when I walk outside in the wind.,eyes keep watering,PRESENT
+1035,I've had watering from eyes for about a week.,watering from eyes,PRESENT
+1036,My daughter's watering from eyes gets worse near the dog.,watering from eyes,PRESENT
+1037,I don't have watering from eyes anymore.,watering from eyes,ABSENT
+1038,Mild watering from eyes happens whenever I read on screens.,watering from eyes,PRESENT
+1039,"Doctor, this watering from eyes won't stop.",watering from eyes,PRESENT
+1040,He says there's no watering from eyes lately.,watering from eyes,ABSENT
+1041,"I've had increased appetite lately, eating twice as much as usual.",increased appetite,PRESENT
+1042,Increased appetite has been a constant for about a month.,Increased appetite,PRESENT
+1043,"No increased appetite, I eat the same portions as always.",increased appetite,ABSENT
+1044,"I'm hungry all the time, even right after eating.",hungry all the time,PRESENT
+1045,My son has an increased appetite since the growth spurt.,increased appetite,PRESENT
+1046,My husband's increased appetite worries him.,increased appetite,PRESENT
+1047,I don't have increased appetite anymore.,increased appetite,ABSENT
+1048,"Doctor, this increased appetite came out of nowhere.",increased appetite,PRESENT
+1049,A strong increased appetite wakes me up for midnight snacks.,increased appetite,PRESENT
+1050,She hasn't noticed any increased appetite since the dose change.,increased appetite,ABSENT
+1051,Polyuria has been waking me up four times a night for the past month.,Polyuria,PRESENT
+1052,I've developed polyuria and pass large volumes of urine.,polyuria,PRESENT
+1053,"No polyuria, my bathroom trips are normal.",polyuria,ABSENT
+1054,I pee a huge amount several times an hour.,pee a huge amount,PRESENT
+1055,My father's polyuria started last winter.,polyuria,PRESENT
+1056,I don't have polyuria any more.,polyuria,ABSENT
+1057,Persistent polyuria is draining my days at the office.,polyuria,PRESENT
+1058,"Doctor, this polyuria came on over the last two weeks.",polyuria,PRESENT
+1059,Mild polyuria in the evenings is my main issue.,polyuria,PRESENT
+1060,She says there has been no polyuria since the visit.,polyuria,ABSENT
+1061,There is a family history of kidney stones on my father's side.,family history,PRESENT
+1062,"Family history is strong in my case, my mother and aunt both had it.",Family history,PRESENT
+1063,"No family history of that sort, as far as I know.",family history,ABSENT
+1064,My relatives on my mother's side all had the same condition.,relatives on my mother's side all had the same condition,PRESENT
+1065,I have a family history of heart problems.,family history,PRESENT
+1066,I deny any family history of this.,family history,ABSENT
+1067,A positive family history runs through both of my parents' families.,family history,PRESENT
+1068,My brother mentioned a family history of thyroid trouble.,family history,PRESENT
+1069,There's no family history on my husband's side.,family history,ABSENT
+1070,"Doctor, I should mention my family history before we start.",family history,PRESENT
+1071,I bring up mucoid sputum every morning after I wake up.,mucoid sputum,PRESENT
+1072,Mucoid sputum has been coming up for three weeks.,Mucoid sputum,PRESENT
+1073,No mucoid sputum today.,mucoid sputum,ABSENT
+1074,I bring up sticky clear mucus in the mornings.,sticky clear mucus,PRESENT
+1075,My husband has had mucoid sputum since the cold weather started.,mucoid sputum,PRESENT
+1076,I haven't had any mucoid sputum since my treatment.,mucoid sputum,ABSENT
+1077,Thick mucoid sputum fills my mouth when I wake.,mucoid sputum,PRESENT
+1078,"Doctor, this mucoid sputum won't clear.",mucoid sputum,PRESENT
+1079,A little mucoid sputum appears after exercise.,mucoid sputum,PRESENT
+1080,She says there is no mucoid sputum now.,mucoid sputum,ABSENT
+1081,"What I brought up yesterday was rusty sputum, and that scared me.",rusty sputum,PRESENT
+1082,Rusty sputum appeared this morning.,Rusty sputum,PRESENT
+1083,"No rusty sputum, it was all clear.",rusty sputum,ABSENT
+1084,I brought up rust-colored phlegm last night.,rust-colored phlegm,PRESENT
+1085,My uncle has had rusty sputum for two days.,rusty sputum,PRESENT
+1086,I haven't seen any rusty sputum.,rusty sputum,ABSENT
+1087,Persistent rusty sputum is why I came in today.,rusty sputum,PRESENT
+1088,"Doctor, this rusty sputum has me worried.",rusty sputum,PRESENT
+1089,A little rusty sputum showed up in the tissue.,rusty sputum,PRESENT
+1090,He says there has been no rusty sputum.,rusty sputum,ABSENT
+1091,Lack of concentration at work is really frustrating me.,Lack of concentration,PRESENT
+1092,I've had a lack of concentration since last month.,lack of concentration,PRESENT
+1093,"No lack of concentration, I'm focused all day.",lack of concentration,ABSENT
+1094,I can't focus on anything for more than five minutes.,can't focus,PRESENT
+1095,My son's lack of concentration shows up at school.,lack of concentration,PRESENT
+1096,I don't have any lack of concentration.,lack of concentration,ABSENT
+1097,Terrible lack of concentration made me miss my deadline.,lack of concentration,PRESENT
+1098,"Doctor, this lack of concentration keeps getting worse.",lack of concentration,PRESENT
+1099,A mild lack of concentration comes and goes during meetings.,lack of concentration,PRESENT
+1100,She says there's no lack of concentration when she studies.,lack of concentration,ABSENT
+1101,Visual disturbances have been coming and going for two days.,Visual disturbances,PRESENT
+1102,I get visual disturbances when I stand up quickly.,visual disturbances,PRESENT
+1103,No visual disturbances so far.,visual disturbances,ABSENT
+1104,My vision gets wavy and strange in the evenings.,vision gets wavy,PRESENT
+1105,I've had visual disturbances for about a week.,visual disturbances,PRESENT
+1106,My mother's visual disturbances began last winter.,visual disturbances,PRESENT
+1107,I don't have any visual disturbances.,visual disturbances,ABSENT
+1108,Mild visual disturbances show up near bright lights.,visual disturbances,PRESENT
+1109,"Doctor, these visual disturbances scare me.",visual disturbances,PRESENT
+1110,He says there are no visual disturbances now.,visual disturbances,ABSENT
+1111,My uncle has been receiving blood transfusion every month.,receiving blood transfusion,PRESENT
+1112,I'm receiving blood transfusion at the hospital this week.,receiving blood transfusion,PRESENT
+1113,I have not been receiving blood transfusion.,receiving blood transfusion,ABSENT
+1114,"Doctor, I've been getting blood transfusions for a while now.",getting blood transfusions,PRESENT
+1115,She started receiving blood transfusion last spring.,receiving blood transfusion,PRESENT
+1116,He isn't receiving blood transfusion at the moment.,receiving blood transfusion,ABSENT
+1117,My mother is receiving blood transfusion after her surgery.,receiving blood transfusion,PRESENT
+1118,"Doctor, I'm receiving blood transfusion twice a month.",receiving blood transfusion,PRESENT
+1119,I deny receiving blood transfusion in the last year.,receiving blood transfusion,ABSENT
+1120,My brother is receiving blood transfusion this weekend.,receiving blood transfusion,PRESENT
+1121,I deny receiving unsterile injections at any clinic.,receiving unsterile injections,ABSENT
+1122,He admitted receiving unsterile injections at a roadside clinic.,receiving unsterile injections,PRESENT
+1123,"No, I have not been receiving unsterile injections.",receiving unsterile injections,ABSENT
+1124,I think I got unsterile injections at a small clinic.,unsterile injections,PRESENT
+1125,She has been receiving unsterile injections since last year.,receiving unsterile injections,PRESENT
+1126,The patient denies receiving unsterile injections.,receiving unsterile injections,ABSENT
+1127,My cousin said he was receiving unsterile injections abroad.,receiving unsterile injections,PRESENT
+1128,I'm worried because I might have been receiving unsterile injections.,receiving unsterile injections,PRESENT
+1129,There's no history of receiving unsterile injections.,receiving unsterile injections,ABSENT
+1130,A friend told me she was receiving unsterile injections at a market clinic.,receiving unsterile injections,PRESENT
+1131,He was in a coma for three days after the accident.,coma,PRESENT
+1132,Coma was the word the doctors used last night.,Coma,PRESENT
+1133,"No coma, he is awake and talking.",coma,ABSENT
+1134,My grandfather has been in a coma since Monday.,coma,PRESENT
+1135,She went into a coma after the fall.,coma,PRESENT
+1136,"She isn't in a coma anymore, she's awake and asking for tea.",coma,ABSENT
+1137,My brother is in a deep coma.,coma,PRESENT
+1138,"The doctors say there's no coma, just heavy sedation.",coma,ABSENT
+1139,Her husband sat beside her through the long coma.,coma,PRESENT
+1140,He is in his second week of a coma.,coma,PRESENT
+1141,She was rushed to the hospital last night with stomach bleeding.,stomach bleeding,PRESENT
+1142,Stomach bleeding was found during the scan.,Stomach bleeding,PRESENT
+1143,No stomach bleeding was seen on the endoscopy.,stomach bleeding,ABSENT
+1144,I've been bleeding from my stomach since yesterday.,bleeding from my stomach,PRESENT
+1145,My uncle has had stomach bleeding twice this year.,stomach bleeding,PRESENT
+1146,I haven't had any stomach bleeding.,stomach bleeding,ABSENT
+1147,Severe stomach bleeding forced the emergency visit.,stomach bleeding,PRESENT
+1148,"Doctor, I'm worried about stomach bleeding.",stomach bleeding,PRESENT
+1149,There's no stomach bleeding according to the tests.,stomach bleeding,ABSENT
+1150,A little stomach bleeding was noted overnight.,stomach bleeding,PRESENT
+1151,I've noticed distention of abdomen after almost every meal.,distention of abdomen,PRESENT
+1152,Distention of abdomen has been bothering me for a week.,Distention of abdomen,PRESENT
+1153,No distention of abdomen.,distention of abdomen,ABSENT
+1154,My belly swells up like a balloon after dinner.,belly swells up,PRESENT
+1155,My father's distention of abdomen is getting worse.,distention of abdomen,PRESENT
+1156,I don't have any distention of abdomen.,distention of abdomen,ABSENT
+1157,Severe distention of abdomen made my jeans impossible to close.,distention of abdomen,PRESENT
+1158,"Doctor, this distention of abdomen won't go down.",distention of abdomen,PRESENT
+1159,Mild distention of abdomen happens after eating late.,distention of abdomen,PRESENT
+1160,She says there is no distention of abdomen now.,distention of abdomen,ABSENT
+1161,"I have a long history of alcohol consumption, around ten years.",history of alcohol consumption,PRESENT
+1162,My doctor asked about my history of alcohol consumption.,history of alcohol consumption,PRESENT
+1163,"No history of alcohol consumption, I don't drink.",history of alcohol consumption,ABSENT
+1164,I drank heavily for years and stopped in 2019.,drank heavily for years,PRESENT
+1165,My brother has a history of alcohol consumption since college.,history of alcohol consumption,PRESENT
+1166,I deny any history of alcohol consumption.,history of alcohol consumption,ABSENT
+1167,A heavy history of alcohol consumption runs through his life.,history of alcohol consumption,PRESENT
+1168,She reports no history of alcohol consumption.,history of alcohol consumption,ABSENT
+1169,He admitted a history of alcohol consumption at the clinic.,history of alcohol consumption,PRESENT
+1170,Honestly my history of alcohol consumption is why I'm here.,history of alcohol consumption,PRESENT
+1171,I noticed blood in sputum this morning.,blood in sputum,PRESENT
+1172,Blood in sputum scared me last night.,Blood in sputum,PRESENT
+1173,"No blood in sputum so far, thankfully.",blood in sputum,ABSENT
+1174,There were streaks of blood in my phlegm.,blood in my phlegm,PRESENT
+1175,He has had blood in sputum for two days.,blood in sputum,PRESENT
+1176,I haven't seen any blood in sputum.,blood in sputum,ABSENT
+1177,"Doctor, I'm seeing blood in sputum again.",blood in sputum,PRESENT
+1178,A little blood in sputum showed up after exercise.,blood in sputum,PRESENT
+1179,She says there was no blood in sputum.,blood in sputum,ABSENT
+1180,Persistent blood in sputum is why I came in.,blood in sputum,PRESENT
+1181,My right leg has prominent veins on calf that look twisted.,prominent veins on calf,PRESENT
+1182,Prominent veins on calf have appeared over the past year.,Prominent veins on calf,PRESENT
+1183,"No prominent veins on calf, my legs look normal.",prominent veins on calf,ABSENT
+1184,The veins on my calf look raised and bluish.,veins on my calf look raised,PRESENT
+1185,My mother has prominent veins on calf.,prominent veins on calf,PRESENT
+1186,I don't have prominent veins on calf.,prominent veins on calf,ABSENT
+1187,"Doctor, the prominent veins on calf are getting worse.",prominent veins on calf,PRESENT
+1188,Visible prominent veins on calf appear after standing all day.,prominent veins on calf,PRESENT
+1189,She says there are no prominent veins on calf.,prominent veins on calf,ABSENT
+1190,Mild prominent veins on calf started after pregnancy.,prominent veins on calf,PRESENT
+1191,Palpitations woke me up at 3 a.m.,Palpitations,PRESENT
+1192,I get palpitations when I climb stairs.,palpitations,PRESENT
+1193,"No palpitations, my heartbeat is steady.",palpitations,ABSENT
+1194,My heart pounds in my chest when I get nervous.,heart pounds,PRESENT
+1195,Palpitations have been happening for three days.,Palpitations,PRESENT
+1196,I haven't had palpitations lately.,palpitations,ABSENT
+1197,Severe palpitations came on after my second coffee.,palpitations,PRESENT
+1198,"Doctor, these palpitations are frightening.",palpitations,PRESENT
+1199,Brief palpitations happen when I stand.,palpitations,PRESENT
+1200,She says there are no palpitations today.,palpitations,ABSENT
+1201,Painful walking has kept me from my morning routine.,Painful walking,PRESENT
+1202,I've had painful walking since last month.,painful walking,PRESENT
+1203,"No painful walking, I walked two miles yesterday.",painful walking,ABSENT
+1204,It hurts to walk across the room.,hurts to walk,PRESENT
+1205,My father's painful walking is getting worse.,painful walking,PRESENT
+1206,I don't have painful walking.,painful walking,ABSENT
+1207,Severe painful walking limits me to short trips.,painful walking,PRESENT
+1208,"Doctor, this painful walking started after the fall.",painful walking,PRESENT
+1209,Mild painful walking in the evenings is my main issue.,painful walking,PRESENT
+1210,She says there is no painful walking now.,painful walking,ABSENT
+1211,Pus filled pimples have broken out all over my chin.,Pus filled pimples,PRESENT
+1212,I woke up with pus filled pimples on my forehead.,pus filled pimples,PRESENT
+1213,"No pus filled pimples, my face is clear.",pus filled pimples,ABSENT
+1214,My teenage son has pus filled pimples on his back.,pus filled pimples,PRESENT
+1215,I've had pus filled pimples for months.,pus filled pimples,PRESENT
+1216,I don't have any pus filled pimples.,pus filled pimples,ABSENT
+1217,Painful pus filled pimples appear every time I use that moisturizer.,pus filled pimples,PRESENT
+1218,"Doctor, these pus filled pimples won't heal.",pus filled pimples,PRESENT
+1219,She says there are no pus filled pimples now.,pus filled pimples,ABSENT
+1220,Mild pus filled pimples showed up last week.,pus filled pimples,PRESENT
+1221,I'm tired of the blackheads on my nose that never go away.,blackheads,PRESENT
+1222,Blackheads have appeared on my chin.,Blackheads,PRESENT
+1223,"No blackheads, my pores are clear.",blackheads,ABSENT
+1224,My daughter has blackheads on her forehead.,blackheads,PRESENT
+1225,I've had blackheads for two years.,blackheads,PRESENT
+1226,I don't have blackheads.,blackheads,ABSENT
+1227,Stubborn blackheads cover my cheeks.,blackheads,PRESENT
+1228,"Doctor, these blackheads are spreading.",blackheads,PRESENT
+1229,She says there are no blackheads on her face.,blackheads,ABSENT
+1230,Mild blackheads showed up last month.,blackheads,PRESENT
+1231,My cheeks show scurring that my dermatologist says will fade.,scurring,PRESENT
+1232,Scurring has appeared on my forearm after the wound healed.,Scurring,PRESENT
+1233,"No scurring, the skin healed cleanly.",scurring,ABSENT
+1234,There is scurring on my knee from the fall.,scurring,PRESENT
+1235,My son has scurring on his chin.,scurring,PRESENT
+1236,I don't have scurring.,scurring,ABSENT
+1237,Deep scurring remains on my back.,scurring,PRESENT
+1238,"Doctor, this scurring isn't fading.",scurring,PRESENT
+1239,She says there is no scurring.,scurring,ABSENT
+1240,Mild scurring shows on my neck.,scurring,PRESENT
+1241,Skin peeling on my palms started last week.,Skin peeling,PRESENT
+1242,Skin peeling has covered my feet.,Skin peeling,PRESENT
+1243,"No skin peeling, my skin is smooth.",skin peeling,ABSENT
+1244,My skin is peeling off in sheets after the sunburn.,skin is peeling,PRESENT
+1245,My daughter has skin peeling on her hands.,skin peeling,PRESENT
+1246,I don't have skin peeling.,skin peeling,ABSENT
+1247,Severe skin peeling started on my face.,skin peeling,PRESENT
+1248,"Doctor, this skin peeling won't stop.",skin peeling,PRESENT
+1249,She says there is no skin peeling now.,skin peeling,ABSENT
+1250,Mild skin peeling shows on my lips.,skin peeling,PRESENT
+1251,There's a silver like dusting on the red plaques on my elbows.,silver like dusting,PRESENT
+1252,Silver like dusting has appeared on my knees.,Silver like dusting,PRESENT
+1253,"No silver like dusting, only smooth skin.",silver like dusting,ABSENT
+1254,My scalp has a fine silver like dusting.,silver like dusting,PRESENT
+1255,I've had silver like dusting for two months.,silver like dusting,PRESENT
+1256,I don't have silver like dusting.,silver like dusting,ABSENT
+1257,Thick silver like dusting covers my elbows.,silver like dusting,PRESENT
+1258,"Doctor, this silver like dusting keeps coming back.",silver like dusting,PRESENT
+1259,She says there is no silver like dusting.,silver like dusting,ABSENT
+1260,Mild silver like dusting showed up last week.,silver like dusting,PRESENT
+1261,I noticed small dents in nails on both of my hands.,small dents in nails,PRESENT
+1262,Small dents in nails appeared last month.,Small dents in nails,PRESENT
+1263,"No small dents in nails, they look smooth.",small dents in nails,ABSENT
+1264,My fingernails are pitted and rough.,fingernails are pitted,PRESENT
+1265,My son has small dents in nails.,small dents in nails,PRESENT
+1266,I don't have small dents in nails.,small dents in nails,ABSENT
+1267,"Doctor, these small dents in nails are spreading.",small dents in nails,PRESENT
+1268,She says there are no small dents in nails.,small dents in nails,ABSENT
+1269,Deep small dents in nails showed up on my thumb.,small dents in nails,PRESENT
+1270,Mild small dents in nails showed up this winter.,small dents in nails,PRESENT
+1271,Inflammatory nails on my left thumb make it hard to type.,Inflammatory nails,PRESENT
+1272,Inflammatory nails have developed on three fingers.,Inflammatory nails,PRESENT
+1273,"No inflammatory nails, they look healthy.",inflammatory nails,ABSENT
+1274,My nail beds are red and inflamed.,nail beds are red and inflamed,PRESENT
+1275,My brother has inflammatory nails.,inflammatory nails,PRESENT
+1276,I don't have inflammatory nails.,inflammatory nails,ABSENT
+1277,"Doctor, these inflammatory nails are worsening.",inflammatory nails,PRESENT
+1278,She says there are no inflammatory nails.,inflammatory nails,ABSENT
+1279,Severe inflammatory nails keep me from washing dishes.,inflammatory nails,PRESENT
+1280,Mild inflammatory nails began last week.,inflammatory nails,PRESENT
+1281,A big blister formed on my heel after the hike.,blister,PRESENT
+1282,Blister appeared on my palm.,Blister,PRESENT
+1283,"No blister, the skin is intact.",blister,ABSENT
+1284,I got a painful blister on my toe.,blister,PRESENT
+1285,My daughter has a blister on her finger.,blister,PRESENT
+1286,I don't have a blister.,blister,ABSENT
+1287,A huge blister burst on my foot.,blister,PRESENT
+1288,"Doctor, this blister is not healing.",blister,PRESENT
+1289,She says there is no blister.,blister,ABSENT
+1290,A small blister showed up yesterday.,blister,PRESENT
+1291,I woke up with a red sore around nose that stings.,red sore around nose,PRESENT
+1292,Red sore around nose has been there for a week.,Red sore around nose,PRESENT
+1293,"No red sore around nose, my skin is clear.",red sore around nose,ABSENT
+1294,There's a sore patch near my nostril that's red.,sore patch near my nostril,PRESENT
+1295,My son has a red sore around nose.,red sore around nose,PRESENT
+1296,I don't have a red sore around nose.,red sore around nose,ABSENT
+1297,"Doctor, this red sore around nose is spreading.",red sore around nose,PRESENT
+1298,She says there's no red sore around nose.,red sore around nose,ABSENT
+1299,A painful red sore around nose appeared after the trip.,red sore around nose,PRESENT
+1300,A mild red sore around nose showed up last month.,red sore around nose,PRESENT
+1301,The wound has a yellow crust ooze that smells awful.,yellow crust ooze,PRESENT
+1302,Yellow crust ooze has formed on my chin.,Yellow crust ooze,PRESENT
+1303,"No yellow crust ooze, the sore is dry.",yellow crust ooze,ABSENT
+1304,A yellow fluid keeps oozing and drying into a crust on my elbow.,yellow fluid keeps oozing,PRESENT
+1305,My son has yellow crust ooze on his cheek.,yellow crust ooze,PRESENT
+1306,I don't have yellow crust ooze.,yellow crust ooze,ABSENT
+1307,"Doctor, this yellow crust ooze is spreading.",yellow crust ooze,PRESENT
+1308,She says there is no yellow crust ooze.,yellow crust ooze,ABSENT
+1309,Thick yellow crust ooze covers the sore.,yellow crust ooze,PRESENT
+1310,Mild yellow crust ooze appeared last week.,yellow crust ooze,PRESENT
+1311,"I don't have palpitations or loss of balance, only muscle weakness and a stiff neck.",palpitations | loss of balance | muscle weakness | stiff neck,ABSENT | ABSENT | PRESENT | PRESENT
+1312,"No swelling joints, no spinning movements, just some movement stiffness in the morning.",swelling joints | spinning movements | movement stiffness,ABSENT | ABSENT | PRESENT
+1313,"Thankfully there was no stomach bleeding, but the distention of abdomen is still there.",stomach bleeding | distention of abdomen,ABSENT | PRESENT
+1314,"There's no skin peeling and no blister, only blackheads and pus filled pimples around my nose.",skin peeling | blister | blackheads | pus filled pimples,ABSENT | ABSENT | PRESENT | PRESENT
+1315,"I have no polyuria and no bladder discomfort, but there's a foul smell of urine.",polyuria | bladder discomfort | foul smell of urine,ABSENT | ABSENT | PRESENT
+1316,"Depression and irritability have both crept up since the divorce, and my lack of concentration is hurting my grades.",Depression | irritability | lack of concentration,PRESENT | PRESENT | PRESENT
+1317,"My father had a history of alcohol consumption, and now I worry about my own family history.",history of alcohol consumption | family history,PRESENT | PRESENT
+1318,"The patient is in a coma, with stomach bleeding noted overnight and no blood in sputum.",coma | stomach bleeding | blood in sputum,PRESENT | PRESENT | ABSENT
+1319,"Her altered sensorium got worse, though she shows no toxic look.",altered sensorium | toxic look,PRESENT | ABSENT
+1320,"I've got red spots over body and belly pain, but no internal itching.",red spots over body | belly pain | internal itching,PRESENT | PRESENT | ABSENT
+1321,Muscle pain in my calves and prominent veins on calf have bothered me since the marathon.,Muscle pain | prominent veins on calf,PRESENT | PRESENT
+1322,"Mucoid sputum in the morning, rusty sputum at night, but no blood in sputum.",Mucoid sputum | rusty sputum | blood in sputum,PRESENT | PRESENT | ABSENT
+1323,"I'm receiving blood transfusion regularly, but I deny receiving unsterile injections.",receiving blood transfusion | receiving unsterile injections,PRESENT | ABSENT
+1324,"Visual disturbances and palpitations began together, though there is no loss of smell.",Visual disturbances | palpitations | loss of smell,PRESENT | PRESENT | ABSENT
+1325,Both silver like dusting and small dents in nails showed up this winter.,silver like dusting | small dents in nails,PRESENT | PRESENT
+1326,Inflammatory nails and skin peeling on my fingertips started together.,Inflammatory nails | skin peeling,PRESENT | PRESENT
+1327,A red sore around nose and yellow crust ooze appeared three days ago.,red sore around nose | yellow crust ooze,PRESENT | PRESENT
+1328,"No red sore around nose, but there is a yellow crust ooze on my chin.",red sore around nose | yellow crust ooze,ABSENT | PRESENT
+1329,I have a blister on my heel and painful walking since yesterday.,blister | painful walking,PRESENT | PRESENT
+1330,Weakness of one body side and altered sensorium led to the emergency visit.,Weakness of one body side | altered sensorium,PRESENT | PRESENT
+1331,Increased appetite and polyuria have both been steady for the past month.,Increased appetite | polyuria,PRESENT | PRESENT
+1332,"I have unsteadiness and spinning movements when I stand, but no loss of balance.",unsteadiness | spinning movements | loss of balance,PRESENT | PRESENT | ABSENT
+1333,Continuous feel of urine and bladder discomfort have kept me up all week.,Continuous feel of urine | bladder discomfort,PRESENT | PRESENT
+1334,There was no passage of gases and a distention of abdomen since last night.,passage of gases | distention of abdomen,ABSENT | PRESENT
+1335,My dermatologist noted dischromic patches and scurring on my cheeks.,dischromic patches | scurring,PRESENT | PRESENT
+1336,Watering from eyes and visual disturbances come together in bright light.,Watering from eyes | visual disturbances,PRESENT | PRESENT
+1337,"There's no abnormal menstruation, but I do have belly pain each month.",abnormal menstruation | belly pain,ABSENT | PRESENT
+1338,"I deny depression, though irritability still gets the best of me.",depression | irritability,ABSENT | PRESENT
+1339,Stiff neck and muscle pain across my shoulders started after the flight.,Stiff neck | muscle pain,PRESENT | PRESENT
+1340,"He has swelling joints and movement stiffness, but no muscle weakness.",swelling joints | movement stiffness | muscle weakness,PRESENT | PRESENT | ABSENT
+1341,"Blackheads, pus filled pimples and a red sore around nose have all flared up.",Blackheads | pus filled pimples | red sore around nose,PRESENT | PRESENT | PRESENT
+1342,"No skin peeling, no scurring, just a single blister on my thumb.",skin peeling | scurring | blister,ABSENT | ABSENT | PRESENT
+1343,Lack of concentration and increased appetite both started when the new medication began.,Lack of concentration | increased appetite,PRESENT | PRESENT
+1344,"My family history is heavy, and I've had palpitations since I turned thirty.",family history | palpitations,PRESENT | PRESENT
+1345,She has a history of alcohol consumption but denies any stomach bleeding.,history of alcohol consumption | stomach bleeding,PRESENT | ABSENT
+1346,I noticed rusty sputum and palpitations at the same time yesterday.,rusty sputum | palpitations,PRESENT | PRESENT
+1347,"No foul smell of urine and no polyuria, only a mild bladder discomfort.",foul smell of urine | polyuria | bladder discomfort,ABSENT | ABSENT | PRESENT
+1348,"Muscle weakness, loss of balance and weakness of one body side hit all at once.",Muscle weakness | loss of balance | weakness of one body side,PRESENT | PRESENT | PRESENT
+1349,"Doctor, there's a blister and yellow crust ooze on the same spot.",blister | yellow crust ooze,PRESENT | PRESENT
+1350,"I have no stiff neck, no muscle pain, and no movement stiffness today.",stiff neck | muscle pain | movement stiffness,ABSENT | ABSENT | ABSENT
