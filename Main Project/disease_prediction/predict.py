@@ -1,10 +1,10 @@
-
 import json
 from pathlib import Path
 
 import numpy as np
 import tensorflow as tf
-
+from ner import ner_symptom_extraction
+from ner.ner_symptom_extraction import predict_symptoms
 
 # ==================================================
 # 1. LOAD MODEL AND METADATA
@@ -58,105 +58,65 @@ if model.output_shape[-1] != len(diseases):
         "Model output dimensions do not match disease metadata."
     )
 
-
 # ==================================================
-# 2. DISPLAY INFORMATION
+# 2. ACCEPT FREE TEXT, EXTRACT SYMPTOMS, AND PREDICT
 # ==================================================
 
-print("\n" + "=" * 55)
-print("DEEP LEARNING DISEASE PREDICTION SYSTEM")
-print("=" * 55)
-
-print("Available symptoms:", len(symptoms))
-print("Available diseases:", len(diseases))
-print("Excluded symptoms:", dropped_symptoms)
-
-print("\nAVAILABLE SYMPTOMS")
-
-for symptom in symptoms:
-    print(symptom)
-
-print("\nEnter symptoms separated by commas.")
-print("Example: itching, skin_rash, vomiting")
+print("\nDescribe the patient's symptoms in natural language.")
+print("Example: I have a headache and a runny nose.")
 print("Type 'exit' to quit.")
 
-
-# ==================================================
-# 3. ACCEPT USER INPUT AND PREDICT
-# ==================================================
-
 while True:
-    user_input = input(
-        "\nEnter your symptoms: "
-    ).strip()
+    user_input = input("\nPatient description: ").strip()
 
     if user_input.casefold() == "exit":
         print("Prediction system closed.")
         break
 
-    selected_symptoms = list(dict.fromkeys(
-        item.strip().casefold()
-        for item in user_input.split(",")
-        if item.strip()
-    ))
-
-    if not selected_symptoms:
-        print("Please enter at least one symptom.")
+    if not user_input:
+        print("Please enter a symptom description.")
         continue
 
-    # Reject excluded symptoms explicitly.
-    excluded = [
-        symptom
-        for symptom in selected_symptoms
-        if symptom in excluded_lookup
-    ]
+    # 1. Extract and normalize symptoms using the trained NER model
+    extracted_symptoms = predict_symptoms(user_input)
 
-    if excluded:
-        print(
-            "These symptoms are excluded from this model:",
-            ", ".join(excluded)
-        )
-        continue
+    print("\nExtracted present symptoms:", extracted_symptoms)
 
-    # Validate symptom names.
-    unknown_symptoms = [
-        symptom
-        for symptom in selected_symptoms
-        if symptom not in symptom_lookup
-    ]
+    # 2. Create a zero-filled vector in the EXACT order
+    #    required by the trained disease prediction model
+    input_vector = np.zeros(len(symptoms), dtype=np.float32)
 
-    if unknown_symptoms:
-        print(
-            "Unrecognized symptoms:",
-            ", ".join(unknown_symptoms)
-        )
-        print("Please use the exact symptom names listed above.")
-        continue
+    
+    for symptom in extracted_symptoms:
+        normalized = symptom.strip().casefold()
 
-    # Build the input vector.
-    input_vector = np.zeros(
-        len(symptoms),
-        dtype=np.float32
-    )
+        # Match spaces in extracted symptoms to underscores
+        feature_name = normalized.replace(" ", "_")
 
-    for symptom in selected_symptoms:
-        index = symptom_lookup[symptom]
-        input_vector[index] = 1.0
+        if feature_name in symptom_lookup:
+            input_vector[symptom_lookup[feature_name]] = 1.0
+        else:
+            print(f"Warning: symptom not found in disease features: {symptom}")
 
-    # Generate disease scores.
+
+    # 3. Display the vector as 0s and 1s
+    print("\nDisease model input vector:")
+    print(" ".join(str(int(value)) for value in input_vector))
+
+    # 4. Pass the vector directly to your existing disease model
     scores = model.predict(
         input_vector.reshape(1, -1),
         verbose=0
     )[0]
 
-    # Get the top three predictions.
+    # 5. Display the top three disease predictions
     top_indices = np.argsort(scores)[::-1][:3]
 
     print("\n" + "-" * 45)
     print("PREDICTION RESULTS")
     print("-" * 45)
 
-    print("Symptoms entered:", len(selected_symptoms))
+    print("Symptoms detected:", int(input_vector.sum()))
 
     for rank, index in enumerate(top_indices, start=1):
         print(
@@ -165,7 +125,7 @@ while True:
         )
 
     print(
-        "\nNote: Model scores are not clinically validated "
+        "\nNote: These scores are not clinically validated "
         "medical probabilities or a diagnosis."
     )
     print("Consult a qualified healthcare professional.")
