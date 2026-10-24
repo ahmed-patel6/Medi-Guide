@@ -1,153 +1,214 @@
 
-import pandas as pd
+import ast
+import json
+import re
 from pathlib import Path
 
+import pandas as pd
 
-# --------------------------------------------------
-# 1. Paths
-# --------------------------------------------------
 
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_DIR = BASE_DIR / "models"
-MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
-TRAIN_PATH = BASE_DIR / "drugsComTrain_raw.csv"
-TEST_PATH = BASE_DIR / "drugsComTest_raw.csv"
+MEDICATIONS_PATH = BASE_DIR / "medications.csv"
+WORKOUT_PATH = BASE_DIR / "workout_df.csv"
 
-OUTPUT_PATH = MODEL_DIR / "drug_condition_summary.csv"
-
-
-# --------------------------------------------------
-# 2. Load and validate datasets
-# --------------------------------------------------
-
-required_columns = [
-    "uniqueID",
-    "drugName",
-    "condition",
-    "review",
-    "rating",
-    "usefulCount"
-]
+OUTPUT_PATH = MODEL_DIR / "treatment_data.json"
 
 
-def load_dataset(path):
-    if not path.exists():
-        raise FileNotFoundError(f"Dataset not found: {path}")
+def normalize_name(name):
+    """Normalize disease names for matching."""
+    name = str(name).strip().lower()
+    name = re.sub(r"[^\w\s]", " ", name)
+    return " ".join(name.split())
 
-    df = pd.read_csv(path)
 
-    missing = set(required_columns) - set(df.columns)
+def parse_list(value):
+    """Parse a string representation of a list or a single value."""
+    if pd.isna(value):
+        return []
 
-    if missing:
-        raise ValueError(
-            f"Missing columns in {path.name}: {sorted(missing)}"
+    if isinstance(value, (list, tuple)):
+        items = value
+    else:
+        try:
+            parsed = ast.literal_eval(str(value))
+            items = parsed if isinstance(parsed, (list, tuple)) else [parsed]
+        except (ValueError, SyntaxError):
+            items = [value]
+
+    results = []
+    seen = set()
+
+    for item in items:
+        item = str(item).strip()
+
+        if item and item.lower() not in seen:
+            results.append(item)
+            seen.add(item.lower())
+
+    return results
+
+
+def load_medications():
+    """Load medication entries indexed by normalized disease name."""
+    if not MEDICATIONS_PATH.exists():
+        raise FileNotFoundError(
+            f"Medication dataset not found: {MEDICATIONS_PATH}"
         )
 
-    return df
+    df = pd.read_csv(MEDICATIONS_PATH)
+
+    required = {"Disease", "Medication"}
+    if not required.issubset(df.columns):
+        raise ValueError(
+            f"medications.csv must contain columns: {sorted(required)}"
+        )
+
+    records = {}
+
+    for _, row in df.iterrows():
+        disease = str(row["Disease"]).strip()
+
+        if not disease or disease.lower() == "nan":
+            continue
+
+        key = normalize_name(disease)
+
+        if key in records:
+            raise ValueError(
+                f"Duplicate disease in medications.csv: {disease}"
+            )
+
+        records[key] = {
+            "disease": disease,
+            "medications": parse_list(row["Medication"]),
+        }
+
+    return records
 
 
-train_df = load_dataset(TRAIN_PATH)
-test_df = load_dataset(TEST_PATH)
+def load_workouts():
+    """Load lifestyle/workout entries indexed by normalized disease."""
+    if not WORKOUT_PATH.exists():
+        raise FileNotFoundError(
+            f"Workout dataset not found: {WORKOUT_PATH}"
+        )
 
-print("Training rows:", len(train_df))
-print("Testing rows:", len(test_df))
+    df = pd.read_csv(WORKOUT_PATH)
 
+    required = {"disease", "workout"}
+    if not required.issubset(df.columns):
+        raise ValueError(
+            f"workout_df.csv must contain columns: {sorted(required)}"
+        )
 
-# --------------------------------------------------
-# 3. Clean training data
-# --------------------------------------------------
-
-df = train_df.copy()
-
-df["drugName"] = df["drugName"].astype("string").str.strip()
-df["condition"] = df["condition"].astype("string").str.strip()
-
-df["rating"] = pd.to_numeric(df["rating"], errors="coerce")
-df["usefulCount"] = pd.to_numeric(
-    df["usefulCount"], errors="coerce"
-)
-
-# Remove records without a drug, condition, or valid rating
-df = df.dropna(
-    subset=["drugName", "condition", "rating"]
-)
-
-df = df[
-    (df["drugName"] != "") &
-    (df["condition"] != "") &
-    (df["rating"].between(1, 10))
-].copy()
-
-df["usefulCount"] = df["usefulCount"].fillna(0).clip(lower=0)
-
-# Normalize condition names for matching
-df["condition_key"] = df["condition"].str.casefold()
-
-# Remove duplicate records using their unique IDs
-df = df.drop_duplicates(subset=["uniqueID"])
-
-print("Clean training rows:", len(df))
-print("Unique drugs:", df["drugName"].nunique())
-print("Unique conditions:", df["condition_key"].nunique())
-
-
-# --------------------------------------------------
-# 4. Aggregate drug reviews by condition
-# --------------------------------------------------
-
-summary = (
-    df.groupby(
-        ["condition_key", "condition", "drugName"],
-        as_index=False
+    # Remove exported DataFrame index columns, if present.
+    df = df.drop(
+        columns=[
+            column for column in df.columns
+            if column.startswith("Unnamed:")
+        ],
+        errors="ignore",
     )
-    .agg(
-        average_rating=("rating", "mean"),
-        review_count=("rating", "count"),
-        total_useful_votes=("usefulCount", "sum")
+
+    df["disease"] = df["disease"].fillna("").astype(str).str.strip()
+    df["workout"] = df["workout"].fillna("").astype(str).str.strip()
+
+    df = df[
+        (df["disease"] != "") &
+        (df["workout"] != "")
+    ]
+
+    records = {}
+
+    for _, row in df.iterrows():
+        disease = row["disease"]
+        suggestion = row["workout"]
+        key = normalize_name(disease)
+
+        if key not in records:
+            records[key] = {
+                "disease": disease,
+                "suggestions": [],
+            }
+
+        if suggestion not in records[key]["suggestions"]:
+            records[key]["suggestions"].append(suggestion)
+
+    return records
+
+
+def train_model():
+    """
+    Prepare the medication and lifestyle lookup data.
+
+    This is data preprocessing, not ML/DL model training.
+    """
+    medications = load_medications()
+    workouts = load_workouts()
+
+    all_diseases = sorted(set(medications) | set(workouts))
+
+    combined = {}
+
+    for disease_key in all_diseases:
+        medication_record = medications.get(disease_key)
+        workout_record = workouts.get(disease_key)
+
+        disease_name = (
+            medication_record["disease"]
+            if medication_record
+            else workout_record["disease"]
+        )
+
+        combined[disease_key] = {
+            "disease": disease_name,
+            "medications": (
+                medication_record["medications"]
+                if medication_record else []
+            ),
+            "lifestyle_workout_suggestions": (
+                workout_record["suggestions"]
+                if workout_record else []
+            ),
+        }
+
+    medication_only = set(medications) - set(workouts)
+    workout_only = set(workouts) - set(medications)
+    matched = set(medications) & set(workouts)
+
+    MODEL_DIR.mkdir(parents=True, exist_ok=True)
+
+    with OUTPUT_PATH.open("w", encoding="utf-8") as file:
+        json.dump(combined, file, indent=4, ensure_ascii=False)
+
+    print("\nTreatment data processing completed.")
+    print("-" * 45)
+    print(f"Medication diseases: {len(medications)}")
+    print(f"Workout/lifestyle diseases: {len(workouts)}")
+    print(f"Diseases present in both: {len(matched)}")
+    print(f"Medication-only diseases: {len(medication_only)}")
+    print(f"Workout-only diseases: {len(workout_only)}")
+    print(f"Combined disease records: {len(combined)}")
+    print(f"Output saved to: {OUTPUT_PATH}")
+
+    if medication_only:
+        print("\nDiseases without lifestyle/workout data:")
+        print(", ".join(sorted(medications[key]["disease"]
+                               for key in medication_only)))
+
+    if workout_only:
+        print("\nDiseases without medication data:")
+        print(", ".join(sorted(workouts[key]["disease"]
+                               for key in workout_only)))
+
+    print(
+        "\nIMPORTANT: Data matching and structural validation do not "
+        "verify clinical accuracy. Review all disease-to-medication "
+        "mappings and lifestyle suggestions before use."
     )
-)
-
-summary["average_rating"] = summary["average_rating"].round(2)
-
-# Save the summary, not a prescription or treatment decision
-summary.to_csv(OUTPUT_PATH, index=False)
-
-print("\nRanking data saved to:", OUTPUT_PATH)
-print("Drug-condition combinations:", len(summary))
 
 
-# --------------------------------------------------
-# 5. Check coverage in the separate testing dataset
-# --------------------------------------------------
-
-test_conditions = (
-    test_df["condition"]
-    .dropna()
-    .astype(str)
-    .str.strip()
-)
-
-test_conditions = {
-    condition.casefold()
-    for condition in test_conditions
-    if condition
-}
-
-train_conditions = set(summary["condition_key"])
-
-matched = test_conditions & train_conditions
-unmatched = test_conditions - train_conditions
-
-print("\nTEST CONDITION COVERAGE")
-print("-----------------------")
-print("Unique test conditions:", len(test_conditions))
-print("Conditions found in training:", len(matched))
-print("Conditions not found in training:", len(unmatched))
-
-if unmatched:
-    print("\nExamples of unmatched conditions:")
-    for condition in sorted(unmatched)[:20]:
-        print("-", condition)
-
-print("\nReview ranking data prepared successfully.")
+if __name__ == "__main__":
+    train_model()
