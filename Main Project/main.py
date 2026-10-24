@@ -1,6 +1,6 @@
 """Run the integrated symptom-to-guidance clinical decision support flow."""
 
-from disease_prediction.predict import predict_diseases
+from disease_prediction.predict import predict_from_description
 from precaution_determination.precaution import get_precautions
 from treatment_determination.predict import predict_treatment
 
@@ -9,7 +9,7 @@ def print_section(title, entries):
     print(f"\n{title}")
     if entries:
         for entry in entries:
-            print(f"  • {entry}")
+            print(f"  - {entry}")
     else:
         print("  No information available in the supplied dataset.")
 
@@ -18,19 +18,26 @@ def main():
     print("=" * 54)
     print("SYMPTOM-BASED HEALTH INFORMATION")
     print("=" * 54)
-    print("Enter symptoms separated by commas. Type 'exit' to quit.")
-    print("Example: itching, skin rash, vomiting")
+    print("Describe the patient's symptoms in natural language.")
+    print("Example: I have a headache and a runny nose. Type 'exit' to quit.")
 
     while True:
-        user_input = input("\nYour symptoms: ").strip()
-        if user_input.casefold() == "exit":
+        description = input("\nPatient description: ").strip()
+        if description.casefold() == "exit":
             print("Goodbye.")
             return
 
         try:
-            predictions = predict_diseases(user_input)
-        except ValueError as error:
-            print(f"Please check your symptoms: {error}")
+            extracted_symptoms, predictions = predict_from_description(description)
+        except (ValueError, RuntimeError) as error:
+            print(f"Unable to analyze that description: {error}")
+            continue
+
+        if not predictions:
+            print("No supported present symptoms were recognized.")
+            if extracted_symptoms:
+                print("Recognized by symptom extraction but not supported by the disease model:", ", ".join(extracted_symptoms))
+            print("Please describe symptoms supported by the model and try again.")
             continue
 
         disease, score = predictions[0]
@@ -40,6 +47,7 @@ def main():
         print("\n" + "=" * 54)
         print(f"POSSIBLE CONDITION: {disease}")
         print(f"Model score: {score * 100:.1f}% (not a clinical probability)")
+        print(f"Symptoms used: {', '.join(extracted_symptoms)}")
         print("=" * 54)
 
         print_section(

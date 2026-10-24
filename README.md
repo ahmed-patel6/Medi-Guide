@@ -28,11 +28,11 @@ Run the three modules together from the repository root:
 python "Main Project/main.py"
 ```
 
-Enter comma-separated symptom names once. The program shows the leading
-possible condition with dataset-based precautions, medication information,
-and lifestyle/activity suggestions. Symptom names may use spaces or
-underscores (for example, `skin rash` or `skin_rash`). This is an educational
-aid, not a diagnosis or personalized treatment plan.
+Describe the patient's symptoms in natural language once. The system extracts
+present symptoms, predicts possible conditions, then displays dataset-based
+precautions, medication information, and lifestyle/activity suggestions for
+the leading condition. This is an educational aid, not a diagnosis or
+personalized treatment plan.
 
 ```text
 Medical Report

@@ -3,8 +3,9 @@ from pathlib import Path
 
 import numpy as np
 import tensorflow as tf
-from ner import ner_symptom_extraction
-from ner.ner_symptom_extraction import predict_symptoms
+from disease_prediction.ner.ner_symptom_extraction import predict_symptoms
+from precaution_determination.precaution import get_precautions
+from treatment_determination.predict import predict_treatment
 
 # ==================================================
 # 1. LOAD MODEL AND METADATA
@@ -58,74 +59,67 @@ if model.output_shape[-1] != len(diseases):
         "Model output dimensions do not match disease metadata."
     )
 
-# ==================================================
-# 2. ACCEPT FREE TEXT, EXTRACT SYMPTOMS, AND PREDICT
-# ==================================================
-
-print("\nDescribe the patient's symptoms in natural language.")
-print("Example: I have a headache and a runny nose.")
-print("Type 'exit' to quit.")
-
-while True:
-    user_input = input("\nPatient description: ").strip()
-
-    if user_input.casefold() == "exit":
-        print("Prediction system closed.")
-        break
-
-    if not user_input:
-        print("Please enter a symptom description.")
-        continue
-
-    # 1. Extract and normalize symptoms using the trained NER model
-    extracted_symptoms = predict_symptoms(user_input)
-
-    print("\nExtracted present symptoms:", extracted_symptoms)
-
-    # 2. Create a zero-filled vector in the EXACT order
-    #    required by the trained disease prediction model
+def predict_from_description(description, limit=3):
+    """Extract present symptoms and return them with ranked disease scores."""
+    extracted_symptoms = predict_symptoms(description)
     input_vector = np.zeros(len(symptoms), dtype=np.float32)
-
-    
+    matched_symptoms = []
     for symptom in extracted_symptoms:
-        normalized = symptom.strip().casefold()
-
-        # Match spaces in extracted symptoms to underscores
-        feature_name = normalized.replace(" ", "_")
-
+        feature_name = symptom.strip().casefold().replace(" ", "_")
         if feature_name in symptom_lookup:
             input_vector[symptom_lookup[feature_name]] = 1.0
-        else:
-            print(f"Warning: symptom not found in disease features: {symptom}")
+            matched_symptoms.append(symptom)
+
+    if not input_vector.any():
+        return extracted_symptoms, []
+
+    scores = model.predict(input_vector.reshape(1, -1), verbose=0)[0]
+    top_indices = np.argsort(scores)[::-1][:limit]
+    predictions = [(diseases[index], float(scores[index])) for index in top_indices]
+    return matched_symptoms, predictions
 
 
-    # 3. Display the vector as 0s and 1s
-    print("\nDisease model input vector:")
-    print(" ".join(str(int(value)) for value in input_vector))
+def main():
+    print("Describe the patient's symptoms in natural language.")
+    print("Example: I have a headache and a runny nose.")
+    print("Type 'exit' to quit.")
+    while True:
+        description = input("\nPatient description: ").strip()
+        if description.casefold() == "exit":
+            print("Prediction system closed.")
+            break
+        if not description:
+            print("Please enter a symptom description.")
+            continue
+        found, predictions = predict_from_description(description)
+        print("Present symptoms:", ", ".join(found) if found else "none recognized")
+        if not predictions:
+            print("No model-supported symptoms were recognized. Please describe symptoms from the model's vocabulary.")
+            continue
+        print("\nPOSSIBLE CONDITIONS")
+        for rank, (disease, score) in enumerate(predictions, start=1):
+            print(f"{rank}. {disease} ({score * 100:.1f}% model score)")
+        disease = predictions[0][0]
+        precaution_result = get_precautions(disease)
+        treatment_result = predict_treatment(disease)
+        print(f"\nGUIDANCE FOR {disease.upper()}")
+        print("\nPrecautions")
+        for item in (precaution_result or {}).get("precautions", []):
+            print(f"  - {item}")
+        if not precaution_result or not precaution_result["precautions"]:
+            print("  No precautions are available in the dataset.")
+        print("\nMedication information")
+        for item in treatment_result["medications"]:
+            print(f"  - {item}")
+        if not treatment_result["medications"]:
+            print("  No medication information is available in the dataset.")
+        print("\nLifestyle and activity suggestions")
+        for item in treatment_result["lifestyle_workout_suggestions"]:
+            print(f"  - {item}")
+        if not treatment_result["lifestyle_workout_suggestions"]:
+            print("  No suggestions are available in the dataset.")
+        print("Model scores are not clinically validated probabilities or a diagnosis. Consult a qualified healthcare professional.")
 
-    # 4. Pass the vector directly to your existing disease model
-    scores = model.predict(
-        input_vector.reshape(1, -1),
-        verbose=0
-    )[0]
 
-    # 5. Display the top three disease predictions
-    top_indices = np.argsort(scores)[::-1][:3]
-
-    print("\n" + "-" * 45)
-    print("PREDICTION RESULTS")
-    print("-" * 45)
-
-    print("Symptoms detected:", int(input_vector.sum()))
-
-    for rank, index in enumerate(top_indices, start=1):
-        print(
-            f"{rank}. {diseases[index]}: "
-            f"{scores[index] * 100:.2f}%"
-        )
-
-    print(
-        "\nNote: These scores are not clinically validated "
-        "medical probabilities or a diagnosis."
-    )
-    print("Consult a qualified healthcare professional.")
+if __name__ == "__main__":
+    main()

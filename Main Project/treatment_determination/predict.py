@@ -39,6 +39,9 @@ def predict_treatment(disease):
 
     data = load_treatment_data()
     key = normalize_name(disease)
+    # The disease classifier's label contains this source-data spelling error.
+    if key == "peptic ulcer diseae":
+        key = "peptic ulcer disease"
     record = data.get(key)
 
     if record is None:
