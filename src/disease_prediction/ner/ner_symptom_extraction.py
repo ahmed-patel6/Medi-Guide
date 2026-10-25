@@ -1,7 +1,5 @@
-"""Symptom extraction, dictionary normalization, and status classification."""
 
-
-"""Symptom extraction, dictionary normalization, and status classification."""
+"""Symptom extraction, embedding-based normalization, and status classification."""
 
 from pathlib import Path
 from functools import lru_cache
@@ -11,6 +9,13 @@ import re
 import pandas as pd
 import torch
 from transformers import AutoModelForTokenClassification, AutoTokenizer
+from sentence_transformers import SentenceTransformer
+from sentence_transformers import util
+
+
+# ---------------------------------------------------------
+# Project paths
+# ---------------------------------------------------------
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 
@@ -28,12 +33,38 @@ VOCAB_PATH = (
     / "symptom_vocabulary.csv"
 )
 
+
+# ---------------------------------------------------------
+# NER labels
+# ---------------------------------------------------------
+
 ID2LABEL = {
     0: "O",
     1: "B-SYMPTOM",
     2: "I-SYMPTOM",
 }
 
+
+# ---------------------------------------------------------
+# Embedding normalization configuration
+# ---------------------------------------------------------
+
+# A small general-purpose sentence embedding model.
+# The model is downloaded on first use unless already cached.
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+
+# These are similarity scores, NOT probabilities.
+# Tune them against a manually verified validation dataset.
+SIMILARITY_THRESHOLD = 0.70
+
+# Require the best match to be sufficiently better than
+# the second-best match to avoid ambiguous normalization.
+SIMILARITY_MARGIN = 0.05
+
+
+# ---------------------------------------------------------
+# Dictionary of verified synonyms
+# ---------------------------------------------------------
 
 SYNONYM_MAP = {
     "stomach ache": "stomach pain",
@@ -161,6 +192,11 @@ SYNONYM_MAP = {
     "swollen lymph nodes": "swelled lymph nodes",
 }
 
+
+# ---------------------------------------------------------
+# Symptom status classification rules
+# ---------------------------------------------------------
+
 NEGATION_CUES = [
     "do not have",
     "don't have",
@@ -207,9 +243,13 @@ CLAUSE_BOUNDARY = re.compile(
 )
 
 
-@lru_cache(maxsize=1)
+# ---------------------------------------------------------
+# Vocabulary loading
+# ---------------------------------------------------------
 
+@lru_cache(maxsize=1)
 def load_vocabulary():
+    """Load the canonical symptom vocabulary."""
     if not VOCAB_PATH.is_file():
         raise FileNotFoundError(
             f"Symptom vocabulary not found at {VOCAB_PATH}. "
@@ -235,21 +275,135 @@ def load_vocabulary():
 CANONICAL_SYMPTOMS = load_vocabulary()
 
 
+# Keep the canonical vocabulary in a stable order for embedding alignment.
+@lru_cache(maxsize=1)
+def get_ordered_vocabulary():
+    """Return canonical symptoms in their CSV order, without duplicates."""
+    frame = pd.read_csv(VOCAB_PATH)
+
+    if "symptom" not in frame.columns:
+        raise ValueError(
+            f"Expected a 'symptom' column in {VOCAB_PATH}."
+        )
+
+    symptoms = (
+        frame["symptom"]
+        .dropna()
+        .astype(str)
+        .str.strip()
+        .str.lower()
+        .tolist()
+    )
+
+    return tuple(dict.fromkeys(s for s in symptoms if s))
+
+
+# ---------------------------------------------------------
+# Cached embedding model and canonical embeddings
+# ---------------------------------------------------------
+
+@lru_cache(maxsize=1)
+def load_embedding_model():
+    """Load one shared sentence embedding model."""
+    return SentenceTransformer(EMBEDDING_MODEL_NAME)
+
+
+@lru_cache(maxsize=1)
+def get_canonical_embeddings():
+    """Encode all canonical symptoms once and cache the result."""
+    symptoms = get_ordered_vocabulary()
+    model = load_embedding_model()
+
+    embeddings = model.encode(
+        list(symptoms),
+        convert_to_tensor=True,
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    )
+
+    return symptoms, embeddings
+
+
+# ---------------------------------------------------------
+# Symptom normalization
+# ---------------------------------------------------------
+
 def normalize_symptom(mention):
-    """Map a detected mention to a canonical vocabulary entry."""
+    """
+    Normalize a symptom mention using:
+      1. Exact canonical matching.
+      2. Verified dictionary aliases.
+      3. Embedding-based semantic similarity.
+
+    Returns a canonical symptom or 'UNMATCHED'.
+    """
     if not isinstance(mention, str) or not mention.strip():
         return "UNMATCHED"
 
     mention = re.sub(r"\s+", " ", mention.lower().strip())
+
     canonical = load_vocabulary()
 
+    # Stage 1: Exact match.
     if mention in canonical:
         return mention
 
+    # Stage 2: Known, explicitly defined synonym.
     target = SYNONYM_MAP.get(mention)
 
-    return target if target in canonical else "UNMATCHED"
+    if target is not None and target in canonical:
+        return target
 
+    # Stage 3: Embedding-based fallback.
+    try:
+        model = load_embedding_model()
+        symptoms, canonical_embeddings = get_canonical_embeddings()
+
+        mention_embedding = model.encode(
+            mention,
+            convert_to_tensor=True,
+            normalize_embeddings=True,
+            show_progress_bar=False,
+        )
+
+        similarities = util.cos_sim(
+            mention_embedding,
+            canonical_embeddings,
+        )[0]
+
+        if len(similarities) == 0:
+            return "UNMATCHED"
+
+        # Find the highest-scoring canonical symptom.
+        top_count = min(2, len(similarities))
+        top_results = torch.topk(similarities, k=top_count)
+
+        best_index = int(top_results.indices[0].item())
+        best_score = float(top_results.values[0].item())
+        best_symptom = symptoms[best_index]
+
+        # Reject low-confidence similarity matches.
+        if best_score < SIMILARITY_THRESHOLD:
+            return "UNMATCHED"
+
+        # If a second candidate exists, reject ambiguous matches.
+        if top_count > 1:
+            second_score = float(top_results.values[1].item())
+
+            if best_score - second_score < SIMILARITY_MARGIN:
+                return "UNMATCHED"
+
+        return best_symptom
+
+    except (OSError, RuntimeError, ValueError, ImportError):
+        # Avoid crashing symptom extraction if embedding inference fails.
+        # Existing exact and dictionary matches still work.
+        return "UNMATCHED"
+
+
+# ---------------------------------------------------------
+# Present / absent / uncertain classification
+# ---------------------------------------------------------
 
 def detect_symptom_status(text, mention):
     """Apply local rule-based cues; this is not a trained status classifier."""
@@ -315,10 +469,13 @@ def detect_symptom_status(text, mention):
     return "UNCERTAIN" if uncertain_before else "PRESENT"
 
 
+# ---------------------------------------------------------
+# NER extraction pipeline
+# ---------------------------------------------------------
+
 class SymptomPipeline:
     """Load the fine-tuned token classifier and extract symptom mentions."""
 
-    
     def __init__(self, model_dir=MODEL_DIR):
         model_dir = Path(model_dir)
 
@@ -360,6 +517,7 @@ class SymptomPipeline:
         )
 
         offsets = encoded.pop("offset_mapping")[0].tolist()
+
         encoded = {
             key: value.to(self.device)
             for key, value in encoded.items()
@@ -414,7 +572,7 @@ class SymptomPipeline:
         )
 
     def extract_normalize_and_classify(self, text):
-        """Return extracted mentions and normalized present/absent/uncertain lists."""
+        """Return extracted mentions and normalized status-specific lists."""
         results = []
 
         for mention in self.extract_mentions(text):
@@ -457,6 +615,10 @@ class SymptomPipeline:
         return self.extract_normalize_and_classify(text)["symptoms"]
 
 
+# ---------------------------------------------------------
+# Shared pipeline
+# ---------------------------------------------------------
+
 _default_pipeline = None
 
 
@@ -471,12 +633,18 @@ def _get_default_pipeline():
 
 
 def extract_normalize_and_classify(text):
+    """Extract, normalize, and classify symptoms from a description."""
     return _get_default_pipeline().extract_normalize_and_classify(text)
 
 
 def predict_symptoms(text):
+    """Extract only present, normalized symptoms."""
     return _get_default_pipeline().predict_symptoms(text)
 
+
+# ---------------------------------------------------------
+# Interactive test
+# ---------------------------------------------------------
 
 if __name__ == "__main__":
     print("Symptom NER interactive test. Type 'exit' to stop.")
@@ -490,5 +658,6 @@ if __name__ == "__main__":
         try:
             result = extract_normalize_and_classify(description)
             print(json.dumps(result, indent=2, ensure_ascii=False))
+
         except (FileNotFoundError, ValueError, OSError) as error:
             print(f"Could not process input: {error}")
