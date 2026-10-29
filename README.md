@@ -104,6 +104,8 @@ The numbered evaluation notebooks are designed to run in order. They record depe
 7. `07_end_to_end_pipeline_and_ablation_study.ipynb`
 8. `08_robustness_uncertainty_and_error_analysis.ipynb`
 9. `09_unified_results_dashboard.ipynb`
+10. `10_summarization_pretrained_vs_finetuned_comparison.ipynb`
+11. `11_fracture_cnn_untrained_vs_trained_comparison.ipynb`
 
 Run with JupyterLab from the repository root:
 

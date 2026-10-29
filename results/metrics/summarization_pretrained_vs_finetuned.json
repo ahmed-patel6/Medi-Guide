@@ -1,0 +1,46 @@
+{
+  "module": "summarization_before_after",
+  "python": "3.14.5",
+  "root": "D:\\DevLab\\Projects\\CDSS_Final",
+  "metrics": {
+    "n": 100,
+    "availability": {
+      "pretrained": "MEASURED",
+      "finetuned": "MEASURED"
+    },
+    "devices": {
+      "pretrained": "cuda",
+      "finetuned": "cuda"
+    },
+    "pretrained_model": "facebook/bart-base",
+    "fine_tuned_checkpoint": "D:\\DevLab\\Projects\\CDSS_Final\\models\\summarization\\checkpoint-68658",
+    "seed": 42,
+    "generation": {
+      "max_input_length": 512,
+      "max_length": 128,
+      "num_beams": 4
+    },
+    "pretrained_rouge1": 0.2400061878434216,
+    "finetuned_rouge1": 0.587871956760815,
+    "rouge1_delta_finetuned_minus_pretrained": 0.3478657689173935,
+    "rouge1_delta_ci95": [
+      0.2790314405936593,
+      0.4239504285727417
+    ],
+    "pretrained_rouge2": 0.12587324954432488,
+    "finetuned_rouge2": 0.4566039569278416,
+    "rouge2_delta_finetuned_minus_pretrained": 0.3307307073835167,
+    "rouge2_delta_ci95": [
+      0.25884234392570693,
+      0.41326508896250036
+    ],
+    "pretrained_rougeL": 0.20124839355886098,
+    "finetuned_rougeL": 0.5464693141407192,
+    "rougeL_delta_finetuned_minus_pretrained": 0.34522092058185827,
+    "rougeL_delta_ci95": [
+      0.27854925242190937,
+      0.41982946496107826
+    ]
+  },
+  "evaluation_date": "2026-10-29T16:22:16.775076+00:00"
+}

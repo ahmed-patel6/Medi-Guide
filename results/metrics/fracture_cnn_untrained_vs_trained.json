@@ -1,0 +1,75 @@
+{
+  "module": "fracture_cnn_before_after_training",
+  "python": "3.14.5",
+  "root": "D:\\DevLab\\Projects\\CDSS_Final",
+  "metrics": {
+    "n": 500,
+    "class_names": [
+      "fractured",
+      "not fractured"
+    ],
+    "positive_class": "fractured",
+    "common_threshold": 0.5,
+    "untrained_random_initialization": {
+      "accuracy": 0.476,
+      "fracture_precision": 0.476,
+      "fracture_sensitivity": 1.0,
+      "specificity": 0.0,
+      "fracture_f1": 0.6449864498644986,
+      "roc_auc": 0.4902014240810828,
+      "pr_auc": 0.4553578501070693,
+      "confusion_matrix": [
+        [
+          238,
+          0
+        ],
+        [
+          262,
+          0
+        ]
+      ]
+    },
+    "trained_checkpoint": {
+      "accuracy": 0.98,
+      "fracture_precision": 0.9913793103448276,
+      "fracture_sensitivity": 0.9663865546218487,
+      "specificity": 0.9923664122137404,
+      "fracture_f1": 0.9787234042553191,
+      "roc_auc": 0.9993264481365065,
+      "pr_auc": 0.9992683819254943,
+      "confusion_matrix": [
+        [
+          230,
+          8
+        ],
+        [
+          2,
+          260
+        ]
+      ]
+    },
+    "trained_checkpoint_at_app_threshold": {
+      "threshold": 0.42503443360328674,
+      "accuracy": 0.976,
+      "fracture_precision": 0.9788135593220338,
+      "fracture_sensitivity": 0.9705882352941176,
+      "specificity": 0.9809160305343512,
+      "fracture_f1": 0.9746835443037974,
+      "roc_auc": 0.9993264481365065,
+      "pr_auc": 0.9992683819254943,
+      "confusion_matrix": [
+        [
+          231,
+          7
+        ],
+        [
+          5,
+          257
+        ]
+      ]
+    },
+    "device": "cuda",
+    "seed": 42,
+    "checkpoint": "D:\\DevLab\\Projects\\CDSS_Final\\models\\bone_fracture_detection\\fracture_cnn.keras"
+  }
+}
