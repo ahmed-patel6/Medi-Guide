@@ -1,0 +1,43 @@
+truth,prediction,score
+Fungal infection,Fungal infection,0.9999862
+Allergy,Allergy,0.9999778
+GERD,GERD,0.99995553
+Chronic cholestasis,Chronic cholestasis,0.9999343
+Drug Reaction,Drug Reaction,0.999984
+Peptic ulcer diseae,Peptic ulcer diseae,0.9999658
+AIDS,AIDS,0.99993587
+Diabetes,Diabetes,0.99995136
+Gastroenteritis,Gastroenteritis,0.99998534
+Bronchial Asthma,Bronchial Asthma,0.99994135
+Hypertension,Hypertension,0.99995494
+Migraine,Migraine,0.99990046
+Cervical spondylosis,Cervical spondylosis,0.99996984
+Paralysis (brain hemorrhage),Paralysis (brain hemorrhage),0.9999267
+Jaundice,Jaundice,0.9999329
+Malaria,Malaria,0.99994695
+Chicken pox,Chicken pox,0.9999397
+Dengue,Dengue,0.99993336
+Typhoid,Typhoid,0.9999207
+hepatitis A,hepatitis A,0.9998847
+Hepatitis B,Hepatitis B,0.99996567
+Hepatitis C,Hepatitis C,0.99993765
+Hepatitis D,Hepatitis D,0.99982554
+Hepatitis E,Hepatitis E,0.99994814
+Alcoholic hepatitis,Alcoholic hepatitis,0.9999709
+Tuberculosis,Tuberculosis,0.9998951
+Common Cold,Common Cold,0.9996898
+Pneumonia,Pneumonia,0.99994016
+Dimorphic hemmorhoids(piles),Dimorphic hemmorhoids(piles),0.99996257
+Heart attack,Heart attack,0.9999808
+Varicose veins,Varicose veins,0.99997234
+Hypothyroidism,Hypothyroidism,0.9999529
+Hyperthyroidism,Hyperthyroidism,0.99996555
+Hypoglycemia,Hypoglycemia,0.99997234
+Osteoarthristis,Osteoarthristis,0.99997556
+Arthritis,Arthritis,0.9999709
+(vertigo) Paroymsal  Positional Vertigo,(vertigo) Paroymsal  Positional Vertigo,0.99996686
+Acne,Acne,0.99997616
+Urinary tract infection,Urinary tract infection,0.9999443
+Psoriasis,Psoriasis,0.99989223
+Impetigo,Impetigo,0.99996614
+Fungal infection,Fungal infection,0.8843459

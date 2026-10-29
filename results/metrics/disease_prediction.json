@@ -1,0 +1,15 @@
+{
+  "module": "disease classifier",
+  "python": "3.14.5",
+  "root": "D:\\DevLab\\Projects\\CDSS_Final",
+  "metrics": {
+    "n": 42,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "top3_accuracy": 1.0,
+    "exact_profile_overlap": 41,
+    "mean_max_score": 0.9971892237663269
+  },
+  "checkpoint": "D:\\DevLab\\Projects\\CDSS_Final\\models\\disease_prediction\\disease_model.keras"
+}

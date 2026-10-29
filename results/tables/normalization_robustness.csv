@@ -1,0 +1,385 @@
+original,perturbation,input,base_output,perturbed_output,stable
+swelling of stomach,uppercase,SWELLING OF STOMACH,swelling of stomach,swelling of stomach,True
+swelling of stomach,punctuation,swelling of stomach!,swelling of stomach,swelling of stomach,True
+swelling of stomach,whitespace,  swelling   of   stomach  ,swelling of stomach,swelling of stomach,True
+swelling of stomach,truncate,swelling of stomac,swelling of stomach,UNMATCHED,False
+belly pain,uppercase,BELLY PAIN,belly pain,belly pain,True
+belly pain,punctuation,belly pain!,belly pain,belly pain,True
+belly pain,whitespace,  belly   pain  ,belly pain,belly pain,True
+belly pain,truncate,belly pai,belly pain,UNMATCHED,False
+swollen blood vessels,uppercase,SWOLLEN BLOOD VESSELS,swollen blood vessels,swollen blood vessels,True
+swollen blood vessels,punctuation,swollen blood vessels!,swollen blood vessels,swollen blood vessels,True
+swollen blood vessels,whitespace,  swollen   blood   vessels  ,swollen blood vessels,swollen blood vessels,True
+swollen blood vessels,truncate,swollen blood vessel,swollen blood vessels,swollen blood vessels,True
+prominent veins on calf,uppercase,PROMINENT VEINS ON CALF,prominent veins on calf,prominent veins on calf,True
+prominent veins on calf,punctuation,prominent veins on calf!,prominent veins on calf,prominent veins on calf,True
+prominent veins on calf,whitespace,  prominent   veins   on   calf  ,prominent veins on calf,prominent veins on calf,True
+prominent veins on calf,truncate,prominent veins on cal,prominent veins on calf,prominent veins on calf,True
+dischromic patches,uppercase,DISCHROMIC PATCHES,dischromic patches,dischromic patches,True
+dischromic patches,punctuation,dischromic patches!,dischromic patches,dischromic patches,True
+dischromic patches,whitespace,  dischromic   patches  ,dischromic patches,dischromic patches,True
+dischromic patches,truncate,dischromic patche,dischromic patches,dischromic patches,True
+distention of abdomen,uppercase,DISTENTION OF ABDOMEN,distention of abdomen,distention of abdomen,True
+distention of abdomen,punctuation,distention of abdomen!,distention of abdomen,distention of abdomen,True
+distention of abdomen,whitespace,  distention   of   abdomen  ,distention of abdomen,distention of abdomen,True
+distention of abdomen,truncate,distention of abdome,distention of abdomen,distention of abdomen,True
+visual disturbances,uppercase,VISUAL DISTURBANCES,visual disturbances,visual disturbances,True
+visual disturbances,punctuation,visual disturbances!,visual disturbances,visual disturbances,True
+visual disturbances,whitespace,  visual   disturbances  ,visual disturbances,visual disturbances,True
+visual disturbances,truncate,visual disturbance,visual disturbances,visual disturbances,True
+Internal itching,uppercase,INTERNAL ITCHING,internal itching,internal itching,True
+Internal itching,punctuation,Internal itching!,internal itching,internal itching,True
+Internal itching,whitespace,  Internal   itching  ,internal itching,internal itching,True
+Internal itching,truncate,Internal itchin,internal itching,internal itching,True
+foul smell of urine,uppercase,FOUL SMELL OF URINE,foul smell of urine,foul smell of urine,True
+foul smell of urine,punctuation,foul smell of urine!,foul smell of urine,foul smell of urine,True
+foul smell of urine,whitespace,  foul   smell   of   urine  ,foul smell of urine,foul smell of urine,True
+foul smell of urine,truncate,foul smell of urin,foul smell of urine,foul smell of urine,True
+blurred and distorted vision,uppercase,BLURRED AND DISTORTED VISION,blurred and distorted vision,blurred and distorted vision,True
+blurred and distorted vision,punctuation,blurred and distorted vision!,blurred and distorted vision,blurred and distorted vision,True
+blurred and distorted vision,whitespace,  blurred   and   distorted   vision  ,blurred and distorted vision,blurred and distorted vision,True
+blurred and distorted vision,truncate,blurred and distorted visio,blurred and distorted vision,blurred and distorted vision,True
+Cramps,uppercase,CRAMPS,cramps,cramps,True
+Cramps,punctuation,Cramps!,cramps,cramps,True
+Cramps,whitespace,  Cramps  ,cramps,cramps,True
+Cramps,truncate,Cramp,cramps,cramps,True
+swollen legs,uppercase,SWOLLEN LEGS,swollen legs,swollen legs,True
+swollen legs,punctuation,swollen legs!,swollen legs,swollen legs,True
+swollen legs,whitespace,  swollen   legs  ,swollen legs,swollen legs,True
+swollen legs,truncate,swollen leg,swollen legs,swollen legs,True
+blackheads,uppercase,BLACKHEADS,blackheads,blackheads,True
+blackheads,punctuation,blackheads!,blackheads,blackheads,True
+blackheads,whitespace,  blackheads  ,blackheads,blackheads,True
+blackheads,truncate,blackhead,blackheads,blackheads,True
+weight loss,uppercase,WEIGHT LOSS,weight loss,weight loss,True
+weight loss,punctuation,weight loss!,weight loss,weight loss,True
+weight loss,whitespace,  weight   loss  ,weight loss,weight loss,True
+weight loss,truncate,weight los,weight loss,UNMATCHED,False
+restlessness,uppercase,RESTLESSNESS,restlessness,restlessness,True
+restlessness,punctuation,restlessness!,restlessness,restlessness,True
+restlessness,whitespace,  restlessness  ,restlessness,restlessness,True
+restlessness,truncate,restlessnes,restlessness,restlessness,True
+unsteady,uppercase,UNSTEADY,unsteadiness,unsteadiness,True
+unsteady,punctuation,unsteady!,unsteadiness,unsteadiness,True
+unsteady,whitespace,  unsteady  ,unsteadiness,unsteadiness,True
+unsteady,truncate,unstead,unsteadiness,unsteadiness,True
+abdominal pain,uppercase,ABDOMINAL PAIN,abdominal pain,abdominal pain,True
+abdominal pain,punctuation,abdominal pain!,abdominal pain,abdominal pain,True
+abdominal pain,whitespace,  abdominal   pain  ,abdominal pain,abdominal pain,True
+abdominal pain,truncate,abdominal pai,abdominal pain,UNMATCHED,False
+sunken eyes,uppercase,SUNKEN EYES,sunken eyes,sunken eyes,True
+sunken eyes,punctuation,sunken eyes!,sunken eyes,sunken eyes,True
+sunken eyes,whitespace,  sunken   eyes  ,sunken eyes,sunken eyes,True
+sunken eyes,truncate,sunken eye,sunken eyes,sunken eyes,True
+stiff neck,uppercase,STIFF NECK,stiff neck,stiff neck,True
+stiff neck,punctuation,stiff neck!,stiff neck,stiff neck,True
+stiff neck,whitespace,  stiff   neck  ,stiff neck,stiff neck,True
+stiff neck,truncate,stiff nec,stiff neck,UNMATCHED,False
+altered sensorium,uppercase,ALTERED SENSORIUM,altered sensorium,altered sensorium,True
+altered sensorium,punctuation,altered sensorium!,altered sensorium,altered sensorium,True
+altered sensorium,whitespace,  altered   sensorium  ,altered sensorium,altered sensorium,True
+altered sensorium,truncate,altered sensoriu,altered sensorium,altered sensorium,True
+back pain,uppercase,BACK PAIN,back pain,back pain,True
+back pain,punctuation,back pain!,back pain,back pain,True
+back pain,whitespace,  back   pain  ,back pain,back pain,True
+back pain,truncate,back pai,back pain,UNMATCHED,False
+movement stiffness,uppercase,MOVEMENT STIFFNESS,movement stiffness,movement stiffness,True
+movement stiffness,punctuation,movement stiffness!,movement stiffness,movement stiffness,True
+movement stiffness,whitespace,  movement   stiffness  ,movement stiffness,movement stiffness,True
+movement stiffness,truncate,movement stiffnes,movement stiffness,movement stiffness,True
+silver like dusting,uppercase,SILVER LIKE DUSTING,silver like dusting,silver like dusting,True
+silver like dusting,punctuation,silver like dusting!,silver like dusting,silver like dusting,True
+silver like dusting,whitespace,  silver   like   dusting  ,silver like dusting,silver like dusting,True
+silver like dusting,truncate,silver like dustin,silver like dusting,silver like dusting,True
+Obesity,uppercase,OBESITY,obesity,obesity,True
+Obesity,punctuation,Obesity!,obesity,obesity,True
+Obesity,whitespace,  Obesity  ,obesity,obesity,True
+Obesity,truncate,Obesit,obesity,UNMATCHED,False
+excessive hunger,uppercase,EXCESSIVE HUNGER,excessive hunger,excessive hunger,True
+excessive hunger,punctuation,excessive hunger!,excessive hunger,excessive hunger,True
+excessive hunger,whitespace,  excessive   hunger  ,excessive hunger,excessive hunger,True
+excessive hunger,truncate,excessive hunge,excessive hunger,UNMATCHED,False
+obesity,uppercase,OBESITY,obesity,obesity,True
+obesity,punctuation,obesity!,obesity,obesity,True
+obesity,whitespace,  obesity  ,obesity,obesity,True
+obesity,truncate,obesit,obesity,UNMATCHED,False
+blood in sputum,uppercase,BLOOD IN SPUTUM,blood in sputum,blood in sputum,True
+blood in sputum,punctuation,blood in sputum!,blood in sputum,blood in sputum,True
+blood in sputum,whitespace,  blood   in   sputum  ,blood in sputum,blood in sputum,True
+blood in sputum,truncate,blood in sputu,blood in sputum,blood in sputum,True
+muscle pain,uppercase,MUSCLE PAIN,muscle pain,muscle pain,True
+muscle pain,punctuation,muscle pain!,muscle pain,muscle pain,True
+muscle pain,whitespace,  muscle   pain  ,muscle pain,muscle pain,True
+muscle pain,truncate,muscle pai,muscle pain,UNMATCHED,False
+blister,uppercase,BLISTER,blister,blister,True
+blister,punctuation,blister!,blister,blister,True
+blister,whitespace,  blister  ,blister,blister,True
+blister,truncate,bliste,blister,blister,True
+depression,uppercase,DEPRESSION,depression,depression,True
+depression,punctuation,depression!,depression,depression,True
+depression,whitespace,  depression  ,depression,depression,True
+depression,truncate,depressio,depression,UNMATCHED,False
+red spots over body,uppercase,RED SPOTS OVER BODY,red spots over body,red spots over body,True
+red spots over body,punctuation,red spots over body!,red spots over body,red spots over body,True
+red spots over body,whitespace,  red   spots   over   body  ,red spots over body,red spots over body,True
+red spots over body,truncate,red spots over bod,red spots over body,red spots over body,True
+cold hands and feets,uppercase,COLD HANDS AND FEETS,cold hands and feets,cold hands and feets,True
+cold hands and feets,punctuation,cold hands and feets!,cold hands and feets,cold hands and feets,True
+cold hands and feets,whitespace,  cold   hands   and   feets  ,cold hands and feets,cold hands and feets,True
+cold hands and feets,truncate,cold hands and feet,cold hands and feets,cold hands and feets,True
+Belly pain,uppercase,BELLY PAIN,belly pain,belly pain,True
+Belly pain,punctuation,Belly pain!,belly pain,belly pain,True
+Belly pain,whitespace,  Belly   pain  ,belly pain,belly pain,True
+Belly pain,truncate,Belly pai,belly pain,UNMATCHED,False
+fluid overload,uppercase,FLUID OVERLOAD,fluid overload,fluid overload,True
+fluid overload,punctuation,fluid overload!,fluid overload,fluid overload,True
+fluid overload,whitespace,  fluid   overload  ,fluid overload,fluid overload,True
+fluid overload,truncate,fluid overloa,fluid overload,fluid overload,True
+anxiety,uppercase,ANXIETY,anxiety,anxiety,True
+anxiety,punctuation,anxiety!,anxiety,anxiety,True
+anxiety,whitespace,  anxiety  ,anxiety,anxiety,True
+anxiety,truncate,anxiet,anxiety,UNMATCHED,False
+muscle wasting,uppercase,MUSCLE WASTING,muscle wasting,muscle wasting,True
+muscle wasting,punctuation,muscle wasting!,muscle wasting,muscle wasting,True
+muscle wasting,whitespace,  muscle   wasting  ,muscle wasting,muscle wasting,True
+muscle wasting,truncate,muscle wastin,muscle wasting,UNMATCHED,False
+swelled lymph nodes,uppercase,SWELLED LYMPH NODES,swelled lymph nodes,swelled lymph nodes,True
+swelled lymph nodes,punctuation,swelled lymph nodes!,swelled lymph nodes,swelled lymph nodes,True
+swelled lymph nodes,whitespace,  swelled   lymph   nodes  ,swelled lymph nodes,swelled lymph nodes,True
+swelled lymph nodes,truncate,swelled lymph node,swelled lymph nodes,swelled lymph nodes,True
+neck pain,uppercase,NECK PAIN,neck pain,neck pain,True
+neck pain,punctuation,neck pain!,neck pain,neck pain,True
+neck pain,whitespace,  neck   pain  ,neck pain,neck pain,True
+neck pain,truncate,neck pai,neck pain,UNMATCHED,False
+dizziness,uppercase,DIZZINESS,dizziness,dizziness,True
+dizziness,punctuation,dizziness!,dizziness,dizziness,True
+dizziness,whitespace,  dizziness  ,dizziness,dizziness,True
+dizziness,truncate,dizzines,dizziness,UNMATCHED,False
+receiving unsterile injections,uppercase,RECEIVING UNSTERILE INJECTIONS,receiving unsterile injections,receiving unsterile injections,True
+receiving unsterile injections,punctuation,receiving unsterile injections!,receiving unsterile injections,receiving unsterile injections,True
+receiving unsterile injections,whitespace,  receiving   unsterile   injections  ,receiving unsterile injections,receiving unsterile injections,True
+receiving unsterile injections,truncate,receiving unsterile injection,receiving unsterile injections,receiving unsterile injections,True
+mood swings,uppercase,MOOD SWINGS,mood swings,mood swings,True
+mood swings,punctuation,mood swings!,mood swings,mood swings,True
+mood swings,whitespace,  mood   swings  ,mood swings,mood swings,True
+mood swings,truncate,mood swing,mood swings,mood swings,True
+Brittle nails,uppercase,BRITTLE NAILS,brittle nails,brittle nails,True
+Brittle nails,punctuation,Brittle nails!,brittle nails,brittle nails,True
+Brittle nails,whitespace,  Brittle   nails  ,brittle nails,brittle nails,True
+Brittle nails,truncate,Brittle nail,brittle nails,brittle nails,True
+inflammatory nails,uppercase,INFLAMMATORY NAILS,inflammatory nails,inflammatory nails,True
+inflammatory nails,punctuation,inflammatory nails!,inflammatory nails,inflammatory nails,True
+inflammatory nails,whitespace,  inflammatory   nails  ,inflammatory nails,inflammatory nails,True
+inflammatory nails,truncate,inflammatory nail,inflammatory nails,inflammatory nails,True
+abnormal menstruation,uppercase,ABNORMAL MENSTRUATION,abnormal menstruation,abnormal menstruation,True
+abnormal menstruation,punctuation,abnormal menstruation!,abnormal menstruation,abnormal menstruation,True
+abnormal menstruation,whitespace,  abnormal   menstruation  ,abnormal menstruation,abnormal menstruation,True
+abnormal menstruation,truncate,abnormal menstruatio,abnormal menstruation,abnormal menstruation,True
+polyuria,uppercase,POLYURIA,polyuria,polyuria,True
+polyuria,punctuation,polyuria!,polyuria,polyuria,True
+polyuria,whitespace,  polyuria  ,polyuria,polyuria,True
+polyuria,truncate,polyuri,polyuria,UNMATCHED,False
+passage of gases,uppercase,PASSAGE OF GASES,passage of gases,passage of gases,True
+passage of gases,punctuation,passage of gases!,passage of gases,passage of gases,True
+passage of gases,whitespace,  passage   of   gases  ,passage of gases,passage of gases,True
+passage of gases,truncate,passage of gase,passage of gases,passage of gases,True
+unsteadiness,uppercase,UNSTEADINESS,unsteadiness,unsteadiness,True
+unsteadiness,punctuation,unsteadiness!,unsteadiness,unsteadiness,True
+unsteadiness,whitespace,  unsteadiness  ,unsteadiness,unsteadiness,True
+unsteadiness,truncate,unsteadines,unsteadiness,unsteadiness,True
+red spots all over her body,uppercase,RED SPOTS ALL OVER HER BODY,red spots over body,red spots over body,True
+red spots all over her body,punctuation,red spots all over her body!,red spots over body,red spots over body,True
+red spots all over her body,whitespace,  red   spots   all   over   her   body  ,red spots over body,red spots over body,True
+red spots all over her body,truncate,red spots all over her bod,red spots over body,red spots over body,True
+Loss of balance,uppercase,LOSS OF BALANCE,loss of balance,loss of balance,True
+Loss of balance,punctuation,Loss of balance!,loss of balance,loss of balance,True
+Loss of balance,whitespace,  Loss   of   balance  ,loss of balance,loss of balance,True
+Loss of balance,truncate,Loss of balanc,loss of balance,UNMATCHED,False
+coma,uppercase,COMA,coma,coma,True
+coma,punctuation,coma!,coma,coma,True
+coma,whitespace,  coma  ,coma,coma,True
+coma,truncate,com,coma,UNMATCHED,False
+diarrhoea,uppercase,DIARRHOEA,diarrhoea,diarrhoea,True
+diarrhoea,punctuation,diarrhoea!,diarrhoea,diarrhoea,True
+diarrhoea,whitespace,  diarrhoea  ,diarrhoea,diarrhoea,True
+diarrhoea,truncate,diarrhoe,diarrhoea,diarrhoea,True
+mild fever,uppercase,MILD FEVER,mild fever,mild fever,True
+mild fever,punctuation,mild fever!,mild fever,mild fever,True
+mild fever,whitespace,  mild   fever  ,mild fever,mild fever,True
+mild fever,truncate,mild feve,mild fever,UNMATCHED,False
+internal itching,uppercase,INTERNAL ITCHING,internal itching,internal itching,True
+internal itching,punctuation,internal itching!,internal itching,internal itching,True
+internal itching,whitespace,  internal   itching  ,internal itching,internal itching,True
+internal itching,truncate,internal itchin,internal itching,internal itching,True
+watering from eyes,uppercase,WATERING FROM EYES,watering from eyes,watering from eyes,True
+watering from eyes,punctuation,watering from eyes!,watering from eyes,watering from eyes,True
+watering from eyes,whitespace,  watering   from   eyes  ,watering from eyes,watering from eyes,True
+watering from eyes,truncate,watering from eye,watering from eyes,watering from eyes,True
+high fever,uppercase,HIGH FEVER,high fever,high fever,True
+high fever,punctuation,high fever!,high fever,high fever,True
+high fever,whitespace,  high   fever  ,high fever,high fever,True
+high fever,truncate,high feve,high fever,UNMATCHED,False
+weight gain,uppercase,WEIGHT GAIN,weight gain,weight gain,True
+weight gain,punctuation,weight gain!,weight gain,weight gain,True
+weight gain,whitespace,  weight   gain  ,weight gain,weight gain,True
+weight gain,truncate,weight gai,weight gain,UNMATCHED,False
+Rusty sputum,uppercase,RUSTY SPUTUM,rusty sputum,rusty sputum,True
+Rusty sputum,punctuation,Rusty sputum!,rusty sputum,rusty sputum,True
+Rusty sputum,whitespace,  Rusty   sputum  ,rusty sputum,rusty sputum,True
+Rusty sputum,truncate,Rusty sputu,rusty sputum,rusty sputum,True
+irregular sugar level,uppercase,IRREGULAR SUGAR LEVEL,irregular sugar level,irregular sugar level,True
+irregular sugar level,punctuation,irregular sugar level!,irregular sugar level,irregular sugar level,True
+irregular sugar level,whitespace,  irregular   sugar   level  ,irregular sugar level,irregular sugar level,True
+irregular sugar level,truncate,irregular sugar leve,irregular sugar level,irregular sugar level,True
+receiving blood transfusion,uppercase,RECEIVING BLOOD TRANSFUSION,receiving blood transfusion,receiving blood transfusion,True
+receiving blood transfusion,punctuation,receiving blood transfusion!,receiving blood transfusion,receiving blood transfusion,True
+receiving blood transfusion,whitespace,  receiving   blood   transfusion  ,receiving blood transfusion,receiving blood transfusion,True
+receiving blood transfusion,truncate,receiving blood transfusio,receiving blood transfusion,receiving blood transfusion,True
+dark urine,uppercase,DARK URINE,dark urine,dark urine,True
+dark urine,punctuation,dark urine!,dark urine,dark urine,True
+dark urine,whitespace,  dark   urine  ,dark urine,dark urine,True
+dark urine,truncate,dark urin,dark urine,dark urine,True
+yellowing of eyes,uppercase,YELLOWING OF EYES,yellowing of eyes,yellowing of eyes,True
+yellowing of eyes,punctuation,yellowing of eyes!,yellowing of eyes,yellowing of eyes,True
+yellowing of eyes,whitespace,  yellowing   of   eyes  ,yellowing of eyes,yellowing of eyes,True
+yellowing of eyes,truncate,yellowing of eye,yellowing of eyes,yellowing of eyes,True
+yellow urine,uppercase,YELLOW URINE,yellow urine,yellow urine,True
+yellow urine,punctuation,yellow urine!,yellow urine,yellow urine,True
+yellow urine,whitespace,  yellow   urine  ,yellow urine,yellow urine,True
+yellow urine,truncate,yellow urin,yellow urine,yellow urine,True
+small dents in nails,uppercase,SMALL DENTS IN NAILS,small dents in nails,small dents in nails,True
+small dents in nails,punctuation,small dents in nails!,small dents in nails,small dents in nails,True
+small dents in nails,whitespace,  small   dents   in   nails  ,small dents in nails,small dents in nails,True
+small dents in nails,truncate,small dents in nail,small dents in nails,small dents in nails,True
+Scurring,uppercase,SCURRING,scurring,scurring,True
+Scurring,punctuation,Scurring!,scurring,scurring,True
+Scurring,whitespace,  Scurring  ,scurring,scurring,True
+Scurring,truncate,Scurrin,scurring,UNMATCHED,False
+lethargy,uppercase,LETHARGY,lethargy,lethargy,True
+lethargy,punctuation,lethargy!,lethargy,lethargy,True
+lethargy,whitespace,  lethargy  ,lethargy,lethargy,True
+lethargy,truncate,letharg,lethargy,lethargy,True
+irritability,uppercase,IRRITABILITY,irritability,irritability,True
+irritability,punctuation,irritability!,irritability,irritability,True
+irritability,whitespace,  irritability  ,irritability,irritability,True
+irritability,truncate,irritabilit,irritability,irritability,True
+Swollen extremeties,uppercase,SWOLLEN EXTREMETIES,swollen extremeties,swollen extremeties,True
+Swollen extremeties,punctuation,Swollen extremeties!,swollen extremeties,swollen extremeties,True
+Swollen extremeties,whitespace,  Swollen   extremeties  ,swollen extremeties,swollen extremeties,True
+Swollen extremeties,truncate,Swollen extremetie,swollen extremeties,swollen extremeties,True
+puffy face and eyes,uppercase,PUFFY FACE AND EYES,puffy face and eyes,puffy face and eyes,True
+puffy face and eyes,punctuation,puffy face and eyes!,puffy face and eyes,puffy face and eyes,True
+puffy face and eyes,whitespace,  puffy   face   and   eyes  ,puffy face and eyes,puffy face and eyes,True
+puffy face and eyes,truncate,puffy face and eye,puffy face and eyes,puffy face and eyes,True
+weakness in limbs,uppercase,WEAKNESS IN LIMBS,weakness in limbs,weakness in limbs,True
+weakness in limbs,punctuation,weakness in limbs!,weakness in limbs,weakness in limbs,True
+weakness in limbs,whitespace,  weakness   in   limbs  ,weakness in limbs,weakness in limbs,True
+weakness in limbs,truncate,weakness in limb,weakness in limbs,weakness in limbs,True
+muscle weakness,uppercase,MUSCLE WEAKNESS,muscle weakness,muscle weakness,True
+muscle weakness,punctuation,muscle weakness!,muscle weakness,muscle weakness,True
+muscle weakness,whitespace,  muscle   weakness  ,muscle weakness,muscle weakness,True
+muscle weakness,truncate,muscle weaknes,muscle weakness,muscle weakness,True
+swelling joints,uppercase,SWELLING JOINTS,swelling joints,swelling joints,True
+swelling joints,punctuation,swelling joints!,swelling joints,swelling joints,True
+swelling joints,whitespace,  swelling   joints  ,swelling joints,swelling joints,True
+swelling joints,truncate,swelling joint,swelling joints,swelling joints,True
+spinning movements,uppercase,SPINNING MOVEMENTS,spinning movements,spinning movements,True
+spinning movements,punctuation,spinning movements!,spinning movements,spinning movements,True
+spinning movements,whitespace,  spinning   movements  ,spinning movements,spinning movements,True
+spinning movements,truncate,spinning movement,spinning movements,spinning movements,True
+cramps,uppercase,CRAMPS,cramps,cramps,True
+cramps,punctuation,cramps!,cramps,cramps,True
+cramps,whitespace,  cramps  ,cramps,cramps,True
+cramps,truncate,cramp,cramps,cramps,True
+bruising,uppercase,BRUISING,bruising,bruising,True
+bruising,punctuation,bruising!,bruising,bruising,True
+bruising,whitespace,  bruising  ,bruising,bruising,True
+bruising,truncate,bruisin,bruising,UNMATCHED,False
+red sore around nose,uppercase,RED SORE AROUND NOSE,red sore around nose,red sore around nose,True
+red sore around nose,punctuation,red sore around nose!,red sore around nose,red sore around nose,True
+red sore around nose,whitespace,  red   sore   around   nose  ,red sore around nose,red sore around nose,True
+red sore around nose,truncate,red sore around nos,red sore around nose,red sore around nose,True
+cough,uppercase,COUGH,cough,cough,True
+cough,punctuation,cough!,cough,cough,True
+cough,whitespace,  cough  ,cough,cough,True
+cough,truncate,coug,cough,UNMATCHED,False
+nausea,uppercase,NAUSEA,nausea,nausea,True
+nausea,punctuation,nausea!,nausea,nausea,True
+nausea,whitespace,  nausea  ,nausea,nausea,True
+nausea,truncate,nause,nausea,UNMATCHED,False
+brittle nails,uppercase,BRITTLE NAILS,brittle nails,brittle nails,True
+brittle nails,punctuation,brittle nails!,brittle nails,brittle nails,True
+brittle nails,whitespace,  brittle   nails  ,brittle nails,brittle nails,True
+brittle nails,truncate,brittle nail,brittle nails,brittle nails,True
+loss of balance,uppercase,LOSS OF BALANCE,loss of balance,loss of balance,True
+loss of balance,punctuation,loss of balance!,loss of balance,loss of balance,True
+loss of balance,whitespace,  loss   of   balance  ,loss of balance,loss of balance,True
+loss of balance,truncate,loss of balanc,loss of balance,UNMATCHED,False
+Bruising,uppercase,BRUISING,bruising,bruising,True
+Bruising,punctuation,Bruising!,bruising,bruising,True
+Bruising,whitespace,  Bruising  ,bruising,bruising,True
+Bruising,truncate,Bruisin,bruising,UNMATCHED,False
+toxic look,uppercase,TOXIC LOOK,toxic look (typhos),toxic look (typhos),True
+toxic look,punctuation,toxic look!,toxic look (typhos),UNMATCHED,False
+toxic look,whitespace,  toxic   look  ,toxic look (typhos),toxic look (typhos),True
+toxic look,truncate,toxic loo,toxic look (typhos),UNMATCHED,False
+Palpitations,uppercase,PALPITATIONS,palpitations,palpitations,True
+Palpitations,punctuation,Palpitations!,palpitations,palpitations,True
+Palpitations,whitespace,  Palpitations  ,palpitations,palpitations,True
+Palpitations,truncate,Palpitation,palpitations,palpitations,True
+skin rash,uppercase,SKIN RASH,skin rash,skin rash,True
+skin rash,punctuation,skin rash!,skin rash,skin rash,True
+skin rash,whitespace,  skin   rash  ,skin rash,skin rash,True
+skin rash,truncate,skin ras,skin rash,UNMATCHED,False
+rusty sputum,uppercase,RUSTY SPUTUM,rusty sputum,rusty sputum,True
+rusty sputum,punctuation,rusty sputum!,rusty sputum,rusty sputum,True
+rusty sputum,whitespace,  rusty   sputum  ,rusty sputum,rusty sputum,True
+rusty sputum,truncate,rusty sputu,rusty sputum,rusty sputum,True
+Blackheads,uppercase,BLACKHEADS,blackheads,blackheads,True
+Blackheads,punctuation,Blackheads!,blackheads,blackheads,True
+Blackheads,whitespace,  Blackheads  ,blackheads,blackheads,True
+Blackheads,truncate,Blackhead,blackheads,blackheads,True
+stomach bleeding,uppercase,STOMACH BLEEDING,stomach bleeding,stomach bleeding,True
+stomach bleeding,punctuation,stomach bleeding!,stomach bleeding,stomach bleeding,True
+stomach bleeding,whitespace,  stomach   bleeding  ,stomach bleeding,stomach bleeding,True
+stomach bleeding,truncate,stomach bleedin,stomach bleeding,stomach bleeding,True
+mucoid sputum,uppercase,MUCOID SPUTUM,mucoid sputum,mucoid sputum,True
+mucoid sputum,punctuation,mucoid sputum!,mucoid sputum,mucoid sputum,True
+mucoid sputum,whitespace,  mucoid   sputum  ,mucoid sputum,mucoid sputum,True
+mucoid sputum,truncate,mucoid sputu,mucoid sputum,mucoid sputum,True
+indigestion,uppercase,INDIGESTION,indigestion,indigestion,True
+indigestion,punctuation,indigestion!,indigestion,indigestion,True
+indigestion,whitespace,  indigestion  ,indigestion,indigestion,True
+indigestion,truncate,indigestio,indigestion,indigestion,True
+yellow crust ooze,uppercase,YELLOW CRUST OOZE,yellow crust ooze,yellow crust ooze,True
+yellow crust ooze,punctuation,yellow crust ooze!,yellow crust ooze,yellow crust ooze,True
+yellow crust ooze,whitespace,  yellow   crust   ooze  ,yellow crust ooze,yellow crust ooze,True
+yellow crust ooze,truncate,yellow crust ooz,yellow crust ooze,yellow crust ooze,True
+bladder discomfort,uppercase,BLADDER DISCOMFORT,bladder discomfort,bladder discomfort,True
+bladder discomfort,punctuation,bladder discomfort!,bladder discomfort,bladder discomfort,True
+bladder discomfort,whitespace,  bladder   discomfort  ,bladder discomfort,bladder discomfort,True
+bladder discomfort,truncate,bladder discomfor,bladder discomfort,UNMATCHED,False
+fast heart rate,uppercase,FAST HEART RATE,fast heart rate,fast heart rate,True
+fast heart rate,punctuation,fast heart rate!,fast heart rate,fast heart rate,True
+fast heart rate,whitespace,  fast   heart   rate  ,fast heart rate,fast heart rate,True
+fast heart rate,truncate,fast heart rat,fast heart rate,UNMATCHED,False
+Neck pain,uppercase,NECK PAIN,neck pain,neck pain,True
+Neck pain,punctuation,Neck pain!,neck pain,neck pain,True
+Neck pain,whitespace,  Neck   pain  ,neck pain,neck pain,True
+Neck pain,truncate,Neck pai,neck pain,UNMATCHED,False
+continuous feel of urine,uppercase,CONTINUOUS FEEL OF URINE,continuous feel of urine,continuous feel of urine,True
+continuous feel of urine,punctuation,continuous feel of urine!,continuous feel of urine,continuous feel of urine,True
+continuous feel of urine,whitespace,  continuous   feel   of   urine  ,continuous feel of urine,continuous feel of urine,True
+continuous feel of urine,truncate,continuous feel of urin,continuous feel of urine,continuous feel of urine,True
+chest pain,uppercase,CHEST PAIN,chest pain,chest pain,True
+chest pain,punctuation,chest pain!,chest pain,chest pain,True
+chest pain,whitespace,  chest   pain  ,chest pain,chest pain,True
+chest pain,truncate,chest pai,chest pain,UNMATCHED,False
+burning micturition,uppercase,BURNING MICTURITION,burning micturition,burning micturition,True
+burning micturition,punctuation,burning micturition!,burning micturition,burning micturition,True
+burning micturition,whitespace,  burning   micturition  ,burning micturition,burning micturition,True
+burning micturition,truncate,burning micturitio,burning micturition,burning micturition,True
+dehydration,uppercase,DEHYDRATION,dehydration,dehydration,True
+dehydration,punctuation,dehydration!,dehydration,dehydration,True
+dehydration,whitespace,  dehydration  ,dehydration,dehydration,True
+dehydration,truncate,dehydratio,dehydration,dehydration,True

@@ -1,0 +1,6 @@
+Module,Model,Test size,Primary metric,Score,Baseline,Status,File
+Fracture CNN,existing repository implementation,500.0,accuracy,0.976,NOT RUN,MEASURED,fracture_cnn.json
+Disease classifier,existing repository implementation,42.0,accuracy,1.0,NOT RUN,MEASURED,disease_prediction.json
+NER,existing repository implementation,116.0,strict_span_f1,0.5721925133689839,NOT RUN,MEASURED,ner.json
+Summarization,existing repository implementation,,rougeL,0.5464693141407192,NOT RUN,MEASURED,summarization.json
+Normalization coverage,existing repository implementation,150.0,matched_rate,1.0,NOT RUN,MEASURED,normalization_coverage.json

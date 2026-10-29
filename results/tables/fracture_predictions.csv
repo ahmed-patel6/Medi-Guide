@@ -1,0 +1,501 @@
+id,path,true,pred,fracture_score,confidence
+0.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0.png,0,0,0.864163,0.864163
+00001.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\00001.png,0,1,0.37595454,0.6240455
+00004541.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\00004541.png,0,0,0.9366192,0.9366192
+000151.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\000151.png,0,0,0.9366192,0.9366192
+000151594.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\000151594.png,0,0,0.8195812,0.8195812
+0001517989.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0001517989.png,0,0,0.9366192,0.9366192
+000151898.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\000151898.png,0,0,0.8195812,0.8195812
+000151899789.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\000151899789.png,0,0,0.8195812,0.8195812
+0005156.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0005156.png,0,0,0.8195812,0.8195812
+001.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\001.png,0,1,0.37595454,0.6240455
+0010.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0010.png,0,0,0.94388074,0.94388074
+0012.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0012.png,0,0,0.94388074,0.94388074
+0013.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0013.png,0,0,0.96240324,0.96240324
+0014.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0014.png,0,0,0.9417977,0.9417977
+0015.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0015.png,0,0,0.9417977,0.9417977
+00156.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\00156.png,0,0,0.96240324,0.96240324
+00233.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\00233.png,0,0,0.9417977,0.9417977
+002555.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\002555.png,0,0,0.94388074,0.94388074
+0045.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0045.png,0,0,0.9417977,0.9417977
+00655154.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\00655154.png,0,0,0.9366192,0.9366192
+007.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\007.png,0,0,0.96240324,0.96240324
+0085.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0085.png,0,0,0.94388074,0.94388074
+0089.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\0089.png,0,0,0.96240324,0.96240324
+01.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\01.png,0,1,0.37595454,0.6240455
+1-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\1-rotated1-rotated2-rotated1.jpg,0,0,0.98432297,0.98432297
+1-rotated1-rotated3-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\1-rotated1-rotated3-rotated3 - Copy.jpg,0,0,0.97543067,0.97543067
+1-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\1-rotated2-rotated1-rotated3.jpg,0,0,0.97214645,0.97214645
+1-rotated2-rotated3-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\1-rotated2-rotated3-rotated1 - Copy.jpg,0,0,0.9768837,0.9768837
+1-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\1-rotated3-rotated1-rotated1.jpg,0,0,0.97441995,0.97441995
+1-rotated3-rotated2-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\1-rotated3-rotated2-rotated3 - Copy.jpg,0,0,0.9741803,0.9741803
+1.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\1.png,0,0,0.8954493,0.8954493
+10.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\10.png,0,0,0.94388074,0.94388074
+11.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\11.png,0,0,0.96240324,0.96240324
+11111.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\11111.png,0,1,0.37595454,0.6240455
+15.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\15.png,0,1,0.3191042,0.6808958
+2-rotated1-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\2-rotated1-rotated2 - Copy.jpg,0,0,0.971848,0.971848
+2-rotated1-rotated3-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\2-rotated1-rotated3-rotated2 - Copy.jpg,0,0,0.9910166,0.9910166
+2-rotated2-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\2-rotated2-rotated1-rotated2.jpg,0,0,0.975389,0.975389
+2-rotated2-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\2-rotated2-rotated3 - Copy.jpg,0,0,0.97651666,0.97651666
+2-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\2-rotated3-rotated1.jpg,0,0,0.9779779,0.9779779
+2-rotated3-rotated2-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\2-rotated3-rotated2-rotated2 - Copy.jpg,0,0,0.97623277,0.97623277
+2-rotated3-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\2-rotated3-rotated3-rotated3.jpg,0,0,0.9759645,0.9759645
+2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\2.jpg,0,0,0.9657031,0.9657031
+2.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\2.png,0,0,0.8954493,0.8954493
+3-rotated1-rotated1-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\3-rotated1-rotated1-rotated3 - Copy.jpg,0,0,0.9849036,0.9849036
+3-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\3-rotated1-rotated3.jpg,0,0,0.9892568,0.9892568
+3-rotated2-rotated1-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\3-rotated2-rotated1-rotated1 - Copy.jpg,0,0,0.9880112,0.9880112
+3-rotated2-rotated2-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\3-rotated2-rotated2-rotated3 - Copy.jpg,0,0,0.9811069,0.9811069
+3-rotated3-rotated2-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\3-rotated3-rotated2-rotated1 - Copy.jpg,0,0,0.98598135,0.98598135
+3-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\3-rotated3-rotated3-rotated2.jpg,0,0,0.9192301,0.9192301
+3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\3-rotated3.jpg,0,0,0.9875942,0.9875942
+3.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\3.png,0,0,0.800235,0.800235
+4-rotated1-rotated1-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\4-rotated1-rotated1-rotated2 - Copy.jpg,0,0,0.9837616,0.9837616
+4-rotated1-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\4-rotated1-rotated2-rotated3.jpg,0,0,0.98122865,0.98122865
+4-rotated2-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\4-rotated2-rotated1 - Copy.jpg,0,0,0.98722523,0.98722523
+4-rotated2-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\4-rotated2-rotated2-rotated1.jpg,0,0,0.98697555,0.98697555
+4-rotated2-rotated3-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\4-rotated2-rotated3-rotated3 - Copy.jpg,0,0,0.9874844,0.9874844
+4-rotated3-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\4-rotated3-rotated2 - Copy.jpg,0,0,0.9880648,0.9880648
+4-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\4-rotated3-rotated3-rotated1.jpg,0,0,0.9855192,0.9855192
+4.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\4.png,0,0,0.800235,0.800235
+5-rotated1-rotated1-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\5-rotated1-rotated1-rotated1 - Copy.jpg,0,0,0.98778325,0.98778325
+5-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\5-rotated1-rotated2-rotated2.jpg,0,0,0.9888205,0.9888205
+5-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\5-rotated2 - Copy.jpg,0,0,0.99386275,0.99386275
+5-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\5-rotated2-rotated2.jpg,0,0,0.9854246,0.9854246
+5-rotated2-rotated3-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\5-rotated2-rotated3-rotated2 - Copy.jpg,0,0,0.98756415,0.98756415
+5-rotated3-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\5-rotated3-rotated1-rotated2.jpg,0,0,0.9877638,0.9877638
+5-rotated3-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\5-rotated3-rotated3 - Copy.jpg,0,0,0.9915274,0.9915274
+5.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\5.png,0,0,0.864163,0.864163
+6-rotated1-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\6-rotated1-rotated1 - Copy.jpg,0,0,0.9749442,0.9749442
+6-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\6-rotated1-rotated2-rotated1.jpg,0,0,0.9746089,0.9746089
+6-rotated1-rotated3-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\6-rotated1-rotated3-rotated3 - Copy.jpg,0,0,0.979752,0.979752
+6-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\6-rotated2-rotated1-rotated3.jpg,0,0,0.9716,0.9716
+6-rotated2-rotated3-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\6-rotated2-rotated3-rotated1 - Copy.jpg,0,0,0.97677,0.97677
+6-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\6-rotated3-rotated1-rotated1.jpg,0,0,0.9839012,0.9839012
+6-rotated3-rotated2-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\6-rotated3-rotated2-rotated3 - Copy.jpg,0,0,0.97691447,0.97691447
+6.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\6.png,0,0,0.9417977,0.9417977
+616156.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\616156.png,0,1,0.3191042,0.6808958
+65611.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\65611.png,0,1,0.3191042,0.6808958
+7-rotated1-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\7-rotated1-rotated1 - Copy.jpg,0,0,0.9883913,0.9883913
+7-rotated1-rotated2-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\7-rotated1-rotated2-rotated1 - Copy.jpg,0,0,0.9804944,0.9804944
+7-rotated1-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\7-rotated1-rotated3-rotated2.jpg,0,0,0.97415924,0.97415924
+7-rotated2-rotated1-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\7-rotated2-rotated1-rotated3 - Copy.jpg,0,0,0.9851538,0.9851538
+7-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\7-rotated2-rotated3.jpg,0,0,0.97128594,0.97128594
+7-rotated3-rotated1-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\7-rotated3-rotated1-rotated1 - Copy.jpg,0,0,0.9836389,0.9836389
+7-rotated3-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\7-rotated3-rotated2-rotated2.jpg,0,0,0.9691815,0.9691815
+7.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\7.png,0,0,0.96240324,0.96240324
+79-rotated2-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\79-rotated2-rotated1-rotated2.jpg,0,0,0.98634064,0.98634064
+79-rotated2-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\79-rotated2-rotated3 - Copy.jpg,0,0,0.9835429,0.9835429
+79-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\79-rotated3-rotated1.jpg,0,0,0.9854675,0.9854675
+79-rotated3-rotated2-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\79-rotated3-rotated2-rotated2 - Copy.jpg,0,0,0.9848564,0.9848564
+79-rotated3-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\79-rotated3-rotated3-rotated3.jpg,0,0,0.97223324,0.97223324
+8 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\8 - Copy.jpg,0,0,0.9779293,0.9779293
+8-rotated1-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\8-rotated1-rotated1-rotated3.jpg,0,0,0.98629457,0.98629457
+8-rotated1-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\8-rotated1-rotated3-rotated1.jpg,0,0,0.9875601,0.9875601
+8-rotated2-rotated1-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\8-rotated2-rotated1-rotated2 - Copy.jpg,0,0,0.9853516,0.9853516
+8-rotated2-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\8-rotated2-rotated2-rotated3.jpg,0,0,0.98645055,0.98645055
+8-rotated3-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\8-rotated3-rotated1 - Copy.jpg,0,0,0.98841816,0.98841816
+8-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\8-rotated3-rotated2-rotated1.jpg,0,0,0.9887588,0.9887588
+8-rotated3-rotated3-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\8-rotated3-rotated3-rotated3 - Copy.jpg,0,0,0.98743093,0.98743093
+8.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\8.png,0,0,0.9417977,0.9417977
+80-rotated1-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\80-rotated1-rotated1-rotated3.jpg,0,0,0.9869479,0.9869479
+80-rotated1-rotated3-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\80-rotated1-rotated3-rotated1 - Copy.jpg,0,0,0.9847928,0.9847928
+80-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\80-rotated2-rotated1-rotated1.jpg,0,0,0.98674613,0.98674613
+80-rotated2-rotated2-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\80-rotated2-rotated2-rotated3 - Copy.jpg,0,0,0.98426986,0.98426986
+80-rotated3-rotated2-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\80-rotated3-rotated2-rotated1 - Copy.jpg,0,0,0.9870827,0.9870827
+80-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\80-rotated3-rotated3-rotated2.jpg,0,0,0.98290783,0.98290783
+80-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\80-rotated3.jpg,0,0,0.9785323,0.9785323
+81-rotated1-rotated1-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\81-rotated1-rotated1-rotated2 - Copy.jpg,0,0,0.9851532,0.9851532
+81-rotated1-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\81-rotated1-rotated2-rotated3.jpg,0,0,0.99078673,0.99078673
+81-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\81-rotated2-rotated1.jpg,0,0,0.98920256,0.98920256
+81-rotated2-rotated2-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\81-rotated2-rotated2-rotated2 - Copy.jpg,0,0,0.99251926,0.99251926
+81-rotated2-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\81-rotated2-rotated3-rotated3.jpg,0,0,0.98824173,0.98824173
+81-rotated3-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\81-rotated3-rotated2 - Copy.jpg,0,0,0.98752,0.98752
+81-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\81-rotated3-rotated3-rotated1.jpg,0,0,0.99149185,0.99149185
+82-rotated1-rotated1-rotated1 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\82-rotated1-rotated1-rotated1 - Copy.jpg,0,0,0.98446965,0.98446965
+82-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\82-rotated1-rotated2-rotated2.jpg,0,0,0.9646082,0.9646082
+82-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\82-rotated1-rotated3-rotated3.jpg,0,0,0.97607327,0.97607327
+82-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\82-rotated2-rotated1-rotated3.jpg,0,0,0.9883569,0.9883569
+82-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\82-rotated2-rotated3.jpg,0,0,0.99210453,0.99210453
+82-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\82-rotated3-rotated1.jpg,0,0,0.9743464,0.9743464
+82-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\82-rotated3-rotated2-rotated1.jpg,0,0,0.97760993,0.97760993
+82-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\82-rotated3-rotated3-rotated2.jpg,0,0,0.97770643,0.97770643
+83-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\83-rotated1-rotated1-rotated1.jpg,0,0,0.98192585,0.98192585
+83-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\83-rotated1-rotated2-rotated2.jpg,0,0,0.9800332,0.9800332
+83-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\83-rotated1-rotated3-rotated3.jpg,0,0,0.9724406,0.9724406
+83-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\83-rotated2-rotated1-rotated3.jpg,0,0,0.9815222,0.9815222
+83-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\83-rotated2-rotated3.jpg,0,0,0.9720624,0.9720624
+83-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\83-rotated3-rotated1.jpg,0,0,0.98153543,0.98153543
+83-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\83-rotated3-rotated2-rotated1.jpg,0,0,0.97844666,0.97844666
+83-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\83-rotated3-rotated3-rotated2.jpg,0,0,0.9789625,0.9789625
+84-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\84-rotated1-rotated1-rotated1.jpg,0,0,0.9797428,0.9797428
+84-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\84-rotated1-rotated2-rotated2.jpg,0,0,0.98680484,0.98680484
+84-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\84-rotated1-rotated3-rotated3.jpg,0,0,0.9694727,0.9694727
+84-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\84-rotated2-rotated1-rotated3.jpg,0,0,0.9720318,0.9720318
+84-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\84-rotated2-rotated3.jpg,0,0,0.9841421,0.9841421
+84-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\84-rotated3-rotated1.jpg,0,0,0.9693028,0.9693028
+84-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\84-rotated3-rotated2-rotated1.jpg,0,0,0.98279935,0.98279935
+84-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\84-rotated3-rotated3-rotated2.jpg,0,0,0.9467506,0.9467506
+85-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\85-rotated1-rotated1-rotated1.jpg,0,0,0.9845465,0.9845465
+85-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\85-rotated1-rotated2-rotated2.jpg,0,0,0.98270184,0.98270184
+85-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\85-rotated1-rotated3-rotated3.jpg,0,0,0.9801727,0.9801727
+85-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\85-rotated2-rotated1-rotated3.jpg,0,0,0.9708018,0.9708018
+85-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\85-rotated2-rotated3.jpg,0,0,0.9863447,0.9863447
+85-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\85-rotated3-rotated1.jpg,0,0,0.98871243,0.98871243
+85-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\85-rotated3-rotated2-rotated1.jpg,0,0,0.98279554,0.98279554
+85-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\85-rotated3-rotated3-rotated2.jpg,0,0,0.9863403,0.9863403
+86-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\86-rotated1-rotated1-rotated1.jpg,0,0,0.9860481,0.9860481
+86-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\86-rotated1-rotated2-rotated2.jpg,0,0,0.98056245,0.98056245
+86-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\86-rotated1-rotated3-rotated3.jpg,0,0,0.9823415,0.9823415
+86-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\86-rotated2-rotated1-rotated3.jpg,0,0,0.98558444,0.98558444
+86-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\86-rotated2-rotated3.jpg,0,0,0.983093,0.983093
+86-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\86-rotated3-rotated1.jpg,0,0,0.983752,0.983752
+86-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\86-rotated3-rotated2-rotated1.jpg,0,0,0.9849637,0.9849637
+86-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\86-rotated3-rotated3-rotated2.jpg,0,0,0.9842307,0.9842307
+87-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\87-rotated1-rotated1-rotated1.jpg,0,0,0.9784992,0.9784992
+87-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\87-rotated1-rotated2-rotated2.jpg,0,0,0.98367846,0.98367846
+87-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\87-rotated1-rotated3-rotated3.jpg,0,0,0.97785723,0.97785723
+87-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\87-rotated2-rotated1-rotated3.jpg,0,0,0.9795473,0.9795473
+87-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\87-rotated2-rotated3.jpg,0,0,0.9741563,0.9741563
+87-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\87-rotated3-rotated1.jpg,0,0,0.9742552,0.9742552
+87-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\87-rotated3-rotated2-rotated1.jpg,0,0,0.984133,0.984133
+87-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\87-rotated3-rotated3-rotated2.jpg,0,0,0.9804984,0.9804984
+88-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\88-rotated1-rotated1-rotated1.jpg,0,0,0.973382,0.973382
+88-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\88-rotated1-rotated2-rotated2.jpg,0,0,0.96946454,0.96946454
+88-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\88-rotated1-rotated3-rotated3.jpg,0,0,0.982268,0.982268
+88-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\88-rotated2-rotated1-rotated3.jpg,0,0,0.9716754,0.9716754
+88-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\88-rotated2-rotated3.jpg,0,0,0.9698599,0.9698599
+88-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\88-rotated3-rotated1.jpg,0,0,0.9569421,0.9569421
+88-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\88-rotated3-rotated2-rotated1.jpg,0,0,0.9748068,0.9748068
+88-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\88-rotated3-rotated3-rotated2.jpg,0,0,0.4663655,0.4663655
+89-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\89-rotated1-rotated1-rotated1.jpg,0,0,0.792143,0.792143
+89-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\89-rotated1-rotated2-rotated2.jpg,0,0,0.90883887,0.90883887
+89-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\89-rotated1-rotated3-rotated3.jpg,0,0,0.86310506,0.86310506
+89-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\89-rotated2-rotated1-rotated3.jpg,0,0,0.90467,0.90467
+89-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\89-rotated2-rotated3.jpg,0,0,0.92441535,0.92441535
+89-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\89-rotated3-rotated1.jpg,0,0,0.8700241,0.8700241
+89-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\89-rotated3-rotated2-rotated1.jpg,0,0,0.85574514,0.85574514
+89-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\89-rotated3-rotated3-rotated2.jpg,0,0,0.80401975,0.80401975
+9-rotated1-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\9-rotated1-rotated1-rotated2.jpg,0,0,0.98416674,0.98416674
+9-rotated1-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\9-rotated1-rotated3 - Copy.jpg,0,0,0.9849782,0.9849782
+9-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\9-rotated2-rotated1.jpg,0,0,0.977844,0.977844
+9-rotated2-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\9-rotated2-rotated2-rotated2.jpg,0,0,0.9789338,0.9789338
+9-rotated3 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\9-rotated3 - Copy.jpg,0,0,0.9749374,0.9749374
+9-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\9-rotated3-rotated2.jpg,0,0,0.98639756,0.98639756
+9-rotated3-rotated3-rotated2 - Copy.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\9-rotated3-rotated3-rotated2 - Copy.jpg,0,0,0.94014674,0.94014674
+9.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\9.png,0,0,0.9417977,0.9417977
+90-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\90-rotated1-rotated1-rotated1.jpg,0,0,0.93899953,0.93899953
+90-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\90-rotated1-rotated2-rotated2.jpg,0,0,0.9495163,0.9495163
+90-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\90-rotated1-rotated3-rotated3.jpg,0,0,0.97292227,0.97292227
+90-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\90-rotated2-rotated1-rotated3.jpg,0,0,0.9444547,0.9444547
+90-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\90-rotated2-rotated3.jpg,0,0,0.97275203,0.97275203
+90-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\90-rotated3-rotated1.jpg,0,0,0.9390288,0.9390288
+90-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\90-rotated3-rotated2-rotated1.jpg,0,0,0.95820737,0.95820737
+90-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\90-rotated3-rotated3-rotated2.jpg,0,0,0.94827753,0.94827753
+91-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\91-rotated1-rotated1-rotated1.jpg,0,0,0.98532385,0.98532385
+91-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\91-rotated1-rotated2-rotated2.jpg,0,0,0.98712033,0.98712033
+91-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\91-rotated1-rotated3-rotated3.jpg,0,0,0.98884684,0.98884684
+91-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\91-rotated2-rotated1-rotated3.jpg,0,0,0.9879803,0.9879803
+91-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\91-rotated2-rotated3.jpg,0,0,0.9879579,0.9879579
+91-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\91-rotated3-rotated1.jpg,0,0,0.9864575,0.9864575
+91-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\91-rotated3-rotated2-rotated1.jpg,0,0,0.9870543,0.9870543
+91-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\91-rotated3-rotated3-rotated2.jpg,0,0,0.9856695,0.9856695
+92-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\92-rotated1-rotated1-rotated1.jpg,0,0,0.98905903,0.98905903
+92-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\92-rotated1-rotated2-rotated2.jpg,0,0,0.9886933,0.9886933
+92-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\92-rotated1-rotated3-rotated3.jpg,0,0,0.9886263,0.9886263
+92-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\92-rotated2-rotated1-rotated3.jpg,0,0,0.9894672,0.9894672
+92-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\92-rotated2-rotated3.jpg,0,0,0.99098384,0.99098384
+92-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\92-rotated3-rotated1.jpg,0,0,0.9913293,0.9913293
+92-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\92-rotated3-rotated2-rotated1.jpg,0,0,0.9893261,0.9893261
+92-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\92-rotated3-rotated3-rotated2.jpg,0,0,0.9901063,0.9901063
+93-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\93-rotated1-rotated1-rotated1.jpg,0,0,0.98806936,0.98806936
+93-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\93-rotated1-rotated2-rotated2.jpg,0,0,0.9810347,0.9810347
+93-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\93-rotated1-rotated3-rotated3.jpg,0,0,0.9848006,0.9848006
+93-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\93-rotated2-rotated1-rotated3.jpg,0,0,0.983621,0.983621
+93-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\93-rotated2-rotated3.jpg,0,0,0.9824051,0.9824051
+93-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\93-rotated3-rotated1.jpg,0,0,0.9876195,0.9876195
+93-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\93-rotated3-rotated2-rotated1.jpg,0,0,0.98385876,0.98385876
+93-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\93-rotated3-rotated3-rotated2.jpg,0,0,0.9787658,0.9787658
+94-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\94-rotated1-rotated1-rotated1.jpg,0,0,0.9786993,0.9786993
+94-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\94-rotated1-rotated2-rotated2.jpg,0,0,0.982724,0.982724
+94-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\94-rotated1-rotated3-rotated3.jpg,0,0,0.9809124,0.9809124
+94-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\94-rotated2-rotated1-rotated3.jpg,0,0,0.98495424,0.98495424
+94-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\94-rotated2-rotated3.jpg,0,0,0.98580617,0.98580617
+94-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\94-rotated3-rotated1.jpg,0,0,0.9837255,0.9837255
+94-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\94-rotated3-rotated2-rotated1.jpg,0,0,0.97841895,0.97841895
+94-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\94-rotated3-rotated3-rotated2.jpg,0,0,0.9862097,0.9862097
+95-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\95-rotated1-rotated1-rotated1.jpg,0,0,0.9904766,0.9904766
+95-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\95-rotated1-rotated2-rotated2.jpg,0,0,0.9920292,0.9920292
+95-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\95-rotated1-rotated3-rotated3.jpg,0,0,0.98966146,0.98966146
+95-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\95-rotated2-rotated1-rotated3.jpg,0,0,0.9792236,0.9792236
+95-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\95-rotated2-rotated3.jpg,0,0,0.9747455,0.9747455
+95-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\95-rotated3-rotated1.jpg,0,0,0.9757053,0.9757053
+95-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\95-rotated3-rotated2-rotated1.jpg,0,0,0.98553723,0.98553723
+95-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\95-rotated3-rotated3-rotated2.jpg,0,0,0.9585552,0.9585552
+96-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\96-rotated1-rotated1-rotated1.jpg,0,0,0.9848445,0.9848445
+96-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\96-rotated1-rotated2-rotated2.jpg,0,0,0.98479986,0.98479986
+96-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\96-rotated1-rotated3-rotated3.jpg,0,0,0.98573273,0.98573273
+96-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\96-rotated2-rotated1-rotated3.jpg,0,0,0.9858042,0.9858042
+0.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\0.png,1,1,0.066071704,0.93392825
+001.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\001.png,1,1,0.1151551,0.88484496
+0013.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\0013.png,1,1,0.15887234,0.84112763
+004.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\004.png,1,1,0.1151551,0.88484496
+0047.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\0047.png,1,1,0.09583698,0.90416306
+00755.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\00755.png,1,1,0.04509197,0.954908
+1-rotated1-rotated2-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\1-rotated1-rotated2-rotated3-rotated1.jpg,1,1,0.010141809,0.9898582
+1-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\1-rotated2-rotated1-rotated1.jpg,1,1,0.0067583756,0.99324167
+1-rotated2-rotated2-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\1-rotated2-rotated2-rotated2-rotated1.jpg,1,1,0.0072927806,0.9927072
+1-rotated3-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\1-rotated3-rotated2-rotated1-rotated1.jpg,1,1,0.008442473,0.9915575
+1-rotated3-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\1-rotated3-rotated3-rotated3.jpg,1,1,0.0082406085,0.99175936
+1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\1-rotated3.jpg,1,1,0.008873317,0.9911267
+1.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\1.png,1,1,0.17662066,0.8233793
+10-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\10-rotated1-rotated2-rotated2.jpg,1,1,0.026835034,0.973165
+10-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\10-rotated2-rotated2.jpg,1,1,0.02322644,0.9767736
+10-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\10-rotated3-rotated3-rotated1.jpg,1,1,0.029167436,0.9708326
+10-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\10-rotated3.jpg,1,1,0.040357627,0.95964235
+10.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\10.png,1,1,0.17662066,0.8233793
+11.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\11.png,1,1,0.17662066,0.8233793
+113.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\113.png,1,1,0.1151551,0.88484496
+12-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\12-rotated1-rotated2-rotated1.jpg,1,1,0.018877422,0.9811226
+12-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\12-rotated2-rotated1-rotated3.jpg,1,1,0.021171873,0.97882813
+12-rotated3-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\12-rotated3-rotated3-rotated2-rotated1.jpg,1,1,0.018870218,0.9811298
+12-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\12-rotated3.jpg,1,1,0.043334458,0.9566656
+13-rotated1-rotated1-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\13-rotated1-rotated1-rotated3-rotated1.jpg,1,1,0.016611129,0.9833889
+13-rotated2-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\13-rotated2-rotated1-rotated2.jpg,1,1,0.008354843,0.99164516
+13-rotated2-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\13-rotated2-rotated3-rotated2-rotated1.jpg,1,1,0.017066022,0.98293394
+13-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\13-rotated3-rotated3-rotated1.jpg,1,1,0.014305952,0.985694
+14-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\14-rotated1-rotated2-rotated1.jpg,1,1,0.016709208,0.9832908
+14-rotated2-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\14-rotated2-rotated1-rotated1-rotated1.jpg,1,1,0.048793014,0.951207
+14-rotated2-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\14-rotated2-rotated3-rotated2.jpg,1,1,0.012274322,0.9877257
+14-rotated3-rotated2-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\14-rotated3-rotated2-rotated3-rotated1.jpg,1,1,0.016037995,0.98396206
+15-rotated1-rotated1-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\15-rotated1-rotated1-rotated3-rotated1.jpg,1,1,0.021951163,0.9780489
+15-rotated2-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\15-rotated2-rotated1-rotated2.jpg,1,1,0.014585339,0.9854146
+15-rotated2-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\15-rotated2-rotated3-rotated3.jpg,1,1,0.018478196,0.98152184
+15-rotated3-rotated2-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\15-rotated3-rotated2-rotated3-rotated1.jpg,1,1,0.019696355,0.9803036
+16-rotated1-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\16-rotated1-rotated1-rotated3.jpg,1,1,0.005432995,0.99456704
+16-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\16-rotated2-rotated1-rotated1.jpg,1,1,0.0032595494,0.9967404
+16-rotated2-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\16-rotated2-rotated3-rotated2.jpg,1,1,0.01734603,0.9826539
+16-rotated3-rotated2-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\16-rotated3-rotated2-rotated2-rotated1.jpg,1,1,0.005642759,0.99435717
+17-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\17-rotated1-rotated2.jpg,1,1,0.0053945184,0.9946055
+17-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\17-rotated2-rotated1.jpg,1,1,0.010813368,0.9891866
+17-rotated2-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\17-rotated2-rotated3-rotated1-rotated1.jpg,1,1,0.014522948,0.98547703
+17-rotated3-rotated2-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\17-rotated3-rotated2-rotated2-rotated1.jpg,1,1,0.014617414,0.98538256
+18-rotated1-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\18-rotated1-rotated1-rotated2-rotated1.jpg,1,1,0.009619114,0.9903808
+18-rotated2-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\18-rotated2-rotated3-rotated2.jpg,1,1,0.016494462,0.98350555
+18-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\18-rotated2.jpg,1,1,0.015188843,0.9848112
+18-rotated3-rotated2-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\18-rotated3-rotated2-rotated2-rotated1.jpg,1,1,0.010523444,0.98947656
+19-rotated1-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\19-rotated1-rotated1-rotated2-rotated1.jpg,1,1,0.038734827,0.96126515
+19-rotated2-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\19-rotated2-rotated3-rotated1.jpg,1,1,0.009479104,0.99052095
+19-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\19-rotated2.jpg,1,1,0.0533056,0.94669443
+19-rotated3-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\19-rotated3-rotated2-rotated2.jpg,1,1,0.006510475,0.9934895
+2-rotated1-rotated1-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\2-rotated1-rotated1-rotated3-rotated1.jpg,1,1,0.025053155,0.9749468
+2-rotated1-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\2-rotated1-rotated3-rotated1-rotated1.jpg,1,1,0.013332624,0.98666745
+2-rotated2-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\2-rotated2-rotated1-rotated2-rotated1.jpg,1,1,0.018443909,0.98155606
+2-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\2-rotated2-rotated3.jpg,1,1,0.012547556,0.98745245
+2-rotated3-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\2-rotated3-rotated1-rotated1-rotated1.jpg,1,1,0.016883643,0.9831163
+2-rotated3-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\2-rotated3-rotated2-rotated3.jpg,1,1,0.01983802,0.9801619
+2.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\2.png,1,1,0.066071704,0.93392825
+20-rotated1-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\20-rotated1-rotated1-rotated3.jpg,1,1,0.0036099677,0.99639004
+20-rotated2-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\20-rotated2-rotated3-rotated3-rotated1.jpg,1,1,0.0032213693,0.99677867
+20-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\20-rotated2.jpg,1,1,0.011453081,0.98854685
+21-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\21-rotated2-rotated1-rotated1.jpg,1,1,0.015913537,0.98408645
+21-rotated3-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\21-rotated3-rotated1-rotated2.jpg,1,1,0.011636997,0.98836297
+21.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\21.jpg,1,1,0.024778862,0.9752211
+22-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\22-rotated1-rotated2.jpg,1,1,0.007061892,0.9929381
+22-rotated2-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\22-rotated2-rotated2-rotated1-rotated1.jpg,1,1,0.007805893,0.99219406
+22-rotated3-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\22-rotated3-rotated2-rotated3.jpg,1,1,0.005969127,0.9940309
+23-rotated1-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\23-rotated1-rotated2-rotated1-rotated1.jpg,1,1,0.019114995,0.980885
+23-rotated2-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\23-rotated2-rotated3-rotated2-rotated1.jpg,1,1,0.01817166,0.9818284
+23-rotated3-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\23-rotated3-rotated3-rotated3.jpg,1,1,0.021502065,0.9784979
+24-rotated1-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\24-rotated1-rotated3-rotated1-rotated1.jpg,1,1,0.013355626,0.9866443
+24-rotated2-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\24-rotated2-rotated3-rotated3-rotated1.jpg,1,1,0.015709842,0.9842902
+25-rotated1-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\25-rotated1-rotated1-rotated3.jpg,1,1,0.01191162,0.9880884
+25-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\25-rotated2-rotated2.jpg,1,1,0.029092101,0.97090787
+25-rotated3-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\25-rotated3-rotated1-rotated3.jpg,1,1,0.02029288,0.9797071
+26-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\26-rotated1-rotated2.jpg,1,1,0.025721934,0.97427803
+26-rotated2-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\26-rotated2-rotated3-rotated1-rotated1.jpg,1,1,0.04004085,0.95995915
+26-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\26-rotated3-rotated3.jpg,1,1,0.020185446,0.9798146
+27-rotated1-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\27-rotated1-rotated3-rotated1.jpg,1,1,0.005723741,0.9942762
+27-rotated2-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\27-rotated2-rotated3-rotated2-rotated1.jpg,1,1,0.0071019805,0.992898
+28-rotated2-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\28-rotated2-rotated1-rotated1-rotated1.jpg,1,1,0.00459341,0.9954066
+28-rotated3-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\28-rotated3-rotated1-rotated2.jpg,1,1,0.006285052,0.993715
+28.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\28.jpg,1,1,0.021308681,0.97869134
+29-rotated1-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\29-rotated1-rotated1-rotated3.jpg,1,1,0.014758898,0.9852411
+29-rotated2-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\29-rotated2-rotated2-rotated1-rotated1.jpg,1,1,0.010309118,0.9896909
+29-rotated3-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\29-rotated3-rotated2-rotated3.jpg,1,1,0.009573352,0.99042666
+3-rotated1-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\3-rotated1-rotated2-rotated1-rotated1.jpg,1,1,0.0035904078,0.9964096
+3-rotated1-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\3-rotated1-rotated3-rotated3.jpg,1,1,0.009059458,0.9909406
+3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\3-rotated1.jpg,1,1,0.0044940943,0.9955059
+3-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\3-rotated2-rotated2.jpg,1,1,0.0034726898,0.99652725
+3-rotated2-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\3-rotated2-rotated3-rotated2.jpg,1,1,0.0065396954,0.9934603
+3-rotated3-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\3-rotated3-rotated1-rotated3.jpg,1,1,0.009786372,0.9902137
+3-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\3-rotated3-rotated3-rotated1.jpg,1,1,0.0053848512,0.99461514
+3.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\3.png,1,1,0.016570954,0.983429
+30-rotated1-rotated2-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\30-rotated1-rotated2-rotated3-rotated1.jpg,1,1,0.008527216,0.9914727
+30-rotated2-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\30-rotated2-rotated3-rotated1-rotated1.jpg,1,1,0.011306512,0.9886934
+30-rotated3-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\30-rotated3-rotated3-rotated3-rotated1.jpg,1,1,0.009748617,0.9902514
+31-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\31-rotated2-rotated1.jpg,1,1,0.010419971,0.9895801
+31-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\31-rotated3-rotated1-rotated1.jpg,1,1,0.019546127,0.98045385
+32-rotated1-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\32-rotated1-rotated1-rotated2-rotated1.jpg,1,1,0.016618626,0.9833814
+32-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\32-rotated2-rotated2.jpg,1,1,0.01283833,0.9871617
+32-rotated3-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\32-rotated3-rotated2-rotated2.jpg,1,1,0.013725878,0.9862742
+33-rotated1-rotated2-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\33-rotated1-rotated2-rotated2-rotated1.jpg,1,1,0.008752782,0.99124724
+33-rotated2-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\33-rotated2-rotated2-rotated3.jpg,1,1,0.009684922,0.990315
+33-rotated3-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\33-rotated3-rotated3-rotated2-rotated1.jpg,1,1,0.0084461775,0.99155384
+34-rotated1-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\34-rotated1-rotated3-rotated3-rotated1.jpg,1,1,0.0667136,0.9332864
+34-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\34-rotated3.jpg,1,1,0.061702203,0.93829787
+35-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\35-rotated1-rotated1.jpg,1,1,0.14133102,0.858669
+35-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\35-rotated2-rotated1-rotated3.jpg,1,1,0.042597577,0.95740247
+35-rotated3-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\35-rotated3-rotated2-rotated1-rotated1.jpg,1,1,0.063684806,0.9363152
+36-rotated1-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\36-rotated1-rotated2-rotated1-rotated1.jpg,1,1,0.009445079,0.99055487
+36-rotated2-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\36-rotated2-rotated2-rotated2.jpg,1,1,0.008625948,0.9913741
+36-rotated3-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\36-rotated3-rotated3-rotated1-rotated1.jpg,1,1,0.008835559,0.9911644
+37-rotated1-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\37-rotated1-rotated3-rotated1-rotated1.jpg,1,1,0.0124407755,0.98755926
+37-rotated2-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\37-rotated2-rotated3-rotated3.jpg,1,1,0.013776571,0.9862234
+38-rotated2-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\38-rotated2-rotated1-rotated2.jpg,1,1,0.076114655,0.92388535
+38-rotated3-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\38-rotated3-rotated1-rotated3.jpg,1,1,0.27884373,0.7211563
+38.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\38.jpg,1,1,0.31996843,0.68003154
+39-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\39-rotated1-rotated2.jpg,1,1,0.038951587,0.9610484
+39-rotated2-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\39-rotated2-rotated2-rotated1.jpg,1,1,0.01856971,0.98143035
+39-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\39-rotated3-rotated3.jpg,1,1,0.0322065,0.9677935
+4-rotated1-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\4-rotated1-rotated1-rotated1-rotated1.jpg,1,1,0.011813761,0.98818624
+4-rotated1-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\4-rotated1-rotated2-rotated3.jpg,1,1,0.011863866,0.9881362
+4-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\4-rotated2-rotated1.jpg,1,1,0.009654465,0.99034554
+4-rotated2-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\4-rotated2-rotated2-rotated2.jpg,1,1,0.010362992,0.9896371
+4-rotated3-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\4-rotated3-rotated1-rotated1-rotated1.jpg,1,1,0.014361391,0.9856387
+4-rotated3-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\4-rotated3-rotated3-rotated2-rotated1.jpg,1,1,0.014155141,0.98584485
+4.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\4.png,1,1,0.066071704,0.93392825
+40-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\40-rotated1-rotated3.jpg,1,1,0.014215829,0.9857841
+40-rotated2-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\40-rotated2-rotated3-rotated2-rotated1.jpg,1,1,0.01085564,0.9891444
+40-rotated3-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\40-rotated3-rotated3-rotated3.jpg,1,1,0.15720811,0.8427919
+41-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\41-rotated2-rotated1-rotated1.jpg,1,1,0.14399455,0.8560054
+41-rotated3-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\41-rotated3-rotated1-rotated2.jpg,1,1,0.04659091,0.9534091
+42-rotated1-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\42-rotated1-rotated1-rotated3.jpg,1,1,0.022859987,0.97714
+42-rotated2-rotated1-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\42-rotated2-rotated1-rotated3-rotated1.jpg,1,1,0.066894144,0.9331059
+42-rotated3-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\42-rotated3-rotated2-rotated3.jpg,1,1,0.02173979,0.9782602
+43-rotated1-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\43-rotated1-rotated2-rotated3.jpg,1,1,0.010903356,0.9890967
+43-rotated2-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\43-rotated2-rotated3-rotated1-rotated1.jpg,1,1,0.012439006,0.98756105
+43-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\43-rotated3-rotated3-rotated2.jpg,1,1,0.011486635,0.9885133
+44-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\44-rotated2-rotated1.jpg,1,1,0.0075690993,0.992431
+44-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\44-rotated3-rotated1-rotated1.jpg,1,1,0.0080747465,0.9919253
+45-rotated1-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\45-rotated1-rotated1-rotated2.jpg,1,1,0.006168442,0.9938315
+45-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\45-rotated2-rotated1-rotated3.jpg,1,1,0.0057726083,0.9942274
+45-rotated3-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\45-rotated3-rotated2-rotated2.jpg,1,1,0.011364313,0.98863566
+46-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\46-rotated1-rotated2-rotated2.jpg,1,1,0.010846003,0.98915404
+46-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\46-rotated2-rotated3.jpg,1,1,0.016641708,0.9833583
+46-rotated3-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\46-rotated3-rotated2-rotated3.jpg,1,1,0.010840188,0.98915976
+47-rotated1-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\47-rotated1-rotated3-rotated3-rotated1.jpg,1,1,0.015560994,0.9844391
+47-rotated3-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\47-rotated3-rotated3-rotated3.jpg,1,1,0.0087279,0.99127203
+47-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\47-rotated3.jpg,1,1,0.015086998,0.98491293
+48-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\48-rotated2-rotated1.jpg,1,1,0.010760126,0.98923993
+48-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\48-rotated3-rotated2-rotated1.jpg,1,1,0.009009886,0.99099004
+49-rotated1-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\49-rotated1-rotated2-rotated1-rotated1.jpg,1,1,0.023837114,0.9761629
+49-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\49-rotated2-rotated2.jpg,1,1,0.015491927,0.98450804
+49-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\49-rotated3-rotated2-rotated1.jpg,1,1,0.041725557,0.9582744
+5-rotated1-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\5-rotated1-rotated3-rotated1.jpg,1,1,0.011816601,0.98818344
+5-rotated2-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\5-rotated2-rotated2-rotated1-rotated1.jpg,1,1,0.010169638,0.9898303
+5-rotated3-rotated1-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\5-rotated3-rotated1-rotated1-rotated1.jpg,1,1,0.00908335,0.99091667
+5.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\5.png,1,1,0.17662066,0.8233793
+50-rotated1-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\50-rotated1-rotated3-rotated2-rotated1.jpg,1,1,0.0077627976,0.99223715
+50-rotated2-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\50-rotated2-rotated3-rotated1-rotated1.jpg,1,1,0.007795607,0.9922044
+50-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\50-rotated3-rotated3-rotated2.jpg,1,1,0.013364502,0.9866355
+51-rotated1-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\51-rotated1-rotated3-rotated2-rotated1.jpg,1,1,0.010807856,0.9891922
+51-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\51-rotated3-rotated1-rotated1.jpg,1,1,0.007332764,0.99266726
+52-rotated1-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\52-rotated1-rotated1-rotated2-rotated1.jpg,1,1,0.024333304,0.97566676
+52-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\52-rotated2-rotated1-rotated3.jpg,1,0,0.5634026,0.5634026
+52-rotated3-rotated1-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\52-rotated3-rotated1-rotated3-rotated1.jpg,1,1,0.043936472,0.95606345
+53-rotated1-rotated2-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\53-rotated1-rotated2-rotated2-rotated1.jpg,1,1,0.013662719,0.98633724
+53-rotated2-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\53-rotated2-rotated2-rotated3.jpg,1,1,0.015220951,0.98477906
+53-rotated3-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\53-rotated3-rotated3-rotated1-rotated1.jpg,1,1,0.01320678,0.9867932
+54-rotated1-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\54-rotated1-rotated3-rotated1-rotated1.jpg,1,1,0.047989763,0.9520103
+54-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\54-rotated3.jpg,1,1,0.030987669,0.9690123
+55-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\55-rotated1-rotated1.jpg,1,1,0.047718372,0.95228165
+55-rotated2-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\55-rotated2-rotated1-rotated2.jpg,1,1,0.009655314,0.9903447
+55-rotated3-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\55-rotated3-rotated1-rotated2-rotated1.jpg,1,1,0.06256177,0.93743825
+56-rotated1-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\56-rotated1-rotated2-rotated1-rotated1.jpg,1,1,0.0074823406,0.9925176
+56-rotated2-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\56-rotated2-rotated2-rotated2.jpg,1,1,0.01514206,0.9848579
+56-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\56-rotated3-rotated3.jpg,1,1,0.013056497,0.9869435
+57-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\57-rotated1-rotated3.jpg,1,1,0.138013,0.86198694
+57-rotated2-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\57-rotated2-rotated3-rotated3-rotated1.jpg,1,1,0.014988578,0.9850114
+58-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\58-rotated2-rotated1-rotated1.jpg,1,1,0.010991779,0.9890083
+58-rotated3-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\58-rotated3-rotated1-rotated2.jpg,1,1,0.007512291,0.99248767
+58.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\58.jpg,1,1,0.05011178,0.94988817
+59-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\59-rotated1-rotated2.jpg,1,1,0.009603455,0.9903965
+59-rotated2-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\59-rotated2-rotated2-rotated1.jpg,1,1,0.017627027,0.982373
+59-rotated3-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\59-rotated3-rotated2-rotated3.jpg,1,1,0.009095677,0.9909044
+6-rotated1-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\6-rotated1-rotated2-rotated3.jpg,1,1,0.026741022,0.97325903
+6-rotated2-rotated1-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\6-rotated2-rotated1-rotated3-rotated1.jpg,1,1,0.0077953828,0.99220467
+6-rotated3-rotated1-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\6-rotated3-rotated1-rotated2.jpg,1,1,0.011612841,0.98838717
+6-rotated3-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\6-rotated3-rotated3-rotated3.jpg,1,1,0.0094402665,0.99055976
+6.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\6.jpg,1,1,0.063791074,0.9362089
+6.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\6.png,1,1,0.016570954,0.983429
+60-rotated1-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\60-rotated1-rotated2-rotated3.jpg,1,1,0.08679319,0.9132068
+60-rotated2-rotated3-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\60-rotated2-rotated3-rotated2-rotated1.jpg,1,1,0.0142771965,0.98572284
+60-rotated3-rotated3-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\60-rotated3-rotated3-rotated3.jpg,1,1,0.020981511,0.97901845
+61-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\61-rotated2.jpg,1,1,0.02050406,0.97949594
+61-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\61-rotated3-rotated1-rotated1.jpg,1,1,0.016204322,0.98379564
+62-rotated1-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\62-rotated1-rotated1-rotated3.jpg,1,1,0.0148708625,0.9851291
+62-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\62-rotated2-rotated2.jpg,1,1,0.015299528,0.98470044
+62-rotated3-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\62-rotated3-rotated2-rotated2.jpg,1,1,0.010103098,0.9898969
+63-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\63-rotated1-rotated2-rotated2.jpg,1,1,0.010621249,0.98937875
+63-rotated2-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\63-rotated2-rotated3-rotated1-rotated1.jpg,1,1,0.0097806845,0.9902193
+7-rotated1-rotated2-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\7-rotated1-rotated2-rotated3.jpg,1,1,0.01582078,0.9841792
+7-rotated2-rotated2-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\7-rotated2-rotated2-rotated1-rotated1.jpg,1,1,0.014668726,0.9853313
+7-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\7-rotated3-rotated1-rotated1.jpg,1,1,0.030123368,0.9698766
+7-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\7-rotated3-rotated3-rotated2.jpg,1,1,0.015379437,0.9846206
+7.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\7.png,1,1,0.066071704,0.93392825
+8-rotated1-rotated2-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\8-rotated1-rotated2-rotated3-rotated1.jpg,1,1,0.0073251943,0.99267477
+8-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\8-rotated2-rotated2.jpg,1,1,0.024940915,0.9750591
+8-rotated3-rotated1-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\8-rotated3-rotated1-rotated1.jpg,1,1,0.0051799635,0.99482006
+8-rotated3-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\8-rotated3-rotated3-rotated3-rotated1.jpg,1,1,0.0055266437,0.9944734
+8.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\8.png,1,1,0.016570954,0.983429
+9-rotated1-rotated2-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\9-rotated1-rotated2-rotated2.jpg,1,1,0.015333545,0.98466647
+9-rotated2-rotated1-rotated2-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\9-rotated2-rotated1-rotated2-rotated1.jpg,1,1,0.012038366,0.9879616
+9-rotated2-rotated3-rotated3-rotated1.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\9-rotated2-rotated3-rotated3-rotated1.jpg,1,1,0.01217594,0.9878241
+9-rotated3-rotated3-rotated2.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\9-rotated3-rotated3-rotated2.jpg,1,1,0.017204575,0.9827954
+9.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\9.png,1,1,0.016570954,0.983429
+IMG0000013.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000013.jpg,1,1,0.05197381,0.9480262
+IMG0000014.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000014.jpg,1,1,0.06904411,0.9309559
+IMG0000181.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000181.jpg,1,0,0.7817702,0.7817702
+IMG0000182.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000182.jpg,1,1,0.29598495,0.704015
+IMG0000183.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000183.jpg,1,1,0.07066484,0.92933524
+IMG0000184.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000184.jpg,1,1,0.10438388,0.8956162
+IMG0000185.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000185.jpg,1,1,0.07642878,0.9235712
+IMG0000186.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000186.jpg,1,1,0.043455478,0.95654446
+IMG0000187.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000187.jpg,1,1,0.04150243,0.9584976
+IMG0000191.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000191.jpg,1,1,0.024895232,0.9751048
+IMG0000192.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000192.jpg,1,1,0.015411492,0.98458844
+IMG0000193.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000193.jpg,1,1,0.12800665,0.8719933
+IMG0000194.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000194.jpg,1,1,0.06692995,0.93307006
+IMG0000195.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000195.jpg,1,1,0.12260873,0.8773913
+IMG0000196.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000196.jpg,1,1,0.044036586,0.95596343
+IMG0000208.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000208.jpg,1,1,0.094641,0.90535897
+IMG0000209.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000209.jpg,1,1,0.082833976,0.91716605
+IMG0000210.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000210.jpg,1,1,0.09060343,0.9093966
+IMG0000244.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000244.jpg,1,1,0.12294961,0.8770504
+IMG0000245.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000245.jpg,1,1,0.09196698,0.908033
+IMG0000246.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000246.jpg,1,1,0.07654582,0.92345417
+IMG0000247.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000247.jpg,1,1,0.15381067,0.8461893
+IMG0000248.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000248.jpg,1,1,0.086657576,0.9133424
+IMG0000249.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000249.jpg,1,1,0.20744944,0.79255056
+IMG0000505.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000505.jpg,1,1,0.0744833,0.9255167
+IMG0000507.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000507.jpg,1,1,0.19506887,0.80493116
+IMG0000508.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000508.jpg,1,1,0.02640515,0.97359484
+IMG0000517.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000517.jpg,1,1,0.20431553,0.7956845
+IMG0000518.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000518.jpg,1,1,0.07075077,0.9292492
+IMG0003889.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0003889.jpg,1,1,0.051580884,0.94841915
+IMG0003895.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0003895.jpg,1,1,0.052654423,0.9473456
+IMG0003941.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0003941.jpg,1,1,0.036638975,0.9633611
+IMG0004178.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004178.jpg,1,1,0.250421,0.749579
+IMG0004179.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004179.jpg,1,1,0.13021901,0.869781
+IMG0004307.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004307.jpg,1,1,0.23830485,0.76169515
+IMG0004310.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004310.jpg,1,0,0.48840815,0.48840815
+IMG0004314.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004314.jpg,1,1,0.110777415,0.8892226
+IMG0004341.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004341.jpg,1,1,0.110777415,0.8892226
+IMG0004346.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004346.jpg,1,0,0.48840815,0.48840815
+IMG0004371.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004371.jpg,1,1,0.05882395,0.94117606
+IMG0004372.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004372.jpg,1,1,0.10546058,0.8945394
+IMG0004383.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004383.jpg,1,1,0.07603564,0.9239644
+IMG0004388.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004388.jpg,1,1,0.029416915,0.9705831
+IMG0004389.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004389.jpg,1,0,0.4250932,0.4250932

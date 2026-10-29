@@ -1,0 +1,7 @@
+module,finding,status
+Summarization,Pretrained BART baseline was not evaluated; manual clinical review worksheet remains uncompleted.,NOT RUN
+Fracture CNN,No saved training history or compatible baseline comparison is available. The model only classifies binary fracture presence.,UNAVAILABLE / NOT RUN
+Symptom NER,Strict span F1 is 0.572 on 116 annotated test sentences; no external clinical validation is available.,MEASURED / LIMITED
+Symptom normalization,"Coverage was measured on annotated mentions, but canonical normalization correctness has no independently reviewed labels.",COVERAGE ONLY
+End-to-end pipeline,"NER text examples are not paired with disease labels, so controlled upstream-to-downstream ablation cannot be computed.",BLOCKED
+Recommendations,Outputs are data lookups; relevance and safety have not been clinically validated.,REFERENCE ONLY

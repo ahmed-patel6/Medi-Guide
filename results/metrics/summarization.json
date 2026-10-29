@@ -1,0 +1,28 @@
+{
+  "module": "summarization",
+  "python": "3.14.5",
+  "root": "D:\\DevLab\\Projects\\CDSS_Final",
+  "n": 100,
+  "full_test_rows": 2000,
+  "sample_seed": 42,
+  "sample_policy": "random sample from unique valid pairs",
+  "metrics": {
+    "rouge1": 0.587871956760815,
+    "rouge2": 0.4566039569278416,
+    "rougeL": 0.5464693141407192,
+    "rouge1_ci95": [
+      0.5292937427410307,
+      0.6503414959157297
+    ],
+    "rouge2_ci95": [
+      0.39094159241111814,
+      0.5248512193379311
+    ],
+    "rougeL_ci95": [
+      0.48365865056783114,
+      0.6082985262674397
+    ]
+  },
+  "checkpoint": "D:\\DevLab\\Projects\\CDSS_Final\\models\\summarization\\checkpoint-68658",
+  "device": "cuda"
+}

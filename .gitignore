@@ -24,6 +24,9 @@ env/
 # Models
 models/
 
+# Large Data
+data/xray-fracture/Bone_Fracture_Binary_Classification/
+
 # OS files
 .DS_Store
 Thumbs.db

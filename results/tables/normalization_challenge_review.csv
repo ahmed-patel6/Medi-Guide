@@ -1,0 +1,10 @@
+mention,category,reviewed_expected,prediction
+skin rashes,reordered,,skin rash
+rashes on my skin,paraphrase,,skin rash
+head ache,spelling,,headache
+my tummy hurts,informal,,UNMATCHED
+shortness of breath,multiword,,breathlessness
+xyz symptom,unknown,,UNMATCHED
+pain,ambiguous,,UNMATCHED
+no headache,negation,,headache
+severe joint pain,modifier,,joint pain

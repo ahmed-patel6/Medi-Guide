@@ -1,0 +1,9 @@
+dataset,path,rows,columns,missing,duplicates
+disease train,data\disease_prediction\Training.csv,4920,134,4920,4616
+disease test,data\disease_prediction\Testing.csv,42,133,0,0
+NER train,data\ner\splits\ner_train.csv,3547,6,0,0
+NER validation,data\ner\splits\ner_validation.csv,116,6,0,0
+NER test,data\ner\splits\ner_test.csv,116,6,0,0
+summary train,data\summarization\processed\train.csv,91544,2,0,6944
+summary validation,data\summarization\processed\validation.csv,2000,2,0,62
+summary test,data\summarization\processed\test.csv,2000,5,0,0

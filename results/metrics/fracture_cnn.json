@@ -1,0 +1,28 @@
+{
+  "module": "fracture_cnn",
+  "python": "3.14.5",
+  "root": "D:\\DevLab\\Projects\\CDSS_Final",
+  "metrics": {
+    "n": 500,
+    "accuracy": 0.976,
+    "precision_fracture": 0.9788135593220338,
+    "sensitivity_fractured": 0.9705882352941176,
+    "specificity_not_fractured": 0.9809160305343512,
+    "f1_fracture": 0.9746835443037974,
+    "confusion_matrix": [
+      [
+        231,
+        7
+      ],
+      [
+        5,
+        257
+      ]
+    ],
+    "threshold": 0.42503443360328674,
+    "roc_auc": 0.9993264481365065,
+    "pr_auc": 0.9992683819254943
+  },
+  "checkpoint": "D:\\DevLab\\Projects\\CDSS_Final\\models\\bone_fracture_detection\\fracture_cnn.keras",
+  "test": "D:\\DevLab\\Projects\\CDSS_Final\\data\\xray-fracture\\Bone_Fracture_Binary_Classification\\test"
+}

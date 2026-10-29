@@ -1,0 +1,42 @@
+disease,precaution_found,treatment_found
+(vertigo) Paroymsal  Positional Vertigo,True,True
+AIDS,True,True
+Acne,True,True
+Alcoholic hepatitis,True,True
+Allergy,True,True
+Arthritis,True,True
+Bronchial Asthma,True,True
+Cervical spondylosis,True,True
+Chicken pox,True,True
+Chronic cholestasis,True,True
+Common Cold,True,True
+Dengue,True,True
+Diabetes ,True,True
+Dimorphic hemmorhoids(piles),True,True
+Drug Reaction,True,True
+Fungal infection,True,True
+GERD,True,True
+Gastroenteritis,True,True
+Heart attack,True,True
+Hepatitis B,True,True
+Hepatitis C,True,True
+Hepatitis D,True,True
+Hepatitis E,True,True
+Hypertension ,True,True
+Hyperthyroidism,True,True
+Hypoglycemia,True,True
+Hypothyroidism,True,True
+Impetigo,True,True
+Jaundice,True,True
+Malaria,True,True
+Migraine,True,True
+Osteoarthristis,True,True
+Paralysis (brain hemorrhage),True,True
+Peptic ulcer diseae,True,False
+Pneumonia,True,True
+Psoriasis,True,True
+Tuberculosis,True,True
+Typhoid,True,True
+Urinary tract infection,True,True
+Varicose veins,True,True
+hepatitis A,True,True

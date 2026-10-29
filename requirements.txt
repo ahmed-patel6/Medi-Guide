@@ -1,4 +1,17 @@
-torch
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.14.1+cu130
 scikit-learn
+matplotlib
+pandas
 transformers
 tensorflow
+Pillow>=9.1
+streamlit
+sentence-transformers
+datasets
+evaluate
+accelerate
+rouge-score
+seaborn
+jupyterlab
+ipykernel

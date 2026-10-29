@@ -1,0 +1,11 @@
+{
+  "module": "normalization",
+  "python": "3.14.5",
+  "root": "D:\\DevLab\\Projects\\CDSS_Final",
+  "summary": {
+    "mentions": 150,
+    "unique_mentions": 96,
+    "matched_rate": 1.0,
+    "unmatched_rate": 0.0
+  }
+}

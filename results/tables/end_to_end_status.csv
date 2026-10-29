@@ -1,0 +1,5 @@
+experiment,status,reason
+GT NER symptoms → disease,BLOCKED,No paired disease labels for NER text test rows
+Predicted NER → disease,BLOCKED,No compatible paired text-to-disease examples
+Predicted plus normalized → disease,BLOCKED,No compatible paired labels
+Disease classifier test split,AVAILABLE,42 symptom-vector rows; see notebook 06

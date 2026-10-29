@@ -1,0 +1,13 @@
+id,path,true,pred,fracture_score,confidence
+00001.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\00001.png,0,1,0.37595454,0.6240455
+001.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\001.png,0,1,0.37595454,0.6240455
+01.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\01.png,0,1,0.37595454,0.6240455
+11111.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\11111.png,0,1,0.37595454,0.6240455
+15.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\15.png,0,1,0.3191042,0.6808958
+616156.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\616156.png,0,1,0.3191042,0.6808958
+65611.png,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\fractured\65611.png,0,1,0.3191042,0.6808958
+52-rotated2-rotated1-rotated3.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\52-rotated2-rotated1-rotated3.jpg,1,0,0.5634026,0.5634026
+IMG0000181.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0000181.jpg,1,0,0.7817702,0.7817702
+IMG0004310.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004310.jpg,1,0,0.48840815,0.48840815
+IMG0004346.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004346.jpg,1,0,0.48840815,0.48840815
+IMG0004389.jpg,D:\DevLab\Projects\CDSS_Final\data\xray-fracture\Bone_Fracture_Binary_Classification\test\not fractured\IMG0004389.jpg,1,0,0.4250932,0.4250932

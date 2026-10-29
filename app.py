@@ -40,6 +40,9 @@ if "medical_history_text" not in st.session_state:
 if "summary_result" not in st.session_state:
     st.session_state.summary_result = None
 
+if "fracture_result" not in st.session_state:
+    st.session_state.fracture_result = None
+
 
 # ---------------------------------------------------------
 # Styling
@@ -55,9 +58,15 @@ st.markdown(
     }
 
     .main-heading {
-        font-size: 2.15rem;
-        font-weight: 700;
-        margin-bottom: 0.2rem;
+    color: #22D3EE;
+    font-size: clamp(2.8rem, 4vw, 3.4rem);
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    width: fit-content;
+    padding: 0.1rem 0 0.25rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #22D3EE;
     }
 
     .subheading {
@@ -87,12 +96,6 @@ st.markdown(
     '<div class="main-heading">Medi-Guide</div>',
     unsafe_allow_html=True,
 )
-st.markdown(
-    '<div class="subheading">'
-    "Medical report summarization and symptom-based disease analysis"
-    "</div>",
-    unsafe_allow_html=True,
-)
 
 
 # ---------------------------------------------------------
@@ -106,6 +109,7 @@ with st.sidebar:
         "Choose a function",
         [
             "Disease Prediction",
+            "X-Ray Fracture Detection",
             "Medical Summarization",
         ],
         label_visibility="collapsed",
@@ -399,7 +403,67 @@ if selected_page == "Disease Prediction":
 
 
 # ---------------------------------------------------------
-# Page 2: Medical summarization
+# Page 2: X-ray fracture detection
+# ---------------------------------------------------------
+
+elif selected_page == "X-Ray Fracture Detection":
+
+    st.header("Bone Fracture Detection")
+    st.write(
+        "Upload a bone X-ray image to classify it as fractured or not fractured."
+    )
+
+    with st.form("fracture_detection_form"):
+        xray_file = st.file_uploader(
+            "Bone X-ray image",
+            type=["jpg", "jpeg", "png"],
+            help="Upload a JPG or PNG image. Avoid including identifying information.",
+        )
+        analyze_xray = st.form_submit_button(
+            "Analyze X-ray",
+            type="primary",
+            use_container_width=True,
+        )
+
+    if xray_file is not None:
+        st.image(xray_file, caption="Uploaded X-ray", use_container_width=True)
+
+    if analyze_xray:
+        if xray_file is None:
+            st.warning("Please upload an X-ray image first.")
+        else:
+            from io import BytesIO
+
+            from src.bone_fracture_detection.inference import predict_fracture
+
+            try:
+                result = predict_fracture(BytesIO(xray_file.getvalue()))
+                st.session_state.fracture_result = result
+            except FileNotFoundError as exc:
+                st.session_state.fracture_result = None
+                st.error(str(exc))
+            except Exception as exc:
+                st.session_state.fracture_result = None
+                st.error("The X-ray could not be processed by the fracture model.")
+                st.exception(exc)
+
+    fracture_result = st.session_state.fracture_result
+    if fracture_result:
+        st.divider()
+        st.subheader("Model Result")
+        st.metric(
+            "Predicted class",
+            fracture_result["label"].title(),
+            f"Model score: {fracture_result['confidence']:.1%}",
+        )
+        st.caption(
+            "Class scores are model outputs, not clinically validated probabilities. "
+            "A negative result does not rule out a fracture. Have X-rays assessed "
+            "by a qualified healthcare professional."
+        )
+
+
+# Page 3: Medical summarization
 # ---------------------------------------------------------
 
 elif selected_page == "Medical Summarization":

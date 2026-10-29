@@ -1,0 +1,7 @@
+split,class,count
+train,fractured,4606
+train,not fractured,4640
+val,fractured,337
+val,not fractured,492
+test,fractured,238
+test,not fractured,268

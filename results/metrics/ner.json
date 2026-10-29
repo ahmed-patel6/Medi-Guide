@@ -1,0 +1,16 @@
+{
+  "module": "symptom_ner",
+  "python": "3.14.5",
+  "root": "D:\\DevLab\\Projects\\CDSS_Final",
+  "metrics": {
+    "sentences": 116,
+    "token_accuracy": 0.9349535382416011,
+    "strict_span_precision": 0.6903225806451613,
+    "strict_span_recall": 0.4885844748858447,
+    "strict_span_f1": 0.5721925133689839,
+    "gold_spans": 219,
+    "pred_spans": 155,
+    "device": "cuda"
+  },
+  "checkpoint": "D:\\DevLab\\Projects\\CDSS_Final\\models\\ner\\symptom_ner_model"
+}
